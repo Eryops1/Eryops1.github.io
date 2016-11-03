@@ -3,5 +3,3 @@ title: "Amphibians and extinction risk"
 ---
 
 This website deals with amphibians, extinction risk and the potential factors influencing risk.
-
-does github give DOIs for data?
