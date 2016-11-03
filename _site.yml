@@ -1,0 +1,20 @@
+name: "my-website"
+navbar:
+  title: "Amphibians and extinction risk"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Amphibians"
+      href: amphibians.html
+    - text: "Models"
+      href: models.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
+output_dir: "."

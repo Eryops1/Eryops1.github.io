@@ -1,0 +1,6 @@
+Session information:
+
+```{r}
+sessionInfo()
+hist(rnbinom(500, mu = 4, size = 1))
+```

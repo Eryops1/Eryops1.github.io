@@ -1,0 +1,17 @@
+---
+title: "Models"
+---
+
+# Data
+As the dataset itself contains some highly skewed variables and also missing data, I will try several types of models to find one that fits the data best.
+
+```{r, child="_sessioninfo.Rmd"}
+```
+
+# Linear regression models
+
+# GAM
+
+# GLMM
+
+# Random Forests & Co
