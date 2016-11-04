@@ -2,8 +2,10 @@
 title: "Models"
 ---
 
+This page shows you the basic steps in how I select a model for my data to correlate duration and species traits.
+
 # Data
-As the dataset itself contains some highly skewed variables and also missing data, I will try several types of models to find one that fits the data best.
+As the dataset itself contains some highly skewed variables and also missing data, I test several types of models to find one that fits the data best.
 
 ```{r, child="_sessioninfo.Rmd"}
 ```
