@@ -7,7 +7,7 @@ navbar:
     - text: "Open Science"
       href: fellow.html
     - text: "My project"
-      href: amphibians.html
+      href: my_project.html
     - text: "Research"
       menu:    
         - text: "Background"
@@ -25,8 +25,5 @@ output:
     highlight: textmate
     include:
       after_body: footer.html
-    css: styles.css
+    css: style.css
 output_dir: "."
-
-
-# put in the projext description all those methods like rmarkdown, github, git pages etc i use!! with links to the stuff

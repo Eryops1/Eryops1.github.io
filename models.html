@@ -67,7 +67,7 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
 
 </head>
 
@@ -185,7 +185,7 @@ $(document).ready(function () {
   <a href="fellow.html">Open Science</a>
 </li>
 <li>
-  <a href="amphibians.html">My project</a>
+  <a href="my_project.html">My project</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -227,7 +227,13 @@ $(document).ready(function () {
 </div>
 
 
-<p>This page shows you the basic steps in how I select a model for my data to correlate duration and species traits.</p>
+<p><strong>All R scripts on this page are available on GitHub. You can:</strong></p>
+<ul>
+<li>make comments in the script itself or open issues (you need a GitHub account)</li>
+<li>download the files and run them on your system (you don`t need a GitHub account)</li>
+</ul>
+<p><a href="https://github.com/Eryops1/model-selection">Scripts</a></p>
+<p>This page is the heart of my current work. It shows the basic steps of how I select a model for my data to correlate duration and species traits.</p>
 <div id="data" class="section level1">
 <h1>Data</h1>
 <p>As the dataset itself contains some highly skewed variables and also missing data, I test several types of models to find one that fits the data best.</p>
@@ -256,19 +262,13 @@ $(document).ready(function () {
 <pre class="r"><code>hist(rnbinom(500, mu = 4, size = 1))</code></pre>
 <p><img src="models_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
-<div id="linear-regression-models" class="section level1">
-<h1>Linear regression models</h1>
-</div>
-<div id="gam" class="section level1">
-<h1>GAM</h1>
-</div>
-<div id="glmm" class="section level1">
-<h1>GLMM</h1>
-</div>
-<div id="random-forests-co" class="section level1">
-<h1>Random Forests &amp; Co</h1>
-</div>
 
+
+
+
+
+<br>
+<br>
 <p>Copyright &copy; 2016 Melanie Tietje. All rights reserved.</p>
 
 

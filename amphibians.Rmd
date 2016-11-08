@@ -1,8 +1,0 @@
----
-title: "The project"
----
-
-# Community feedback
-
-# Open publishing
-I am aiming at publishing my work in an open access journal, but before that I will test how it works using a preprint server.

@@ -2,7 +2,15 @@
 title: "Models"
 ---
 
-This page shows you the basic steps in how I select a model for my data to correlate duration and species traits.
+**All R scripts on this page are available on GitHub. You can:**
+
+* make comments in the script itself or open issues (you need a GitHub account)
+* download the files and run them on your system (you don`t need a GitHub account)
+
+
+[Scripts](https://github.com/Eryops1/model-selection)
+
+This page is the heart of my current work. It shows the basic steps of how I select a model for my data to correlate duration and species traits.
 
 # Data
 As the dataset itself contains some highly skewed variables and also missing data, I test several types of models to find one that fits the data best.
@@ -10,10 +18,4 @@ As the dataset itself contains some highly skewed variables and also missing dat
 ```{r, child="_sessioninfo.Rmd"}
 ```
 
-# Linear regression models
 
-# GAM
-
-# GLMM
-
-# Random Forests & Co
