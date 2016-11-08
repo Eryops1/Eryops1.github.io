@@ -1,0 +1,11 @@
+Source model selection:
+
+```{r}
+x <- c(1,2,3)
+#source("../../Work/Manuscripts/MS2/model-selection/model_selection.md")
+```
+
+```{r, child="_model_selection.Rmd"}
+
+```
+

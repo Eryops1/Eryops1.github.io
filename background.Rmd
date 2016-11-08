@@ -12,7 +12,14 @@ Beelzebufo ampinga by Nobu Tamura (http://spinops.blogspot.com) (Own work). [GFD
 
 "Most amphibia are abhorrent because of their cold body, pale colour, cartilaginous skeleton, filthy skin, fierce aspect, calculating eye, offensive smell, harsh voice, squalid habitation, and terrible venom; and so their Creator has not exerted his powers (to make) them many of them," (Linnaeus 1758)
 
+------
+
 # Why study amphibians?
+According to the [IUCN Red List](http://www.iucnredlist.org/initiatives/amphibians), amphibians are one of the most endangered taxonomic groups. Several studies examined biological as well as environmental and also anthropogenic factors, that can potentially add to extinction risk. Typical influential factors are 
+
+
 
 # Some things about extinction risk
+Although amphibians are one of the most threatened groups today,their fossil record and therefore the past of amphibians is rarely taken into account. As the fossil record offers to study real extinction events instead of just estimating risk, the fossil record of extinct species can give valuable information about factors influencing this risk.
 
+Obviously most species we find in the fossil record are already extinct, which is why I use duration (the stratigraphic range) of a species as the pendent to modern species extinction risk.

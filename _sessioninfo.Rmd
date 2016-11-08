@@ -1,6 +1,5 @@
-Session information:
+Source model selection:
 
 ```{r}
-sessionInfo()
-hist(rnbinom(500, mu = 4, size = 1))
+source(../../Work/Manuscripts/MS2/model-selection/model_selection.Rmd)
 ```
