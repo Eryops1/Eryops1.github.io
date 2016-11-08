@@ -1,15 +1,24 @@
 name: "my-website"
 navbar:
-  title: "Amphibians and extinction risk"
+  title: "Open Science project"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
-    - text: "Amphibians"
+    - text: "Open Science"
+      href: fellow.html
+    - text: "My project"
       href: amphibians.html
-    - text: "Models"
-      href: models.html
+    - text: "Research"
+      menu:    
+        - text: "Background"
+          href: background.html
+        - text: "Modelling"
+          href: models.html
+  right:
+    - text: "About me"
+      href: about_me.html
+    - icon: "glyphicon glyphicon-envelope"
+      href: contact.html
 output:
   html_document:
     theme: cosmo
@@ -18,3 +27,6 @@ output:
       after_body: footer.html
     css: styles.css
 output_dir: "."
+
+
+# put in the projext description all those methods like rmarkdown, github, git pages etc i use!! with links to the stuff

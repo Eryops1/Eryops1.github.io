@@ -1,5 +1,13 @@
 ---
-title: "Amphibians and extinction risk"
+title: "Open Science for Biology"
+output:
+  html_document
 ---
 
-This website deals with amphibians, extinction risk and the potential factors influencing risk.
+
+
+This website is part of a project I am working on as a fellow in the [Open Science Fellow Program](https://wikimedia.de/wiki/Fellowprogramm). In my work as biologist, I am dealing with (fossil) amphibians, extinction risk and the potential factors influencing this risk. This webpage shows the process of analysing data and stats behind the fassade of a finished paper.
+
+On this page you find work in progress.
+
+
