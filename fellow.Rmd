@@ -5,6 +5,6 @@ title: "Open Science"
 I created this website as part of my work in the [Open Science Fellow Program](https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows). Open Science needs communication, and what better way could there be than making your science explorable online? While learning to use GitHub, I stumbled across GitHub Pages, which resulted in this webpage.
 
 
-Please note that besides presenting my project, this page is also my GitHub and GitHub Pages playground, therefore things are often under construction.
+
 
 
