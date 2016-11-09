@@ -8,5 +8,5 @@ I got a master's degree in Organismic Biology and Evolution from the Humboldt Un
 
 I became a fellow in the fellow program open science in September 2016, since then I am exploring certain aspects of open science like community feedback in data analysis and publication. As these techniques are still quite new in my surroundings, my project is an experiment which might serve as case example for other researchers.
 
-Short description of the fellows and their programs can be found here:
+A description of the program and the other fellows and their projects can be found here:
 [Fellow Program Open Science](https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows)

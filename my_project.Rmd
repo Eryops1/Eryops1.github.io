@@ -2,7 +2,7 @@
 title: "The open science project"
 ---
 
-As part of my project in the fellow program, I concentrate of the aspects reproducibility, community feedback and open publishing. If you are looking for inspiration on how you can make your own research more open, the [Vienna Principles](http://viennaprinciples.org/) offer some inspiration.
+As part of my project in the fellow program, I concentrate of the aspects reproducibility, community feedback and open publishing. If you are looking for inspiration on how you can make your own research more open, the [Vienna Principles](http://viennaprinciples.org/) offer some ideas.
 
 # Reproducibility
 Making your research reproducible is part of good scientific practice. Therefore, I want to publishing the R scripts used in my analysis together with the data and the manuscript. This can be part of the electronic supplement but can also be hosted independently on [GitHub](https://github.com/).
