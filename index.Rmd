@@ -13,5 +13,5 @@ On this page you find work in progress.
 
 ------
 
-Please note that this webpage is as well part of my project, therefore it is also my GitHub and GitHub Pages playground. Please don`t mind if things are under construction.
+Please note that this webpage is as well part of my project, therefore it is also my GitHub and GitHub Pages playground. Please don`t mind if things are under construction. You can find the code for this page [here](https://github.com/Eryops1/Eryops1.github.io).
 

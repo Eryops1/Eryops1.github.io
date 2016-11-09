@@ -10,7 +10,7 @@ This page is the heart of my current work. It shows the basic steps of how I sel
 * download the files and run them on your system (you don`t need a GitHub account)
 
 
-[Scripts](https://github.com/Eryops1/model-selection)
+[Link to scripts on GitHub](https://github.com/Eryops1/model-selection)
 
 
 # Data
@@ -24,6 +24,7 @@ In the following you find the RMarkdown file produced by my current modelling tr
 
 ```{r, echo=FALSE}
 htmltools::includeHTML("../../Work/Manuscripts/MS2/model-selection/model_selection.html")
+#htmltools::includeMarkdown("../../Work/Manuscripts/MS2/model-selection/model_selection.md")
 ```
 
 
