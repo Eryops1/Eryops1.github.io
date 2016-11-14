@@ -1,0 +1,28 @@
+---
+title: "Models"
+---
+
+This page is the heart of my current work. It shows the basic steps of how I select a model for my data to correlate duration and species traits, and later on apply this model on extant species to compare modelled extinction risk and extinction risk estimated by the IUCN Red List assassment
+
+**All R scripts on this page are available on GitHub. You can:**
+
+* make comments in the script itself or open issues (you need a GitHub account)
+* download the files and run them on your system (you don`t need a GitHub account)
+
+
+[Link to scripts on GitHub](https://github.com/Eryops1/model-selection)
+
+
+# Data
+I am currently using a dataset which is different from the one which is going to be published in the end. Please note therefore that the attributes of the dataset, for example the distribution of numerical variables and alike, are very similar to the original dataset, but this is not real data right now. This is just a simple precaution due to the fact that it took me quite some time to collect this data, so I don`t want to give it away before publishing it.
+The data has mostly numerical variables like coordinates or also geogrpahic ranges, but also information about habitats and body size. For a full description of variables used, see the script below.
+
+# The script
+In the following you find the RMarkdown file produced by my current modelling trials. This is the same file you can download and try yourself by following the link provided above to GitHub. All you need is a running R installation. I am happy to receive any kinds of feedback on my work!
+
+------
+
+preserve44420d9a464d1e1f
+
+
+
