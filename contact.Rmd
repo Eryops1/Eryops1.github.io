@@ -16,7 +16,7 @@ You can contact me via:
 Leave a comment on this page!
 ```{r, echo=FALSE}
 # this html includes disqus
-htmltools::includeHTML("_layouts/disqus.html")
+#htmltools::includeHTML("_layouts/disqus.html")
 
 # this includes the html comment box
 htmltools::includeHTML("_layouts/post.html")
