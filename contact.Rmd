@@ -15,7 +15,7 @@ You can contact me via:
 # Comments 
 Leave a comment on this page!
 ```{r, echo=FALSE}
-#htmltools::includeHTML("_layouts/disqus.html")
+htmltools::includeHTML("_layouts/disqus.html")
 htmltools::includeHTML("_layouts/post.html")
 
 ```
