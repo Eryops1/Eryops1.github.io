@@ -11,11 +11,3 @@ I became a fellow in the fellow program open science in September 2016, since th
 
 A description of the program and the other fellows and their projects can be found here:
 [Fellow Program Open Science](https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows)
-
-
-# Comments 
-Leave a comment on this page!
-```{r, echo=FALSE}
-htmltools::includeHTML("_layouts/disqus.html")
-
-```
