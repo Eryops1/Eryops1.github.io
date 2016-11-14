@@ -16,7 +16,7 @@ Beelzebufo ampinga by Nobu Tamura (http://spinops.blogspot.com) (Own work). [GFD
 ------
 
 # Why study amphibians?
-According to the [IUCN Red List](http://www.iucnredlist.org/initiatives/amphibians), amphibians are one of the most endangered taxonomic groups. Several studies examined biological as well as environmental and also anthropogenic factors, that can potentially add to extinction risk. Typical influential factors are [continue here]
+According to the [IUCN Red List](http://www.iucnredlist.org/initiatives/amphibians), amphibians are one of the most endangered taxonomic groups. Several studies examined biological as well as environmental and also anthropogenic factors, that can potentially add to extinction risk. Typical influential factors are the geographic range size and bod ysize of a species.
 
 
 
