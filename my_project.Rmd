@@ -4,7 +4,7 @@ title: "The open science project"
 
 As part of my project in the fellow program, I concentrate of the aspects reproducibility, community feedback and open publishing. If you are looking for inspiration on how you can make your own research more open, the [Vienna Principles](http://viennaprinciples.org/) offer some ideas.
 
-# Reproducibility
+# Reproducibility 
 Making your research reproducible is part of good scientific practice. Therefore, I want to publish the R scripts used in my analysis together with the data and the manuscript. This can be part of the electronic supplement but can also be hosted independently on [GitHub](https://github.com/).
 
 I always like to take a look in somebody elses R scripts, because you can always learn something new. This way, we don`t have to invent the wheel over and over again.
@@ -14,9 +14,10 @@ I always like to take a look in somebody elses R scripts, because you can always
 Getting feedback on your work when it comes to peer review is good, but getting feedback even earlier, while it is still in progress, might speed up the whole process. Reaching out to your research community gets you valuable tips on your work. Hoewever, this costs time (as building this webpage for example). Therefore a part of my project is the evaluation of opening up your research in terms of costs and benefits.
 
 
-# Open publishing and preprints
+# Open publishing and preprints 
 Publishing my work in an open access journal will be the last milestone in this project, but before that I plan on something way more interesting. I want to test preprint and preprint servers, which is something that, for biology or paleontology, is sparsely used in my surroundings. Finding the right preprint server to adress the right crowd as well as responding to hopefully plenty of feedback will be valuable experiences and will likely add to quality and make the publication process a bit easier in the end. 
 
 Another option in the peer review process is aiming at a journal that offers open peer review, which is getting more and more common and adds to the transparency in the review process.
+
 
 

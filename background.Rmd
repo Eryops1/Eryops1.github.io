@@ -24,3 +24,5 @@ According to the [IUCN Red List](http://www.iucnredlist.org/initiatives/amphibia
 Although amphibians are one of the most threatened groups today,their fossil record and therefore the past of amphibians is rarely taken into account. As the fossil record offers to study real extinction events instead of just estimating risk, the fossil record of extinct species can give valuable information about factors influencing this risk.
 
 Obviously most species we find in the fossil record are already extinct, which is why I use duration (the stratigraphic range) of a species as the pendent to modern species extinction risk.
+
+

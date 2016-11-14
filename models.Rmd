@@ -17,7 +17,7 @@ This page is the heart of my current work. It shows the basic steps of how I sel
 I am currently using a dataset which is different from the one which is going to be published in the end. Please note therefore that the attributes of the dataset, for example the distribution of numerical variables and alike, are very similar to the original dataset, but this is not real data right now. This is just a simple precaution due to the fact that it took me quite some time to collect this data, so I don`t want to give it away before publishing it.
 The data has mostly numerical variables like coordinates or also geogrpahic ranges, but also information about habitats and body size. For a full description of variables used, see the script below.
 
-# The script
+# The script 
 In the following you find the RMarkdown file produced by my current modelling trials. This is the same file you can download and try yourself by following the link provided above to GitHub. All you need is a running R installation. I am happy to receive any kinds of feedback on my work!
 
 ------
@@ -29,5 +29,5 @@ htmltools::includeHTML("../../Work/Manuscripts/MS2/model-selection/model_selecti
 
 ```
 
-
+<a href="#top">top of the page</a>
 
