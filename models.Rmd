@@ -1,5 +1,9 @@
 ---
 title: "Models"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 This page is the heart of my current work. It shows the basic steps of how I select a model for my data to correlate duration and species traits, and later on apply this model on extant species to compare modelled extinction risk and extinction risk estimated by the IUCN Red List assassment
