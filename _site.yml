@@ -1,6 +1,6 @@
 name: "my-website"
 navbar:
-  title: "Open Science project"
+  title: "Project webpage"
   left:
     - text: "Home"
       href: index.html
@@ -11,7 +11,11 @@ navbar:
     - text: "Research background"
       href: background.html
     - text: "Modelling"
-      href: models.html
+      menu:
+      - text: "Read Me"
+        href: info_model.html
+      - text: "Model"
+        href: models.html
   right:
     - text: "About me"
       href: about_me.html

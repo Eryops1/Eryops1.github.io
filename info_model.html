@@ -11,18 +11,18 @@
 
 
 
-<title>Contact</title>
+<title>Read Me</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <link rel="stylesheet"
-      href="site_libs/highlight/textmate.css"
+      href="site_libs/highlight/default.css"
       type="text/css" />
 <script src="site_libs/highlight/highlight.js"></script>
 <style type="text/css">
@@ -67,7 +67,6 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 
 </head>
 
@@ -225,65 +224,28 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Contact</h1>
+<h1 class="title toc-ignore">Read Me</h1>
 
 </div>
 
 
-<p>You can contact me via:</p>
+<p>This script is the heart of my current work. It shows the basic steps of how I select a model for my data to correlate duration and species traits. The purpose of these models is to find out which factors influence the duration of species. Later on in the project, I will apply the chosen model on extant species to compare modelled extinction risk and extinction risk estimated by the IUCN Red List assassment.</p>
+<p><strong>The R scripts on this page are available on GitHub. You can:</strong></p>
 <ul>
-<li>melanie.tietje[]mfn-berlin.de</li>
-<li><a href="https://github.com/Eryops1">GitHub</a></li>
-<li><a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">Museum für Naturkunde</a></li>
-<li><a href="https://www.researchgate.net/profile/Melanie_Tietje">ResearchGate</a></li>
+<li>make comments in the script itself or open issues (you need a GitHub account)</li>
+<li>download the files and run them on your system (you don`t need a GitHub account)</li>
+<li>leave me a comment here on the webpage (<a href="https://eryops1.github.io/contact.html">contact</a>)</li>
 </ul>
-<div id="comments" class="section level1">
-<h1>Comments</h1>
-<p>Leave a comment on this page! <!-- begin wwww.htmlcommentbox.com -->
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24gv3OTjzWA.pcgvky4aKXr."+"&opts=16862&num=10&ts=1479136089257");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com --></p>
+<p><a href="https://github.com/Eryops1/model-selection">Link to scripts on GitHub</a></p>
+<div id="data" class="section level1">
+<h1>Data</h1>
+<p>I am currently using a dataset which is different from the one which is going to be published in the end. Please note therefore that the attributes of the dataset, for example the distribution of numerical variables and alike, are very similar to the original dataset, but this is not real data right now. This is just a simple precaution due to the fact that it took me quite some time to collect these data, so I don`t want to give it away before publishing it. The data has mostly numerical variables like coordinates or also geogrpahic ranges, but also information about habitats and body size. For a full description of variables used, see the script below.</p>
+</div>
+<div id="the-script" class="section level1">
+<h1>The script</h1>
+<p>On the page <em>Model</em> (via drop down menu) you find the RMarkdown file produced by my current modelling trials. This is the same file you can download and try yourself by following the link provided above to GitHub. All you need is a running R installation. I am happy to receive any kinds of feedback on my work!</p>
 </div>
 
-
-
-
-
-<br>
-<br>
- <font color="grey">
-
-<!--<p>Copyright &copy; 2016 Melanie Tietje. All rights reserved.</p>--> 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-<p>
-
- <font size="2">
-  2016 Melanie Tietje
-  <br>
-  Last updated:
-<!--  <script type="text/javascript" charset="utf-8">
-  var currentTime = new Date()
-  var month = currentTime.getMonth() + 1
-  var day = currentTime.getDate()
-  var year = currentTime.getFullYear()
-  var hours = currentTime.getHours()
-  var minutes = currentTime.getMinutes()
-  if (minutes < 10){minutes = "0" + minutes}
-  document.write(month + "/" + day + "/" + year)
-  document.write(" " + hours + ":" + minutes + " ")
-  </script>
--->
-<script type="text/javascript" charset="utf-8">
-  var x = document.lastModified;
-  document.write(x)
-</script>
-<!-- This displays the last time the webpage was rendered to html, the above the current time-->
-
-</font> 
-</p>
-
-</font>
 
 
 
