@@ -9,19 +9,26 @@ title: "Background"
 ![](Beelzebufo_BW.jpg) 
 </div>
 
+<p><font size="2">
 Beelzebufo ampinga by Nobu Tamura (http://spinops.blogspot.com) (Own work). [GFDL](http://www.gnu.org/copyleft/fdl.html) or [CC BY 3.0](http://creativecommons.org/licenses/by/3.0), via Wikimedia Commons
-
+</font></p>
 
 ------
 
-# Why study amphibians?
-According to the [IUCN Red List](http://www.iucnredlist.org/initiatives/amphibians), amphibians are one of the most endangered taxonomic groups. Several studies examined biological as well as environmental and also anthropogenic factors, that can potentially add to extinction risk. Typical influential factors are the geographic range size and bod ysize of a species.
+# Amphibians and extinction risk
+Amphibians are the most endangered terrestrial vertebrate group [1]. Several studies examined biological as well as environmental and also anthropogenic factors, that can potentially add to extinction risk [2]. Typical influential factors are the geographic range size and bodysize of a species, which have been confirmed in studies on fossils from extinct species as well [3].
+
+Although amphibians are one of the most threatened groups today, their fossil record and therefore the past of amphibians is rarely taken into account. As the fossil record offers to study real extinction events instead of making estimations about the risk, the fossil record of extinct species can give valuable information about factors influencing a species survival.
+
+
+# My work
+Part of my PhD project is to create a model, based on the fossil record of amphibians, which identifies important traits that influence extinction risk. This model is going to be applied to living amphibians to compare the predicted extinction risk with the risk category they got assigned by the [IUCN Red List](http://www.iucnredlist.org/initiatives/amphibians). 
 
 
 
-# Some things about extinction risk
-Although amphibians are one of the most threatened groups today,their fossil record and therefore the past of amphibians is rarely taken into account. As the fossil record offers to study real extinction events instead of just estimating risk, the fossil record of extinct species can give valuable information about factors influencing this risk.
-
-Obviously most species we find in the fossil record are already extinct, which is why I use duration (the stratigraphic range) of a species as the pendent to modern species extinction risk.
 
 
+# Literature
+1. Baillie, J. E. M., Griffiths, J., Turvey, S. T., Loh, J. & Collen, B. 2010 Evolution Lost: Status and Trends of the World’s Vertebrates. Zoological Society of London. 
+2. Sodhi, N. S., Bickford, D., Diesmos, A. C., Lee, T. M., Koh, L. P., Brook, B. W., Sekercioglu, C. H. & Bradshaw, C. J. A. 2008 Measuring the meltdown: drivers of global amphibian extinction and decline. PLoS One 3, e1636. (doi:10.1371/journal.pone.0001636)
+3. Harnik, P. G. 2011 Direct and indirect effects of biological factors on extinction risk in fossil bivalves. Proc. Natl. Acad. Sci. U. S. A. 108, 13594–13599. (doi:10.1073/pnas.1100572108)
