@@ -1,5 +1,5 @@
 ---
-title: "Model script"
+#title: "Model script"
 output:
   html_document:
 #    toc: true
@@ -7,8 +7,10 @@ output:
 ---
 
 
+
 ```{r, echo=FALSE}
 htmltools::includeHTML("../../Work/Manuscripts/MS2/model-selection/model_selection.html")
+
 #htmltools::includeMarkdown("../../Work/Manuscripts/MS2/model-selection/model_selection.md")
 
 

@@ -1,17 +1,24 @@
 ---
-title: "Open Science for Biology"
+title: "Melanie Tietje"
 output:
   html_document
 ---
 
 
+I am Melanie Tietje, a biologist at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. In my PhD project I work on traits that influence extinction risk in fossil and modern amphibian species.
 
-This website is part of a project I am working on as a fellow in the [Open Science Fellow Program](https://wikimedia.de/wiki/Fellowprogramm). In my work as biologist, I am dealing with (fossil) amphibians, extinction risk and the potential factors influencing this risk. This webpage shows the process of analysing data and stats behind the fassade of a finished paper.
-
-On this page you find work in progress.
+<div style="width:300px; height=200px">
+![](portrait.jpg) 
+</div>
 
 
 ------
 
-Please note that this webpage is as well part of my project, therefore it is also my GitHub and GitHub Pages playground. Please don`t mind if things are under construction. You can find the code for this page [here](https://github.com/Eryops1/Eryops1.github.io).
+This website is part of a project I am working on as a fellow in the [Open Science Fellow Program](https://wikimedia.de/wiki/Fellowprogramm). I am a fellow in the program since September 2016, since then I am exploring different aspects of open science like community feedback in data analysis and publication. 
+
+
+All work on this page is in progress.
+
+
+------
 

@@ -1,9 +1,5 @@
 ---
 title: "Read Me"
-output:
-  html_document:
-#    toc: true
-#    toc_float: true
 ---
 
 This script is the heart of my current work. It shows the basic steps of how I select a model for my data to correlate duration and species traits. The purpose of these models is to find out which factors influence the duration of species. Later on in the project, I will apply the chosen model on extant species to compare modelled extinction risk and extinction risk estimated by the IUCN Red List assassment. 
@@ -23,4 +19,4 @@ I am currently using a dataset which is different from the one which is going to
 The data has mostly numerical variables like coordinates or also geogrpahic ranges, but also information about habitats and body size. For a full description of variables used, see the script below.
 
 # The script 
-On the page *Model* (via drop down menu) you find the RMarkdown file produced by my current modelling trials. This is the same file you can download and try yourself by following the link provided above to GitHub. All you need is a running R installation. I am happy to receive any kinds of feedback on my work!
+On the page *Model* you find the RMarkdown file produced by my current modelling trials. This is the same file you can download and try yourself by following the link provided above to GitHub. All you need is a running R installation. I am happy to receive any kinds of feedback on my work!

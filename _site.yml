@@ -1,24 +1,18 @@
 name: "my-website"
 navbar:
-  title: "Project webpage"
+#  title: "Home"
   left:
-    - text: "Home"
+    - text: "Home" # this includes about me etc
       href: index.html
     - text: "Open Science"
       href: fellow.html
-    - text: "My project"
-      href: my_project.html
-    - text: "Research background"
+    - text: "Background"
       href: background.html
-    - text: "Modelling"
-      menu:
-      - text: "Read Me"
-        href: info_model.html
-      - text: "Model"
-        href: models.html
+    - text: "Info model"
+      href: info_model.html
+    - text: "Model"
+      href: models.html
   right:
-    - text: "About me"
-      href: about_me.html
     - icon: "glyphicon glyphicon-envelope"
       href: contact.html
 output:
