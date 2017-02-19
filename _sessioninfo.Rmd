@@ -1,5 +1,0 @@
-Source model selection:
-
-```{r}
-source(../../Work/Manuscripts/MS2/model-selection/model_selection.Rmd)
-```

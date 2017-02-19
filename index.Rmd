@@ -5,7 +5,7 @@ output:
 ---
 
 
-I am Melanie Tietje, a biologist at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. In my PhD project I work on traits that influence extinction risk in fossil and modern amphibian species.
+I am Melanie Tietje, a biologist working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. In my PhD project I work on traits that influence extinction risk in fossil and modern amphibian species.
 
 <div style="width:300px; height=200px">
 ![](portrait.jpg) 
@@ -14,10 +14,13 @@ I am Melanie Tietje, a biologist at the [Natural History Museum in Berlin](https
 
 ------
 
-This website is part of a project I am working on as a fellow in the [Open Science Fellow Program](https://wikimedia.de/wiki/Fellowprogramm). I am a fellow in the program since September 2016, since then I am exploring different aspects of open science like community feedback in data analysis and publication. 
+Besides bridging the gap between the fossil record and current biology in my PhD work, I am interested in different concepts of Open Science. This website was initialized as part of my work as a fellow in the [Open Science Fellow Program](https://wikimedia.de/wiki/Fellowprogramm). Launched for the first time in 2016 by Wikimedia Germany and Stifterverband the fellow program enables 10 scientists from different aereas to open up their research by providing guidance and financial support. 
+
+<div style="width:300px; height=200px">
+![](fp_logo_fall_back_4c_neu.png) 
+</div>
 
 
-All work on this page is in progress.
 
 
 ------

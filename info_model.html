@@ -15,27 +15,12 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
 
 
 
@@ -98,34 +83,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 61px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 </style>
 
@@ -180,16 +165,28 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="fellow.html">Open Science</a>
+  <a href="projects.html">Projects</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Code
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="info_model.html">Read Me</a>
+    </li>
+    <li>
+      <a href="models.html">Modeling</a>
+    </li>
+  </ul>
 </li>
 <li>
-  <a href="background.html">Background</a>
+  <a href="CV.html">CV</a>
 </li>
 <li>
-  <a href="info_model.html">Info model</a>
-</li>
-<li>
-  <a href="models.html">Model</a>
+  <a href="publications.html">Publications</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -213,21 +210,21 @@ $(document).ready(function () {
 </div>
 
 
-<p>This script is the heart of my current work. It shows the basic steps of how I select a model for my data to correlate duration and species traits. The purpose of these models is to find out which factors influence the duration of species. Later on in the project, I will apply the chosen model on extant species to compare modelled extinction risk and extinction risk estimated by the IUCN Red List assassment.</p>
+<p>Script on this page are all part of my current work. It shows the basic steps of how I select a model for my data to correlate duration and species traits. The purpose of these models is to find out which factors influence the duration of species. Later on in the project, I will apply the chosen model on extant species to compare modelled extinction risk and extinction risk estimated by the IUCN Red List assassement.</p>
 <p><strong>The R scripts on this page are available on GitHub. You can:</strong></p>
 <ul>
 <li>make comments in the script itself or open issues (you need a GitHub account)</li>
 <li>download the files and run them on your system (you don`t need a GitHub account)</li>
 <li>leave me a comment here on the webpage (<a href="https://eryops1.github.io/contact.html">contact</a>)</li>
 </ul>
-<p><a href="https://github.com/Eryops1/model-selection">Link to scripts on GitHub</a></p>
+<p><a href="https://github.com/Eryops1/model-selection">Link to GitHub</a></p>
 <div id="data" class="section level1">
 <h1>Data</h1>
-<p>I am currently using a dataset which is different from the one which is going to be published in the end. Please note therefore that the attributes of the dataset, for example the distribution of numerical variables and alike, are very similar to the original dataset, but this is not real data right now. This is just a simple precaution due to the fact that it took me quite some time to collect these data, so I don`t want to give it away before publishing it. The data has mostly numerical variables like coordinates or also geogrpahic ranges, but also information about habitats and body size. For a full description of variables used, see the script below.</p>
+<p>Data used here is test data only, which closely resembles characteristics of the real data. As it took me quite some time to collect these data, I naturally want to be the first one to publish it. The data has mostly numerical variables like coordinates or also geogrpahic ranges, but also information about habitats and body size. A full description of the used variables is included in the script.</p>
 </div>
 <div id="the-script" class="section level1">
 <h1>The script</h1>
-<p>On the page <em>Model</em> you find the RMarkdown file produced by my current modelling trials. This is the same file you can download and try yourself by following the link provided above to GitHub. All you need is a running R installation. I am happy to receive any kinds of feedback on my work!</p>
+<p>My current modeling tests. This is the same file you can download and try yourself by following the link provided above to GitHub. All you need is a running R installation. I am always happy to receive feedback on my work.</p>
 </div>
 
 
@@ -236,15 +233,20 @@ $(document).ready(function () {
 
 <br>
 <br>
- <font color="grey">
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<div style="background-color:lightgrey;color:grey;padding:20px;">
+  
+ <font color="black">
+
+<br />This page is licensed <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+<!--<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+-->
 <p>
 
  <font size="2">
   2017 Melanie Tietje
   <br>
-  Last updated:
+  Last update:
 <!--  <script type="text/javascript" charset="utf-8">
   var currentTime = new Date()
   var month = currentTime.getMonth() + 1

@@ -15,27 +15,12 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
 
 
 
@@ -98,34 +83,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 61px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 </style>
 
@@ -180,16 +165,28 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="fellow.html">Open Science</a>
+  <a href="projects.html">Projects</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Code
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="info_model.html">Read Me</a>
+    </li>
+    <li>
+      <a href="models.html">Modeling</a>
+    </li>
+  </ul>
 </li>
 <li>
-  <a href="background.html">Background</a>
+  <a href="CV.html">CV</a>
 </li>
 <li>
-  <a href="info_model.html">Info model</a>
-</li>
-<li>
-  <a href="models.html">Model</a>
+  <a href="publications.html">Publications</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -213,7 +210,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>I am Melanie Tietje, a biologist at the <a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">Natural History Museum in Berlin</a>, Germany. In my PhD project I work on traits that influence extinction risk in fossil and modern amphibian species.</p>
+<p>I am Melanie Tietje, a biologist working at the <a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">Natural History Museum in Berlin</a>, Germany. In my PhD project I work on traits that influence extinction risk in fossil and modern amphibian species.</p>
 <div style="width:300px; height=200px">
 <div class="figure">
 <img src="portrait.jpg" />
@@ -221,8 +218,13 @@ $(document).ready(function () {
 </div>
 </div>
 <hr />
-<p>This website is part of a project I am working on as a fellow in the <a href="https://wikimedia.de/wiki/Fellowprogramm">Open Science Fellow Program</a>. I am a fellow in the program since September 2016, since then I am exploring different aspects of open science like community feedback in data analysis and publication.</p>
-<p>All work on this page is in progress.</p>
+<p>Besides bridging the gap between the fossil record and current biology in my PhD work, I am interested in different concepts of Open Science. This website was initialized as part of my work as a fellow in the <a href="https://wikimedia.de/wiki/Fellowprogramm">Open Science Fellow Program</a>. Launched for the first time in 2016 by Wikimedia Germany and Stifterverband the fellow program enables 10 scientists from different aereas to open up their research by providing guidance and financial support.</p>
+<div style="width:300px; height=200px">
+<div class="figure">
+<img src="fp_logo_fall_back_4c_neu.png" />
+
+</div>
+</div>
 <hr />
 
 
@@ -231,15 +233,20 @@ $(document).ready(function () {
 
 <br>
 <br>
- <font color="grey">
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<div style="background-color:lightgrey;color:grey;padding:20px;">
+  
+ <font color="black">
+
+<br />This page is licensed <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+<!--<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+-->
 <p>
 
  <font size="2">
   2017 Melanie Tietje
   <br>
-  Last updated:
+  Last update:
 <!--  <script type="text/javascript" charset="utf-8">
   var currentTime = new Date()
   var month = currentTime.getMonth() + 1

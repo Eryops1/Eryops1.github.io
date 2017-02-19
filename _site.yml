@@ -2,23 +2,32 @@ name: "my-website"
 navbar:
 #  title: "Home"
   left:
-    - text: "Home" # this includes about me etc
+    - text: "Home"
       href: index.html
-    - text: "Open Science"
-      href: fellow.html
-    - text: "Background"
-      href: background.html
-    - text: "Info model"
-      href: info_model.html
-    - text: "Model"
-      href: models.html
+      
+    - text: "Projects"
+      href: projects.html
+      
+    - text: "Code"
+      menu: 
+      - text: "Read Me"
+        href: info_model.html
+      - text: "Modeling"
+        href: models.html
+      
+    - text: "CV"
+      href: CV.html
+      
+    - text: "Publications"
+      href: publications.html
   right:
+#    - text: "Contact me"
     - icon: "glyphicon glyphicon-envelope"
       href: contact.html
 output:
   html_document:
-    theme: cosmo
-    highlight: textmate
+    theme: journal # "default",  "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone",  "simplex", and "yeti"
+    highlight: pygments #"default", "tango",  "pygments", "kate", "monochrome",  "espresso", "zenburn", "haddock", and  "textmate"
     include:
       after_body: footer.html
     css: style.css

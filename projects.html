@@ -11,31 +11,19 @@
 
 
 
-<title>Open Science</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
-}
-</script>
 
 
 
@@ -98,34 +86,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 61px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 </style>
 
@@ -162,6 +150,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -180,16 +263,28 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="fellow.html">Open Science</a>
+  <a href="projects.html">Projects</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Code
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="info_model.html">Read Me</a>
+    </li>
+    <li>
+      <a href="models.html">Modeling</a>
+    </li>
+  </ul>
 </li>
 <li>
-  <a href="background.html">Background</a>
+  <a href="CV.html">CV</a>
 </li>
 <li>
-  <a href="info_model.html">Info model</a>
-</li>
-<li>
-  <a href="models.html">Model</a>
+  <a href="publications.html">Publications</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -208,26 +303,61 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Open Science</h1>
 
 </div>
 
 
+<div id="extinction-risk-in-fossil-and-living-amphibians-phd-project" class="section level1">
+<h1>Extinction risk in fossil and living amphibians (PhD project)</h1>
+<div id="background" class="section level2">
+<h2>Background</h2>
+<!--
+"Most amphibia are abhorrent because of their cold body, pale colour, cartilaginous skeleton, filthy skin, fierce aspect, calculating eye, offensive smell, harsh voice, squalid habitation, and terrible venom; and so their Creator has not exerted his powers (to make) them many of them," (Linnaeus 1758)
+-->
+<p>Amphibians are the most endangered terrestrial vertebrate group [1]. Several studies examined biological as well as environmental and also anthropogenic factors, that can potentially add to extinction risk [2]. Typical influential factors are the geographic range size and bodysize of a species, which have been confirmed in studies on fossils from extinct species as well [3].</p>
+<p>Although amphibians are one of the most threatened groups today, their fossil record and therefore the past of amphibians is rarely taken into account. As the fossil record offers to study real extinction events instead of making estimations about the risk, the fossil record of extinct species can give valuable information about factors influencing a species survival.</p>
+<div style="width:200px; height=100px">
+<div class="figure">
+<img src="Beelzebufo_BW.jpg" />
+
+</div>
+</div>
+<p>
+<font size="2"> Beelzebufo ampinga by Nobu Tamura (<a href="http://spinops.blogspot.com" class="uri">http://spinops.blogspot.com</a>) (Own work). <a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a> or <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons </font>
+</p>
+</div>
+<div id="my-work" class="section level2">
+<h2>My work</h2>
+<p>Part of my PhD project is to create a model, based on the fossil record of amphibians, which identifies important traits that influence extinction risk. This model is going to be applied to living amphibians to compare the predicted extinction risk with the risk category they got assigned by the <a href="http://www.iucnredlist.org/initiatives/amphibians">IUCN Red List</a>.</p>
+</div>
+<div id="literature" class="section level2">
+<h2>Literature</h2>
+<ol style="list-style-type: decimal">
+<li>Baillie, J. E. M., Griffiths, J., Turvey, S. T., Loh, J. &amp; Collen, B. 2010 Evolution Lost: Status and Trends of the World’s Vertebrates. Zoological Society of London.</li>
+<li>Sodhi, N. S., Bickford, D., Diesmos, A. C., Lee, T. M., Koh, L. P., Brook, B. W., Sekercioglu, C. H. &amp; Bradshaw, C. J. A. 2008 Measuring the meltdown: drivers of global amphibian extinction and decline. PLoS One 3, e1636. (<a href="doi:10.1371/journal.pone.0001636" class="uri">doi:10.1371/journal.pone.0001636</a>)</li>
+<li>Harnik, P. G. 2011 Direct and indirect effects of biological factors on extinction risk in fossil bivalves. Proc. Natl. Acad. Sci. U. S. A. 108, 13594–13599. (<a href="doi:10.1073/pnas.1100572108" class="uri">doi:10.1073/pnas.1100572108</a>)</li>
+</ol>
+<hr />
+</div>
+</div>
+<div id="fellow-program-open-science" class="section level1">
+<h1>Fellow Program Open Science</h1>
 <p>I created this website as part of my work in the <a href="https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows">Open Science Fellow Program</a>. Open Science needs communication, and what better way could there be than making your science explorable online? While learning to use GitHub, I stumbled across GitHub Pages, which resulted in this webpage.</p>
 <p>As part of my project in the fellow program, I concentrate of the aspects reproducibility, community feedback and open publishing. If you are looking for inspiration on how you can make your own research more open, the <a href="http://viennaprinciples.org/">Vienna Principles</a> offer some ideas.</p>
-<div id="reproducibility" class="section level1">
-<h1>Reproducibility</h1>
+<div id="reproducibility" class="section level2">
+<h2>Reproducibility</h2>
 <p>Making your research reproducible is part of good scientific practice. Therefore, I want to publish the R scripts used in my analysis together with the data and the manuscript. This can be part of the electronic supplement but can also be hosted independently on <a href="https://github.com/">GitHub</a>.</p>
 </div>
-<div id="community-feedback" class="section level1">
-<h1>Community feedback</h1>
+<div id="community-feedback" class="section level2">
+<h2>Community feedback</h2>
 <p>Getting feedback on your work when it comes to peer review is good, but getting feedback even earlier, while it is still in progress, might speed up the whole process. Reaching out to your research community gets you valuable tips on your work. Hoewever, this costs time (as building this webpage for example). Therefore a part of my project is the evaluation of opening up your research in terms of costs and benefits.</p>
 </div>
-<div id="open-publishing-and-preprints" class="section level1">
-<h1>Open publishing and preprints</h1>
+<div id="open-publishing-and-preprints" class="section level2">
+<h2>Open publishing and preprints</h2>
 <p>Publishing my work in an open access journal will be the last milestone in this project, but before that I plan on something way more interesting. I want to test preprint and preprint servers, which is something that, for biology or paleontology, is sparsely used in my surroundings. Finding the right preprint server to adress the right crowd as well as responding to hopefully plenty of feedback will be valuable experiences and will likely add to quality and make the publication process a bit easier in the end.</p>
 <p>Another option in the peer review process is aiming at a journal that offers open peer review, which is getting more and more common and adds to the transparency in the review process.</p>
 </div>
+</div>
 
 
 
@@ -235,15 +365,20 @@ $(document).ready(function () {
 
 <br>
 <br>
- <font color="grey">
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<div style="background-color:lightgrey;color:grey;padding:20px;">
+  
+ <font color="black">
+
+<br />This page is licensed <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+<!--<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+-->
 <p>
 
  <font size="2">
   2017 Melanie Tietje
   <br>
-  Last updated:
+  Last update:
 <!--  <script type="text/javascript" charset="utf-8">
   var currentTime = new Date()
   var month = currentTime.getMonth() + 1
@@ -268,6 +403,8 @@ $(document).ready(function () {
 </font>
 
 
+</div>
+</div>
 
 </div>
 

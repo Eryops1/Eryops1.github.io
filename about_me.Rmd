@@ -1,9 +1,0 @@
----
-title: "About me"
-comments: true
----
-
-
-I am Melanie Tietje, a biologist at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. In my PhD project I work on traits that influence extinction risk in fossil and modern amphibian species.
-
-I am a fellow in the [fellow program open science](https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows) since September 2016, where I am exploring certain aspects of open science like community feedback in data analysis and publication. 
