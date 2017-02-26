@@ -41,6 +41,16 @@ I created this website as part of my work in the [Open Science Fellow Program](h
 
 As part of my project in the fellow program, I concentrate of the aspects reproducibility, community feedback and open publishing. If you are looking for inspiration on how you can make your own research more open, the [Vienna Principles](http://viennaprinciples.org/) offer some ideas.
 
+----
+
+Video summary of the project:
+<iframe src="https://commons.wikimedia.org/wiki/File%3AOpen_Science_Fellow_project_summary.ogg?embedplayer=yes" width="240" height="135" frameborder="0" ></iframe>
+
+<!---[Video summary](https://commons.wikimedia.org/wiki/File%3AOpen_Science_Fellow_project_summary.ogg) (german only for now)
+-->
+
+----
+
 ## Reproducibility 
 Making your research reproducible is part of good scientific practice. Therefore, I want to publish the R scripts used in my analysis together with the data and the manuscript. This can be part of the electronic supplement but can also be hosted independently on [GitHub](https://github.com/).
 
