@@ -18,7 +18,9 @@ Script on this page are all part of my current work. It shows the basic steps of
 Data used here is test data only, which closely resembles characteristics of the real data. As it took me quite some time to collect these data, I naturally want to be the first one to publish it.
 The data has mostly numerical variables like coordinates or also geogrpahic ranges, but also information about habitats and body size. A full description of the used variables is included in the script.
 
-# The script 
+# Skript "Modelling" 
 My current modeling tests. This is the same file you can download and try yourself by following the link provided above to GitHub. All you need is a running R installation. I am always happy to receive feedback on my work.
+
+# Skript "Application"
 
 
