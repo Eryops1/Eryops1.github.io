@@ -2,4 +2,7 @@
 title: "Publications"
 ---
 
-Tietje, M. and Kiessling, W. (2013), Predicting extinction from fossil trajectories of geographical ranges in benthic marine molluscs. J. Biogeogr., 40: 790–799. [doi:10.1111/jbi.12030](http://onlinelibrary.wiley.com/doi/10.1111/jbi.12030/abstract)
+
+M Tietje, MO Rödel. (2017). Contradicting habitat type - extinction risk relationships between living and fossil amphibians. Royal Society Open Science. *In Press*
+
+Tietje, M. and Kiessling, W. (2013), Predicting extinction from fossil trajectories of geographical ranges in benthic marine molluscs. Journal of Biogeography, 40: 790–799. [doi:10.1111/jbi.12030](http://onlinelibrary.wiley.com/doi/10.1111/jbi.12030/abstract)
