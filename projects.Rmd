@@ -37,6 +37,12 @@ Part of my PhD project is to create a model, based on the fossil record of amphi
 
 # Fellow Program Open Science
 
+Besides bridging the gap between the fossil record and current biology in my PhD work, I am interested in different concepts of Open Science. This website was initialized as part of my work as a fellow in the [Open Science Fellow Program](https://wikimedia.de/wiki/Fellowprogramm). Launched for the first time in 2016 by Wikimedia Germany and Stifterverband the fellow program enables 10 scientists from different areas to open up their research by providing guidance and financial support. 
+
+<div style="width:300px; height=200px">
+![](fp_logo_fall_back_4c_neu.png) 
+</div>
+
 I created this website as part of my work in the [Open Science Fellow Program](https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows). Open Science needs communication, and what better way could there be than making your science explorable online? While learning to use GitHub, I stumbled across GitHub Pages, which resulted in this webpage.
 
 As part of my project in the fellow program, I concentrate of the aspects reproducibility, community feedback and open publishing. If you are looking for inspiration on how you can make your own research more open, the [Vienna Principles](http://viennaprinciples.org/) offer some ideas.

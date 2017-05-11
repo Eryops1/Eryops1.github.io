@@ -14,16 +14,10 @@ I am Melanie Tietje, a biologist working at the [Natural History Museum in Berli
 
 ------
 
-Besides bridging the gap between the fossil record and current biology in my PhD work, I am interested in different concepts of Open Science. This website was initialized as part of my work as a fellow in the [Open Science Fellow Program](https://wikimedia.de/wiki/Fellowprogramm). Launched for the first time in 2016 by Wikimedia Germany and Stifterverband the fellow program enables 10 scientists from different areas to open up their research by providing guidance and financial support. 
 
-<div style="width:300px; height=200px">
-![](fp_logo_fall_back_4c_neu.png) 
-</div>
-
-------
 
 ### UPDATE: New publication on contradicting habitat type - extinction risk relationships between living and fossil amphibians
-M Tietje, MO Rödel. (2017). Contradicting habitat type - extinction risk relationships between living and fossil amphibians. Royal Society Open Science. *In Press*
+Melanie Tietje, Mark-Oliver Rödel, Contradicting habitat type-extinction risk relationships between living and fossil amphibians. R. Soc. open sci. 2017 4 170051; [DOI: 10.1098/rsos.170051](http://rsos.royalsocietypublishing.org/content/4/5/170051). Published 10 May 2017
 
 
 
