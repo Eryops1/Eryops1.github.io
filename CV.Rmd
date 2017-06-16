@@ -1,8 +1,15 @@
 ---
 title: "CV"
+output:
+  html_document: default
+#  pdf_document: default
 ---
 
-### Research experience
+### Research experience and projects
+
+**2017 - current Museum für Naturkunde**
+
+Project: Linking climate trends with the amphibian fossil record
 
 
 **2014 – current Humboldt Universität zu Berlin | Museum für Naturkunde**
@@ -30,7 +37,7 @@ Project: Geographic range dynamics of marine gastropods - an attempt to predict 
 
 Undergraduate student with Dr. Bernhard Ronacher
 
-Project: Infuence of missing parts on human pattern recognition as revealed by multidimensional scaling
+Project: Influence of missing parts on human pattern recognition as revealed by multidimensional scaling
 
 Student assistant with Dr. Bernhard Ronacher
 
