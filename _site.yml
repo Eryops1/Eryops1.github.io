@@ -14,8 +14,8 @@ navbar:
         href: info_model.html
       - text: "Modeling"
         href: models.html
-      - text: "Model application"
-        href: application.html
+#      - text: "Model application"
+#        href: application.html
       
     - text: "CV"
       href: CV.html
