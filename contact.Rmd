@@ -12,13 +12,29 @@ You can contact me via:
 * [ResearchGate](https://www.researchgate.net/profile/Melanie_Tietje)
 
 
-# Comments 
-Leave a comment on this page!
-```{r, echo=FALSE}
-# this html includes disqus
-#htmltools::includeHTML("_layouts/disqus.html")
+# Other interesting research projects by colleagues
 
-# this includes the html comment box
-htmltools::includeHTML("_layouts/post.html")
+https://martinschobben.github.io/webpage/index.html
 
-```
+Martin Schobben, DFG research fellow at University of Leeds, UK. Geobiologist working on marine productivity and nutrient cycling during the end-Permian mass extinction. 
+
+http://www.fossilrich.com/
+
+Richard Hofmann, Postdoc at Museum für Naturkunde Berlin, Germany. Palaeontologist interested in fundamental transformations (i.e. mass extinctions, recovery episodes, radiations, and ecological innovation).
+
+https://plannapus.github.io/
+
+Johan Renaudie, Postdoc at Museum für Naturkunde Berlin, Germany. Micropaleontologist studying Cenozoic siliceous plankton and their relationship with past climatic and oceanographic changes.
+
+
+
+<!-- # Comments  -->
+<!-- Leave a comment on this page! -->
+<!-- ```{r, echo=FALSE} -->
+<!-- # this html includes disqus -->
+<!-- #htmltools::includeHTML("_layouts/disqus.html") -->
+
+<!-- # this includes the html comment box -->
+<!-- htmltools::includeHTML("_layouts/post.html") -->
+
+<!-- ``` -->

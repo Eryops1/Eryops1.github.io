@@ -1,10 +1,13 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 output:
-  html_document
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
 ---
 
-### Research experience and projects
+# Research experience and projects
 
 **2017 - current Museum für Naturkunde**
 
@@ -43,7 +46,7 @@ Student assistant with Dr. Bernhard Ronacher
 Project: Navigation and 3-D spatial orientation of desert ants (Tunisia)
 
 
-### Education
+# Education
 
 **2014 – current Humboldt Universität zu Berlin | Museum für Naturkunde**
 
@@ -63,29 +66,31 @@ Study of Biology
 Degree: Bachelor of Science, 2.3 (good)
 
 
-### Languages
+# Languages
 German (first language)
 
-Englisch (business fluent)
+English (business fluent)
 
 French (basic knowledge)
 
 
-### Grants 
+# Grants 
 
-Fellow Program Open Science by Wikimedia and Stifterverband
+MfN Innovationsfond (Museum für Naturkunde Berlin, institute internal grant): Linking climate trends with the amphibian fossil record
+
+Fellow Program Open Science by Wikimedia and Stifterverband: Opening up science
 
 Travel Grant Progressive Palaeontology Conference 2016
 
 Elsa Neumann Fellowship of the state of Berlin: A paleontological-zoological analysis of the influence of traits on the extinction risk of amphibians
 
 
-### Social commitment
+# Social commitment
 
 2014 - 2017: Elected part of the representation of doctoral students at the Museum für Naturkunde, Leibniz Institute for Research on Evolution and Biodiversity
 
 
-### IT skills 
+# IT skills 
 **Advanced knowledge**
 
 Linux, Windows

@@ -15,32 +15,11 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<html>
-
-<head>
-
-    
-
-<!-- for FF, Chrome, Opera -->
-<link rel="icon" type="image/png" href="eryops_avatar_round.png" sizes="16x16">
-<link rel="icon" type="image/png" href="eryops_avatar_round.png" sizes="32x32">
-
-
-<!-- for IE
-<link rel="icon" type="image/x-icon" href="amo_icon.ico" >
-<link rel="shortcut icon" type="image/x-icon" href="amo_icon.ico"/>
- -->
-
-</head>
-
-
-
-</html>
 
 
 
@@ -104,34 +83,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 61px;
+  padding-top: 54px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 
 .section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 </style>
 
@@ -169,54 +148,31 @@ $(document).ready(function () {
 
 
 
-
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
+      <!-- NOTE: add "navbar-inverse" class for an alternate navbar background -->
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="projects.html">Projects</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Code
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="info_model.html">Read Me</a>
-    </li>
-    <li>
-      <a href="models.html">Modeling</a>
-    </li>
-  </ul>
-</li>
-<li>
-  <a href="CV.html">CV</a>
-</li>
-<li>
-  <a href="publications.html">Publications</a>
-</li>
+        <li><a href="index.html">About me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="https://github.com/Eryops1">Code</a></li>
+<!--
+        <li><a href="info_model.html">Code_Read Me</a></li>
+        <li><a href="models.html">Code_Models</a></li>
+-->
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="publications.html">Publications</a></li>
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="contact.html">
-    <span class="glyphicon glyphicon glyphicon glyphicon-envelope"></span>
-     
-  </a>
-</li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -238,13 +194,22 @@ $(document).ready(function () {
 <li><a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">Museum für Naturkunde</a></li>
 <li><a href="https://www.researchgate.net/profile/Melanie_Tietje">ResearchGate</a></li>
 </ul>
-<div id="comments" class="section level1">
-<h1>Comments</h1>
-<p>Leave a comment on this page! <!-- begin wwww.htmlcommentbox.com -->
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24gv3OTjzWA.pcgvky4aKXr."+"&opts=16862&num=10&ts=1479136089257");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com --></p>
+<div id="other-interesting-research-projects-by-colleagues" class="section level1">
+<h1>Other interesting research projects by colleagues</h1>
+<p><a href="https://martinschobben.github.io/webpage/index.html" class="uri">https://martinschobben.github.io/webpage/index.html</a></p>
+<p>Martin Schobben, DFG research fellow at University of Leeds, UK. Geobiologist working on marine productivity and nutrient cycling during the end-Permian mass extinction.</p>
+<p><a href="http://www.fossilrich.com/" class="uri">http://www.fossilrich.com/</a></p>
+<p>Richard Hofmann, Postdoc at Museum für Naturkunde Berlin, Germany. Palaeontologist interested in fundamental transformations (i.e. mass extinctions, recovery episodes, radiations, and ecological innovation).</p>
+<p><a href="https://plannapus.github.io/" class="uri">https://plannapus.github.io/</a></p>
+<p>Johan Renaudie, Postdoc at Museum für Naturkunde Berlin, Germany. Micropaleontologist studying Cenozoic siliceous plankton and their relationship with past climatic and oceanographic changes.</p>
+<!-- # Comments  -->
+<!-- Leave a comment on this page! -->
+<!-- ```{r, echo=FALSE} -->
+<!-- # this html includes disqus -->
+<!-- #htmltools::includeHTML("_layouts/disqus.html") -->
+<!-- # this includes the html comment box -->
+<!-- htmltools::includeHTML("_layouts/post.html") -->
+<!-- ``` -->
 </div>
 
 

@@ -11,36 +11,18 @@
 
 
 
-<title>CV</title>
+<title>Curriculum Vitae</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<html>
-
-<head>
-
-    
-
-<!-- for FF, Chrome, Opera -->
-<link rel="icon" type="image/png" href="eryops_avatar_round.png" sizes="16x16">
-<link rel="icon" type="image/png" href="eryops_avatar_round.png" sizes="32x32">
-
-
-<!-- for IE
-<link rel="icon" type="image/x-icon" href="amo_icon.ico" >
-<link rel="shortcut icon" type="image/x-icon" href="amo_icon.ico"/>
- -->
-
-</head>
-
-
-
-</html>
 
 
 
@@ -104,34 +86,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 61px;
+  padding-top: 54px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 
 .section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 </style>
 
@@ -168,55 +150,127 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
+      <!-- NOTE: add "navbar-inverse" class for an alternate navbar background -->
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="projects.html">Projects</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Code
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="info_model.html">Read Me</a>
-    </li>
-    <li>
-      <a href="models.html">Modeling</a>
-    </li>
-  </ul>
-</li>
-<li>
-  <a href="CV.html">CV</a>
-</li>
-<li>
-  <a href="publications.html">Publications</a>
-</li>
+        <li><a href="index.html">About me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="https://github.com/Eryops1">Code</a></li>
+<!--
+        <li><a href="info_model.html">Code_Read Me</a></li>
+        <li><a href="models.html">Code_Models</a></li>
+-->
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="publications.html">Publications</a></li>
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="contact.html">
-    <span class="glyphicon glyphicon glyphicon glyphicon-envelope"></span>
-     
-  </a>
-</li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -226,13 +280,13 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">CV</h1>
+<h1 class="title toc-ignore">Curriculum Vitae</h1>
 
 </div>
 
 
-<div id="research-experience-and-projects" class="section level3">
-<h3>Research experience and projects</h3>
+<div id="research-experience-and-projects" class="section level1">
+<h1>Research experience and projects</h1>
 <p><strong>2017 - current Museum für Naturkunde</strong></p>
 <p>Project: Linking climate trends with the amphibian fossil record</p>
 <p><strong>2014 – current Humboldt Universität zu Berlin | Museum für Naturkunde</strong></p>
@@ -250,8 +304,8 @@ $(document).ready(function () {
 <p>Student assistant with Dr. Bernhard Ronacher</p>
 <p>Project: Navigation and 3-D spatial orientation of desert ants (Tunisia)</p>
 </div>
-<div id="education" class="section level3">
-<h3>Education</h3>
+<div id="education" class="section level1">
+<h1>Education</h1>
 <p><strong>2014 – current Humboldt Universität zu Berlin | Museum für Naturkunde</strong></p>
 <p>Thesis title: A paleontological-zoological analysis of the influence of traits on the extinction risk of amphibians</p>
 <p><strong>2008 – 2011 Humboldt Universität zu Berlin</strong></p>
@@ -261,24 +315,25 @@ $(document).ready(function () {
 <p>Study of Biology</p>
 <p>Degree: Bachelor of Science, 2.3 (good)</p>
 </div>
-<div id="languages" class="section level3">
-<h3>Languages</h3>
+<div id="languages" class="section level1">
+<h1>Languages</h1>
 <p>German (first language)</p>
-<p>Englisch (business fluent)</p>
+<p>English (business fluent)</p>
 <p>French (basic knowledge)</p>
 </div>
-<div id="grants" class="section level3">
-<h3>Grants</h3>
-<p>Fellow Program Open Science by Wikimedia and Stifterverband</p>
+<div id="grants" class="section level1">
+<h1>Grants</h1>
+<p>MfN Innovationsfond (Museum für Naturkunde Berlin, institute internal grant): Linking climate trends with the amphibian fossil record</p>
+<p>Fellow Program Open Science by Wikimedia and Stifterverband: Opening up science</p>
 <p>Travel Grant Progressive Palaeontology Conference 2016</p>
 <p>Elsa Neumann Fellowship of the state of Berlin: A paleontological-zoological analysis of the influence of traits on the extinction risk of amphibians</p>
 </div>
-<div id="social-commitment" class="section level3">
-<h3>Social commitment</h3>
+<div id="social-commitment" class="section level1">
+<h1>Social commitment</h1>
 <p>2014 - 2017: Elected part of the representation of doctoral students at the Museum für Naturkunde, Leibniz Institute for Research on Evolution and Biodiversity</p>
 </div>
-<div id="it-skills" class="section level3">
-<h3>IT skills</h3>
+<div id="it-skills" class="section level1">
+<h1>IT skills</h1>
 <p><strong>Advanced knowledge</strong></p>
 <p>Linux, Windows</p>
 <p>Programming language R (Data visualization, statistics, modeling, Markdown)</p>
@@ -334,6 +389,8 @@ $(document).ready(function () {
 </font>
 
 
+</div>
+</div>
 
 </div>
 

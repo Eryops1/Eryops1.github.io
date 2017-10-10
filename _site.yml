@@ -1,37 +1,34 @@
 name: "my-website"
-navbar:
+#navbar:
 #  title: "Home"
-  left:
-    - text: "Home"
-      href: index.html
-      
-    - text: "Projects"
-      href: projects.html
-      
-    - text: "Code"
-      menu: 
-      - text: "Read Me"
-        href: info_model.html
-      - text: "Modeling"
-        href: models.html
+#  left:
+#    - text: "Home"
+#      href: index.html
+#    - text: "Projects"
+#      href: projects.html
+#    - text: "Code"
+#      menu: 
+#      - text: "Read Me"
+#        href: info_model.html
+#      - text: "Modeling"
+#        href: models.html
 #      - text: "Model application"
 #        href: application.html
-      
-    - text: "CV"
-      href: CV.html
-      
-    - text: "Publications"
-      href: publications.html
-  right:
+#      
+#    - text: "CV"
+#      href: CV.html
+#      
+#    - text: "Publications"
+#      href: publications.html
+#  right:
 #    - text: "Contact me"
-    - icon: "glyphicon glyphicon-envelope"
-      href: contact.html
+#    - icon: "glyphicon glyphicon-envelope"
+#      href: contact.html
 output:
   html_document:
-    theme: journal # "default",  "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone",  "simplex", and "yeti"
+    theme: "lumen" #"journal" # "default",  "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone",  "simplex", and "yeti"
     highlight: pygments #"default", "tango",  "pygments", "kate", "monochrome",  "espresso", "zenburn", "haddock", and  "textmate"
     include:
       after_body: footer.html
-      in_header: header.html
     css: style.css
 output_dir: "."
