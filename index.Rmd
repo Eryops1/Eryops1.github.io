@@ -8,14 +8,14 @@ output:
 
 <br>
 
-<div style="background-color:lightgrey">
-  <font size="5">
-  <font color="red">
-  NEWS :
-  </font>
-  Our new [Ecology Letters paper on fossils and conservation in amphibians](https://doi.org/10.1111/ele.13080) is finally online! 
-  </font>
-</div>
+<!-- <div style="background-color:lightgrey"> -->
+<!--   <font size="5"> -->
+<!--   <font color="red"> -->
+<!--   NEWS : -->
+<!--   </font> -->
+<!--   Our new [Ecology Letters paper on fossils and conservation in amphibians](https://doi.org/10.1111/ele.13080) is finally online!  -->
+<!--   </font> -->
+<!-- </div> -->
 
 
 I am Melanie Tietje, a biologist currently working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future. I pursue this interest in my PhD project, in which I work on traits that influence extinction risk in fossil and modern amphibian species.

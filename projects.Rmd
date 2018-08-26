@@ -1,23 +1,27 @@
 ---
-#title: "Projects"
 output:
   html_document:
-    toc: true
-    toc_float: true
+    toc: yes
     toc_depth: 2
+    toc_float: yes
 ---
 
-# Climate and amphibians
-In the coming decades we might face the loss of more than 50% of the climatic ranges for more than 
-half  of  plants  and  34%  of  animals  [1].  Abrupt  greenhouse‐driven  climate  change  and  synergistic 
+# Temporal patterns in extinction risk factors and climate in the amphibian fossil record
+In the coming decades we might face the loss of more than 50\% of the climatic ranges for more than 
+half  of  plants  and  34\%  of  animals  [1].  Abrupt  greenhouse driven  climate  change  and  synergistic 
 effects,  e.g.  disrupted  migration  pathways  and  breeding  cycles,  changing  predator,  competitor  and 
-prey  relations,  habitat‐loss  as  well  as  diseases,  are  significant  contributors  to  this  biodiversity 
+prey  relations,  habitatloss  as  well  as  diseases,  are  significant  contributors  to  this  biodiversity 
 destruction.  Although  often  ignored  from  a  public  perspective,  or  considered  to  be  of  lesser 
 importance  than  likeable  flagship  species,  amphibians  alongside  reptiles  might  face  greatest 
 extinction risk under current changing climate [2].
 
 This project aims at connecting changing climatic conditions and temporal trends in amphibian 
 traits, including extinction risk and diversity, to  expand  our  knowledge  about  current  and  future  extinction  threats to amphibians. The project uses oxygen isotope data to reconstruct the relative temperature changes as well as latitudinal temperature gradients.
+
+##Results
+This is work in  progress.
+
+## Literature
 
 1. Warren, R., et al. "Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss." 
 Nature Climate Change 3.7 (2013): 678‐682. 
@@ -31,67 +35,40 @@ Nature Climate Change 3.7 (2013): 678‐682.
 
 # Extinction risk in fossil and living amphibians
 ## Background
-<!--
-"Most amphibia are abhorrent because of their cold body, pale colour, cartilaginous skeleton, filthy skin, fierce aspect, calculating eye, offensive smell, harsh voice, squalid habitation, and terrible venom; and so their Creator has not exerted his powers (to make) them many of them," (Linnaeus 1758)
--->
-Amphibians are the most endangered terrestrial vertebrate group [1]. Several studies examined biological as well as environmental and also anthropogenic factors, that can potentially add to extinction risk [2]. Typical influential factors are the geographic range size and bodysize of a species, which have been confirmed in studies on fossils from extinct species as well [3].
 
-Although amphibians are one of the most threatened groups today, their fossil record and therefore the past of amphibians is rarely taken into account. As the fossil record invites to study plenty of real extinction events, it is assumed that it can give valuable information about factors influencing a species survival.
+Amphibians are the most endangered terrestrial vertebrate group [1]. Several studies examined biological, environmental and also anthropogenic factors that can potentially add to extinction risk [2]. Typical influential factors are the geographic range size and bodysize of a species, which have been confirmed in studies on fossils from extinct species as well [3].
 
-<div style="width:200px; height=100px">
-![](Beelzebufo_BW.jpg) 
+Although amphibians are one of the most threatened groups today, their fossil record and the recorded extinction events of amphibians are usually not taken into account. As the fossil record invites to study plenty of real extinction events, it can provide valuable information about factors influencing a species survival.
+
+
+## Results
+We were able to show in a unique combination of fossil and neontological data how the fossil can actually predict the extinction risk of living species [4].
+
+<div style="width:300px; height=100px">
+![](model_framework.jpg) 
 </div>
 
 <p><font size="2">
-Beelzebufo ampinga by Nobu Tamura (http://spinops.blogspot.com) (Own work). [GFDL](http://www.gnu.org/copyleft/fdl.html) or [CC BY 3.0](http://creativecommons.org/licenses/by/3.0), via Wikimedia Commons
+Model framework for the study. [Tietje, M. and Rödel, M. O. (2018), figure 1](https://doi.org/10.1111/ele.13080).
 </font></p>
 
-## My work
-Part of this project is to test the potential of combining the amphibien fossil record with neontological data. I am creating a paleontologically calibrated model, which is based on the fossil record of amphibians and predicts the species duration with certain traits like geographic range size, body size, and other factors that might be of importance for extinction risk.
-This fossil-calibrated model is then applied to living amphibians and use to predict a hypothetical duration for those species, based on their traits. The predicted extinction risk is compared with the risk category the species has been assigned to by the [IUCN Red List](http://www.iucnredlist.org/initiatives/amphibians) assessment. 
+We used generalised boosted modelling to analyse the impact of several traits that are assumed to influence extinction risk on the stratigraphic duration of amphibian species in the fossil record. We used this fossil calibrated model to predict the extinction risk for living species. We observed a high consensus between our predicted species durations and the current IUCN Red List status of living amphibian species. We also found that today's Data Deficient species are mainly predicted to experience short durations, hinting at their likely high threat status. Our study suggests that the fossil record can be a suitable tool for the evaluation of current taxa specific Red Listing status. 
 
-First results have shown that the predicted durations for living amphibian species are on average inversly correlated with the extinction risk as it was assigned to the species by it`s IUCN Red List assessment. 
+<div style="width:400px; height=100px">
+![](figure3ELE.png) 
+</div>
+
+<p><font size="2">
+Predicted durations in million years for living amphibian species, based on the model fitted with paleontological data. [Tietje, M. and Rödel, M. O. (2018), figure 3](https://doi.org/10.1111/ele.13080).
+</font></p>
+
 
 ## Literature
 1. Baillie, J. E. M., Griffiths, J., Turvey, S. T., Loh, J. & Collen, B. 2010 Evolution Lost: Status and Trends of the World’s Vertebrates. Zoological Society of London. 
 2. Sodhi, N. S., Bickford, D., Diesmos, A. C., Lee, T. M., Koh, L. P., Brook, B. W., Sekercioglu, C. H. & Bradshaw, C. J. A. 2008 Measuring the meltdown: drivers of global amphibian extinction and decline. PLoS One 3, e1636. (doi:10.1371/journal.pone.0001636)
 3. Harnik, P. G. 2011 Direct and indirect effects of biological factors on extinction risk in fossil bivalves. Proc. Natl. Acad. Sci. U. S. A. 108, 13594–13599. (doi:10.1073/pnas.1100572108)
+4. Tietje, M. and Rödel, M. O. (2018), Evaluating the predicted extinction risk of living amphibian species with the fossil record. Ecology Letters. [doi:10.1111/ele.13080](https://doi.org/10.1111/ele.13080)
 
-<br>
 
------
-
-# Fellow Program Open Science
-
-Besides bridging the gap between the fossil record and current biology in my PhD work, I am interested in different concepts of Open Science. This website was initialized as part of my work as a fellow in the [Open Science Fellow Program](https://wikimedia.de/wiki/Fellowprogramm). Launched for the first time in 2016 by Wikimedia Germany and Stifterverband the fellow program enables 10 scientists from different areas to open up their research by providing guidance and financial support. 
-
-<div style="width:300px; height=200px">
-![](fp_logo_fall_back_4c_neu.png) 
-</div>
-
-I created this website as part of my work in the [Open Science Fellow Program](https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows). Open Science needs communication, and what better way could there be than making your science explorable online? While learning to use GitHub, I stumbled across GitHub Pages, which resulted in this webpage.
-
-As part of my project in the fellow program, I concentrate of the aspects reproducibility, community feedback and open publishing. If you are looking for inspiration on how you can make your own research more open, the [Vienna Principles](http://viennaprinciples.org/) offer some ideas.
-
-----
-
-Video summary of the project (German):
-<iframe src="https://commons.wikimedia.org/wiki/File%3AOpen_Science_Fellow_project_summary.ogg?embedplayer=yes" width="240" height="135" frameborder="0" ></iframe>
-
-<!---[Video summary](https://commons.wikimedia.org/wiki/File%3AOpen_Science_Fellow_project_summary.ogg) (german only for now)
--->
-
-----
-
-## Reproducibility 
-Making your research reproducible is part of good scientific practice. Therefore, I want to publish the R scripts used in my analysis together with the data and the manuscript. This can be part of the electronic supplement but can also be hosted independently on [GitHub](https://github.com/).
-
-## Community feedback
-Getting feedback on your work when it comes to peer review is good, but getting feedback even earlier, while it is still in progress, might speed up the whole process. Reaching out to your research community gets you valuable tips on your work. However, this costs time (as building this webpage for example). Therefore a part of my project is the evaluation of opening up your research in terms of costs and benefits.
-
-## Open publishing and preprints 
-Publishing my work in an open access journal will be the last milestone in this project, but before that I plan on something way more interesting. I want to test preprint and preprint servers, which is something that, for biology or paleontology, is sparsely used in my surroundings. Finding the right preprint server to adress the right crowd as well as responding to hopefully plenty of feedback will be valuable experiences and will likely add to quality and make the publication process a bit easier in the end. 
-
-Another option in the peer review process is aiming at a journal that offers open peer review, which is getting more and more common and adds to the transparency in the review process.
 
 
