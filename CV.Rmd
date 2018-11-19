@@ -9,16 +9,26 @@ output:
 
 # Research experience and projects
 
-**2017 - current Museum für Naturkunde**
-
-Project: Linking climate trends with the amphibian fossil record
-
-
 **2014 – current Humboldt Universität zu Berlin | Museum für Naturkunde**
 
 PhD candidate with Dr. Mark-Oliver Rödel
 
-Project: A paleontological-zoological analysis of the influence of traits on the extinction risk of amphibians
+Project: Combining paleontological and neontological data to assess the extinction risk of amphibians
+
+Date of defence: 18th December 2018
+
+**2018 - current Museum für Naturkunde**
+
+Project: Amphibian monitoring Nimba Mountains, Guinea
+
+**2017 Humboldt Universität zu Berlin**
+
+Project: Linking climate trends with the amphibian fossil record
+
+
+**2017 Museum für Naturkunde**
+
+Project: In vitro early tests on drought tolerance of somatic seedlings
 
 
 **2012 - 2013 Museum für Naturkunde**
@@ -30,18 +40,18 @@ Project: Geographic range dynamics of marine taxa
 
 **2011 Humboldt Universität zu Berlin | Museum für Naturkunde**
 
-Graduate student with Dr. Wolfgang Kießling
+Graduate student with Wolfgang Kießling
 
 Project: Geographic range dynamics of marine gastropods - an attempt to predict future geographic ranges
 
 
 **2008 Humboldt Universität zu Berlin**
 
-Undergraduate student with Dr. Bernhard Ronacher
+Undergraduate student with Bernhard Ronacher
 
 Project: Influence of missing parts on human pattern recognition as revealed by multidimensional scaling
 
-Student assistant with Dr. Bernhard Ronacher
+Student assistant with Bernhard Ronacher
 
 Project: Navigation and 3-D spatial orientation of desert ants (Tunisia)
 
@@ -93,18 +103,22 @@ Elsa Neumann Fellowship of the state of Berlin: A paleontological-zoological ana
 # IT skills 
 **Advanced knowledge**
 
-Linux, Windows
+R programming language (Data analysis, visualization (ggplot), statistics, modeling, Markdown)
 
-Programming language R (Data visualization, statistics, modeling, Markdown)
+Microsoft Office, Libre Office
 
-Microsoft Office, Libre Office and LaTeX
+Typesetting language LaTeX
 
-Reference manager Mendeley
+Mendeley and BibTeX
+
 
 **Basic knowledge**
+
+BEAST, Tracer, Mesquite, GPlates
 
 Image editing with Photoshop, GIMP, Inkscape, Illustrator
 
 QGIS
 
 HTML
+
