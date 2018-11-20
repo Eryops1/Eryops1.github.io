@@ -1,19 +1,15 @@
 ---
-title: "Publications and Reviewing "
+title: 'Publications and Reviewing '
 ---
 
 # Publications
 Tietje, M., Rödel, M.-O., Schobben, M. (in prep.). Climate influences the effect of geographic
 range size on extinction risk in the deep time amphibian fossil record.
 
-Hofmann, R., Tietje, M., Aberhan, M. (in review). Phanerozoic diversity partitioning in benthic
-marine communities.
+Hofmann, R., Tietje, M., Aberhan, M. (in review). Diversity partitioning in Phanerozoic benthic marine communities.
 
-Schobben, M., Heuer, F., Tietje, M., Ghaderi, A., Korn, D., Korte, C., Wignall, P.B., (accepted).
-Chemostratigraphy across the Permian- Triassic Boundary: The Effect of Sampling Strategies
-on Carbonate- carbon Isotope Stratigraphic Markers, in Chemostratigraphy across major chro-
-nostratigraphical boundaries, eds Sial, A.N., Gaucher, C., Ramkumar, M., Ferreira, V.P., AGU
-Geophysical Monograph series (Wiley).
+Schobben, M. , Heuer, F. , Tietje, M. , Ghaderi, A. , Korn, D. , Korte, C. and Wignall, P. B. (2018). Chemostratigraphy Across the Permian‐Triassic Boundary. In Chemostratigraphy Across Major Chronological Boundaries (eds A. N. Sial, C. Gaucher, M. Ramkumar and V. P. Ferreira). [doi:10.1002/9781119382508.ch9](https://doi.org/10.1002/9781119382508.ch9)
+
 
 Tietje, M. and Rödel, M.-O. (2018), Evaluating the predicted extinction risk of living amphibian species with the fossil record. Ecology Letters. [doi:10.1111/ele.13080](https://doi.org/10.1111/ele.13080)
 
