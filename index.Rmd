@@ -13,7 +13,7 @@ output:
   <font color="red">
   NEWS :
   </font>
-  A paper on [Diversity partitioning in the Phanerozoic](https://www.pnas.org/content/early/2018/12/13/1814487116) in PNAS
+  Our paper on [Diversity partitioning in the Phanerozoic](https://www.pnas.org/content/early/2018/12/13/1814487116) in PNAS
   </font>
 </div>
 
