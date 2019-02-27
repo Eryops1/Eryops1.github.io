@@ -8,3 +8,8 @@ title: "Stuff"
  <iframe src="my_first_presi_with_R.html" style="height:400px;width:600px;"></iframe> 
  
  disclaimer: link to results in Rho and p-values does not work yet
+ 
+ 
+# Testing interactive maps with leaflet
+ 
+<iframe src="leaflet_interactive_map_test.html" style="height:400px;width:600px;"></iframe> 
