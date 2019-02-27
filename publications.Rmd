@@ -1,6 +1,4 @@
----
-title: 'Publications and Reviewing '
----
+
 
 # Publications
 Tietje, M., Rödel, M.-O., Schobben, M. (in prep.). Climate influences the effect of geographic
@@ -17,7 +15,28 @@ Melanie Tietje, Mark-Oliver Rödel, Contradicting habitat type-extinction risk r
 
 Tietje, M. and Kiessling, W. (2013), Predicting extinction from fossil trajectories of geographical ranges in benthic marine molluscs. Journal of Biogeography, 40: 790–799. [doi:10.1111/jbi.12030](http://onlinelibrary.wiley.com/doi/10.1111/jbi.12030/abstract)
 
+# Conference talks
+### 2019
+* EGU General Assembly. *Climate influences the impact of geographic range size on extinction risk of amphibians*
+
+### 2018
+* CPEG - Crossing the Palaeontological Ecological Gap. *Fossils for conservation*
+* ESA Annual Meeting. *Predicting extinction risk of living amphibian species with the fossil record*
+
+### 2017
+* Geobiodiversity - An Integrative Approach Expanding Humboldt's Vision. *Predicting the extinction risk of living amphibians using the fossil record* (poster)
+* 26. Internationalen Naturschutztagung „Zoologischer und botanischer Artenschutz in Mitteleuropa“ *Der Zusammenhang zwischen Aussterberisiko von Amphibien und ihrem Lebensraum hat sich umgedreht*
+
+### 2016
+* Progressive Palaeontology. *From fossil record to amphibian conservation*
+
+### 2015
+* 3rd Leibniz PhD Symposium of Section C. *The fossil record and conservation*
+
+
 
 # Reviewing activity
-Wiley: Diversity and Distributions
+
+* Wiley: Diversity and Distributions
+* Palaeontologia Electronica
 

@@ -6,3 +6,5 @@ title: "Stuff"
 # Playing with Markdown presentations in RStudio (and plotly)
 
  <iframe src="my_first_presi_with_R.html" style="height:400px;width:600px;"></iframe> 
+ 
+ disclaimer: link to results in Rho and p-values does not work yet
