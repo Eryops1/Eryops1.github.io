@@ -11,5 +11,26 @@ title: "Stuff"
  
  
 # Testing interactive maps with leaflet
- 
-<iframe src="leaflet_interactive_map_test.html" style="height:400px;width:600px;"></iframe> 
+
+```{r message=FALSE, echo=FALSE}
+library(htmlwidgets)
+library(leaflet)
+coords <- data.frame(lng = c(13.379609, 13.347779), 
+                     lat = c(52.529969, 52.548627), 
+                     location = c("Work", "Nussbreite"),
+                     marker = c("frog.png", "drink.png"))
+
+leaflet() %>% 
+  addProviderTiles("OpenStreetMap.BlackAndWhite") %>% 
+  addMarkers(lng=coords$lng, lat=coords$lat, popup = coords$location,
+             icon = icons(iconUrl = c("frog.png", "drink.png"), iconWidth = 40, iconHeight = 40)
+             )
+```
+
+<!-- 
+<iframe src="leaflet_interactive_map_test.html" 
+style="height:400px;width:600px;"
+name="leaflet_map"
+scrolling="yes"
+></iframe> 
+-->
