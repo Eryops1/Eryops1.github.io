@@ -21,7 +21,7 @@ coords <- data.frame(lng = c(13.379609, 13.347779),
                      marker = c("frog.png", "drink.png"))
 
 leaflet() %>% 
-  addProviderTiles("OpenStreetMap.BlackAndWhite") %>% 
+  addProviderTiles("CartoDB.Positron") %>% 
   addMarkers(lng=coords$lng, lat=coords$lat, popup = coords$location,
              icon = icons(iconUrl = c("frog.png", "drink.png"), iconWidth = 40, iconHeight = 40)
              )
