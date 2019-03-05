@@ -25,6 +25,11 @@ leaflet() %>%
   addMarkers(lng=coords$lng, lat=coords$lat, popup = coords$location,
              icon = icons(iconUrl = c("frog.png", "drink.png"), iconWidth = 40, iconHeight = 40)
              )
+
+library(maps)
+mapStates = map("state", fill = TRUE, plot = FALSE)
+leaflet(data = mapStates) %>% addTiles() %>%
+  addPolygons(fillColor = topo.colors(10, alpha = NULL), stroke = FALSE)
 ```
 
 <!-- 
