@@ -1,5 +1,5 @@
 ---
-title: "Melanie Tietje"
+title: " "
 output:
   html_document
 ---
@@ -8,23 +8,24 @@ output:
 
 <br>
 
-<div style="background-color:lightgrey">
-  <font size="5">
-  <font color="red">
-  NEWS :
-  </font>
-  Our paper on [Diversity partitioning in the Phanerozoic](https://www.pnas.org/content/early/2018/12/13/1814487116) in PNAS
-  </font>
-</div>
+<!-- <div style="background-color:lightgrey"> -->
+<!--   <font size="5"> -->
+<!--   <font color="red"> -->
+<!--   NEWS : -->
+<!--   </font> -->
+<!--   Our paper on [Diversity partitioning in the Phanerozoic](https://www.pnas.org/content/early/2018/12/13/1814487116) in PNAS -->
+<!--   </font> -->
+<!-- </div> -->
 
 
-I am Melanie Tietje, a biologist currently working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future. I pursue this interest in my PhD project, in which I work on traits that influence extinction risk in fossil and modern amphibian species.
+ <font size="6">Hello!</font> 
 
-This webpage gives an overview about my interests and projects.
-
-<div style="width:250px; height=200px">
+<div style="width:200px; height=1700px">
 ![](portrait.jpg) 
 </div>
+
+I`m Melanie, a quantitative ecologist currently working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future. I work on extinction risk influencing factors, geographic range size patterns, and recently on the combination of climatic and biological data. 
+
 
 
 ------
