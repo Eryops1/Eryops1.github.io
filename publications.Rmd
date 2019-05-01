@@ -1,8 +1,10 @@
-
+  
 
 # Publications
 Tietje, M., Rödel, M.-O., Schobben, M. (in prep.). Climate influences the effect of geographic
 range size on extinction risk in the deep time amphibian fossil record.
+
+Varela, S., Sbrocco, E., Tarroso, P., Pérez-Luque, A.J., Renaudie, J., Warnstädt, N., Fandos, G., Foster, W., Tietje, M. 2019. BioExtreme hackathon en el Museum für Naturkunde de Berlín, Alemania. Ecosistemas 28(1): 129. [doi: 10.7818/ECOS.1707](https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707)
 
 Hofmann, R., Tietje, M., and Aberhan, M. (2018): Diversity partitioning in Phanerozoic benthic marine communities. Proceedings of the National Academy of Sciences. [OPEN ACCESS](https://www.pnas.org/content/early/2018/12/13/1814487116)
 
@@ -11,9 +13,11 @@ Schobben, M. , Heuer, F. , Tietje, M. , Ghaderi, A. , Korn, D. , Korte, C. and W
 
 Tietje, M. and Rödel, M.-O. (2018), Evaluating the predicted extinction risk of living amphibian species with the fossil record. Ecology Letters. [doi:10.1111/ele.13080](https://doi.org/10.1111/ele.13080)
 
-Melanie Tietje, Mark-Oliver Rödel, Contradicting habitat type-extinction risk relationships between living and fossil amphibians. R. Soc. open sci. 2017 4 170051; [DOI: 10.1098/rsos.170051](http://rsos.royalsocietypublishing.org/cgi/content/full/rsos.170051?ijkey=HFAoNHwozz9aFKn&keytype=ref). Published 10 May 2017
+Melanie Tietje, Mark-Oliver Rödel, Contradicting habitat type-extinction risk relationships between living and fossil amphibians. R. Soc. open sci. 2017 4 170051; [doi: 10.1098/rsos.170051](http://rsos.royalsocietypublishing.org/cgi/content/full/rsos.170051?ijkey=HFAoNHwozz9aFKn&keytype=ref). Published 10 May 2017
 
 Tietje, M. and Kiessling, W. (2013), Predicting extinction from fossil trajectories of geographical ranges in benthic marine molluscs. Journal of Biogeography, 40: 790–799. [doi:10.1111/jbi.12030](http://onlinelibrary.wiley.com/doi/10.1111/jbi.12030/abstract)
+
+
 
 # Conference talks
 ### 2019
