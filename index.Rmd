@@ -27,7 +27,8 @@ output:
 I`m Melanie, a quantitative ecologist currently working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future. I work on extinction risk influencing factors, geographic range size patterns, and recently on the combination of climatic and biological data. 
 
 
-
 ------
 
+N E W S
 
+A little shortnote on a hackathon that happened last year:   [Ecosistemas](https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707)

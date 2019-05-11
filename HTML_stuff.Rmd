@@ -7,8 +7,10 @@ title: "R playground"
 
  <iframe src="my_first_presi_with_R.html" style="height:400px;width:600px;"></iframe> 
  
- disclaimer: link to results in Rho and p-values does not work yet
+ Note: haven`t figured out how to link to the interactive plotly figure yet...
  
+ 
+------
  
 # Testing interactive maps with leaflet
 
