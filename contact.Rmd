@@ -3,29 +3,33 @@ title: "Contact"
 ---
 
 
-You can contact me via:
-
-
 * melanie.tietje[AT]mfn-berlin.de
 * [GitHub](https://github.com/Eryops1)
 * [Museum für Naturkunde](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje)
 * [ResearchGate](https://www.researchgate.net/profile/Melanie_Tietje)
 * [Publons](https://publons.com/author/1629562/melanie-tietje#profile)
 
+-----
 
 # Collaborators
 
-https://martinschobben.github.io/webpage/index.html
+### The herpetology lab at Natural History Museum Berlin
 
-Martin Schobben, DFG research fellow at University of Leeds, UK. Geobiologist working on marine productivity and nutrient cycling during the end-Permian mass extinction. 
+My [lab at the museum](https://www.researchgate.net/lab/Mark-Oliver-Roedel-Lab). Frog experts, snake enthusiasts and allround ecologists.
 
-http://www.fossilrich.com/
 
-Richard Hofmann, Postdoc at Museum für Naturkunde Berlin, Germany. Palaeontologist interested in fundamental transformations (i.e. mass extinctions, recovery episodes, radiations, and ecological innovation).
+### Martin Schobben
 
-https://plannapus.github.io/
+[Geobiologist at Utrecht University](https://martinschobben.github.io/webpage/index.html), The Netherlands. He works on the interaction of organisms with their environment, the large biogeochemical cycles and climate, during pivotal periods in the Earths’ history. Recently he focuses on developing methodological strategies to reliably read these geochemical proxies in terms of the recorded physical and chemical parameters.
 
-Johan Renaudie, Postdoc at Museum für Naturkunde Berlin, Germany. Micropaleontologist studying Cenozoic siliceous plankton and their relationship with past climatic and oceanographic changes.
+### Richard Hofmann
+
+[Palaeontologist at Museum für Naturkunde Berlin](http://www.fossilrich.com/), Germany. He is nterested in fundamental transformations (i.e. mass extinctions, recovery episodes, radiations, and ecological innovation).
+
+### Johan Renaudie
+
+[Micropaleontologist at Museum für Naturkunde Berlin](https://plannapus.github.io/
+), Germany. He studies Cenozoic siliceous plankton and their relationship with past climatic and oceanographic changes, and our R-hero.
 
 
 
