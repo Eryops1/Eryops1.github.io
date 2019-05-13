@@ -31,4 +31,4 @@ I`m Melanie, a quantitative ecologist currently working at the [Natural History 
 
 N E W S
 
-A little shortnote on a hackathon that happened last year:   [Ecosistemas](https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707)
+A little shortnote on a hackathon I got the change to participate in end of last year to program a new set of bioclimatic layers for working in Global Change Ecology:   [Ecosistemas](https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707)
