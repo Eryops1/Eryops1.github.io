@@ -2,12 +2,21 @@
 title: "Contact"
 ---
 
+<a href="https://github.com/Eryops1">
+    <img id="logo" src="github.png" alt="BrandLog" width=30 />
+</a>
+<a href="https://www.researchgate.net/profile/Melanie_Tietje">
+    <img id="logo" src="rg.jpeg" alt="BrandLog" width=30 />
+</a>
+<a href="https://publons.com/author/1629562/melanie-tietje#profile">
+    <img id="logo" src="publons.png" alt="BrandLog" width=30 />
+</a>
+<a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">
+    <img id="logo" src="mfn.jpeg" alt="BrandLog" width=50 />
+</a>
 
-* melanie.tietje[AT]mfn-berlin.de
-* [GitHub](https://github.com/Eryops1)
-* [Museum für Naturkunde](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje)
-* [ResearchGate](https://www.researchgate.net/profile/Melanie_Tietje)
-* [Publons](https://publons.com/author/1629562/melanie-tietje#profile)
+
+email: melanie.tietje[AT]mfn-berlin.de
 
 -----
 
