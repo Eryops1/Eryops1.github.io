@@ -21,11 +21,18 @@
 ![](portrait.jpg) 
 </div>
 
-I`m Melanie, a quantitative ecologist currently working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future. I work on extinction risk influencing factors, geographic range size patterns, and recently on the combination of climatic and biological data. 
+I`m Melanie, a quantitative ecologist currently working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. My work includes extinction risk influencing factors, geographic range size patterns, and recently the combination of climatic and biological data. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future. 
+
+In November 2019 I will start a Postdoc at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) in the TropiToL project (Explaining the biological hyperdiversity of Tropical rainforests using the Tree of Life). 
+
+
 
 
 ------
 
 N E W S
 
-A little shortnote on a hackathon I got the change to participate in end of last year to program a new set of bioclimatic layers for working in Global Change Ecology:   [Ecosistemas](https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707)
+The last part of my phd thesis has just been accepted for publication:
+
+Tietje, M., Rödel, M.-O., Schobben, M. (accepted). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology
+

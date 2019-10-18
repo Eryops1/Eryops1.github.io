@@ -18,8 +18,11 @@ extinction risk under current changing climate [2].
 This project aims at connecting changing climatic conditions and temporal trends in amphibian 
 traits, including extinction risk and diversity, to  expand  our  knowledge  about  current  and  future  extinction  threats to amphibians. The project uses oxygen isotope data to reconstruct the relative temperature changes as well as latitudinal temperature gradients.
 
-##Results
-This is work in  progress.
+## Results
+When connecting a continuous measure for the correlation of geographic range and duration of species, we find that this correlation is fluctuating over time, and strongly connected to the latitudinal relative temperature gradient. Our results suggest that climatic conditions influence the importance of geogrpahic range on extinction risk for amphibians.
+The results of this project have just been accepted for publication in Paleo3.
+
+Tietje, M., Rödel, M.-O., Schobben, M. (accepted). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology
 
 ## Literature
 
