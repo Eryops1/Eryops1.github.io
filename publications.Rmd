@@ -42,4 +42,5 @@ Tietje, M. and Kiessling, W. (2013), Predicting extinction from fossil trajector
 
 * Wiley: Diversity and Distributions
 * Palaeontologia Electronica
+* PeerJ
 
