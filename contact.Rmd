@@ -3,29 +3,38 @@ title: "Contact"
 ---
 
 <a href="https://github.com/Eryops1">
-    <img id="logo" src="github.png" alt="BrandLog" width=30 />
+    <img id="logo" src="github.png" alt="BrandLog" height="50" width="50" />
 </a>
 <a href="https://www.researchgate.net/profile/Melanie_Tietje">
-    <img id="logo" src="rg.jpeg" alt="BrandLog" width=30 />
+    <img id="logo" src="rg.jpeg" alt="BrandLog"  height="50" width="50" />
 </a>
 <a href="https://publons.com/author/1629562/melanie-tietje#profile">
-    <img id="logo" src="publons.png" alt="BrandLog" width=30 />
+    <img id="logo" src="publons.png" alt="BrandLog"  height="50" width="50" />
+</a>
+<a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">
+    <img id="logo" src="aulogo_uk_var1_blue.png" alt="BrandLog"  height="50" width="120" />
+</a>
 </a>
 <a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">
-    <img id="logo" src="mfn.jpeg" alt="BrandLog" width=50 />
+    <img id="logo" src="mfn.jpeg" alt="BrandLog"  height="50" width="100" />
 </a>
 
 
-email: melanie.tietje[AT]mfn-berlin.de
+
+
+email: melanie.tietje[AT]bios.au.dk OR melanie.tietje[AT]mfn-berlin.de
 
 -----
 
 # Collaborators & Colleagues
 
+### The Plant Evolution & Biodiversity Group
+
+My current lab at [Aarhus University](https://pebgroup.github.io/). 
+
 ### The herpetology lab at Natural History Museum Berlin
 
-My [lab at the museum](https://www.researchgate.net/lab/Mark-Oliver-Roedel-Lab). Frog experts, snake enthusiasts and allround ecologists.
-
+My former lab at the [museum](https://www.researchgate.net/lab/Mark-Oliver-Roedel-Lab). Frog experts, snake enthusiasts and allround ecologists.
 
 ### Martin Schobben
 
