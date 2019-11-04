@@ -1,7 +1,7 @@
   
 
 # Publications
-Tietje, M., Rödel, M.-O., Schobben, M. (accepted). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology
+Tietje, M., Rödel, M.-O., Schobben, M. (in press). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology [doi:10.1016/j.palaeo.2019.109414](https://doi.org/10.1016/j.palaeo.2019.109414)
 
 Varela, S., Sbrocco, E., Tarroso, P., Pérez-Luque, A.J., Renaudie, J., Warnstädt, N., Fandos, G., Foster, W., Tietje, M. 2019. BioExtreme hackathon en el Museum für Naturkunde de Berlín, Alemania. Ecosistemas 28(1): 129. [doi: 10.7818/ECOS.1707](https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707)
 
