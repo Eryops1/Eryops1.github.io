@@ -21,9 +21,9 @@
 ![](portrait.jpg) 
 </div>
 
-I`m Melanie, a quantitative ecologist currently working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. My work includes extinction risk influencing factors, geographic range size patterns, and recently the combination of climatic and biological data. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future. 
+I`m Melanie, a quantitative ecologist currently working at the [Natural History Museum in Berlin](https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje), Germany. My work includes extinction risk influencing factors, geographic range size patterns, diversity, and recently the combination of climatic and biological data. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future.
 
-In November 2019 I will start a Postdoc at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) in the TropiToL project (Explaining the biological hyperdiversity of Tropical rainforests using the Tree of Life). 
+Since November 2019 I work at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) in the TropiToL project (Explaining the biological hyperdiversity of Tropical rainforests using the Tree of Life). 
 
   
 
@@ -34,5 +34,5 @@ N E W S
 
 The last part of my phd thesis has just been accepted for publication:
 
-Tietje, M., Rödel, M.-O., Schobben, M. (accepted). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology [link](https://doi.org/10.1016/j.palaeo.2019.109414)
+Tietje, M., Rödel, M.-O., Schobben, M. (in press). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology [link](https://doi.org/10.1016/j.palaeo.2019.109414)
 

@@ -6,6 +6,8 @@ output:
     toc_float: yes
 ---
 
+
+
 # Temporal patterns in extinction risk factors and climate in the amphibian fossil record
 In the coming decades we might face the loss of more than 50\% of the climatic ranges for more than 
 half  of  plants  and  34\%  of  animals  [1].  Abrupt  greenhouse driven  climate  change  and  synergistic 
@@ -20,9 +22,8 @@ traits, including extinction risk and diversity, to  expand  our  knowledge  abo
 
 ## Results
 When connecting a continuous measure for the correlation of geographic range and duration of species, we find that this correlation is fluctuating over time, and strongly connected to the latitudinal relative temperature gradient. Our results suggest that climatic conditions influence the importance of geogrpahic range on extinction risk for amphibians.
-The results of this project have just been accepted for publication in Paleo3.
+The results are now published in Paleo3 [3].
 
-Tietje, M., Rödel, M.-O., Schobben, M. (accepted). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology
 
 ## Literature
 
@@ -30,6 +31,7 @@ Tietje, M., Rödel, M.-O., Schobben, M. (accepted). The effect of geographic ran
 Nature Climate Change 3.7 (2013): 678‐682. 
 2. Stuart, S. N., et al. "Status and trends of amphibian declines and extinctions worldwide." Science 306.5702 
 (2004): 1783‐1786. 
+3. Tietje, M., Rödel, M.-O., Schobben, M. (in press). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology. [link](https://doi.org/10.1016/j.palaeo.2019.109414)
 
 
 <br>
