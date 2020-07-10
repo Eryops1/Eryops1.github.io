@@ -20,7 +20,13 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 
 
 
-# Conference talks
+# Conference contributions
+### 2020
+* EGU General Assembly. [*Global patterns of plant diversity and their evolutionary drivers*](https://doi.org/10.5194/egusphere-egu2020-9733, 2020)
+* EGU General Assembly. [*Primary productivity, deoxygenation, and the Gulliver-absence effect determine bivalve body size following the end-Permian mass extinction*](https://doi.org/10.5194/egusphere-egu2020-10213)
+* EGU General Assembly. Co-convener [*Earth System Paleobiology: closing the geological and biological gap*](https://meetingorganizer.copernicus.org/EGU2020/session/36479)
+
+
 ### 2019
 * EGU General Assembly. *Climate influences the impact of geographic range size on extinction risk of amphibians*
 
@@ -45,4 +51,5 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 * Wiley: Diversity and Distributions
 * Palaeontologia Electronica
 * PeerJ
+* Ecography
 
