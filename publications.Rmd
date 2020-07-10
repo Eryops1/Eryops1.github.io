@@ -1,4 +1,11 @@
-  
+---
+title: "Output"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+---  
 
 # Publications
 Foster, W. J., Gliwa, J., Lembke, C., Pugh, A. C., Hofmann, R., Tietje, M., Varela, S., Foster, L.C., Korn, D.,Aberhan, M. (2020). Evolutionary and ecophenotypic controls on bivalve body size distributions following the end-Permian mass extinction. Global and Planetary Change, 185, 103088. [doi:10.1016/j.gloplacha.2019.103088](https://doi.org/10.1016/j.gloplacha.2019.103088)
