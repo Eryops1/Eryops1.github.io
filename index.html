@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>index.utf8.md</title>
+<title>index.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -67,7 +67,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -216,6 +215,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -227,18 +227,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -322,11 +310,8 @@ $(document).ready(function () {
 <div style="width:200px; height=1700px">
 <p><img src="portrait.jpg" /></p>
 </div>
-<p>I`m Melanie, a quantitative ecologist at <a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">Aarhus University</a> , currently working in the TropiToL project (Explaining the biological hyperdiversity of Tropical rainforests using the Tree of Life). My work includes extinction risk influencing factors, geographic range size patterns, diversity, and recently the combination of climatic and biological data. I am interested in the possibilities of combining neontological and paleontological data to learn from past events about our possible future.</p>
+<p>I`m Melanie, a quantitative ecologist at <a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">Aarhus University</a>, currently working in the <a href="https://peb-group.net/trf">TropiToL project</a> where we are exploring large-scale biodiversity patterns in plants, combining geographic and phylogenetic data. I have worked on extinction risk influencing factors, geographic range size patterns, diversity, the combination of climatic with biological data and recently phylogenies.</p>
 <hr />
-<p>N E W S</p>
-<p>The last part of my phd thesis is finally published:</p>
-<p>Tietje, M., Rödel, M.-O., Schobben, M. (2019). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology <a href="https://doi.org/10.1016/j.palaeo.2019.109414">link</a></p>
 
 
 <head>
@@ -361,7 +346,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <p>
 
  <font size="2">
-  2019 Melanie Tietje
+  2020 Melanie Tietje
   <br>
   Last update:
 <script type="text/javascript" charset="utf-8">
@@ -380,8 +365,11 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <a href="https://publons.com/author/1629562/melanie-tietje#profile">
     <img id="logo" src="publons.png" alt="BrandLog" width=30 />
 </a>
-<a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">
-    <img id="logo" src="mfn.jpeg" alt="BrandLog" width=50 />
+<a href="https://orcid.org/0000-0003-1157-2963">
+    <img id="logo" src="orcid.jpeg" alt="BrandLog" width=30 />
+</a>
+<a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">
+    <img id="logo" src="aulogo_uk_var1_blue.png" alt="BrandLog"  height="30" width="72" />
 </a>
 
 </font> 
@@ -405,6 +393,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

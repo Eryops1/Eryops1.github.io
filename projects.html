@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>projects.utf8.md</title>
+<title>projects.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -70,7 +70,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -219,6 +218,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -231,48 +231,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -286,6 +247,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -321,8 +288,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -405,16 +370,26 @@ div.tocify {
 </div>
 
 
-<div id="temporal-patterns-in-extinction-risk-factors-and-climate-in-the-amphibian-fossil-record" class="section level1">
-<h1>Temporal patterns in extinction risk factors and climate in the amphibian fossil record</h1>
+<div id="ongoing" class="section level1">
+<h1>Ongoing</h1>
+<div id="explaining-tropical-hyperdiversity" class="section level2">
+<h2>Explaining tropical hyperdiversity</h2>
+<p>In this project we ask the quite fundamental question why there are so many species in tropical rainforest. Tropical rainforests are widely regarded to harbour about half of the world’s terrestrial species, despite covering less than 10% of the world’s land surface. These numbers are not precise for various reasons, but it is clear that tropical rainforests are outstandingly (“hyper”-)diverse. <a href="https://peb-group.net/trf">more info</a></p>
+<hr />
+</div>
+</div>
+<div id="completed" class="section level1">
+<h1>Completed</h1>
+<div id="temporal-patterns-in-extinction-risk-factors-and-climate-in-the-amphibian-fossil-record" class="section level2">
+<h2>Temporal patterns in extinction risk factors and climate in the amphibian fossil record</h2>
 <p>In the coming decades we might face the loss of more than 50% of the climatic ranges for more than half of plants and 34% of animals [1]. Abrupt greenhouse driven climate change and synergistic effects, e.g. d isrupted migration pathways and breeding cycles, changing predator, competitor and prey relations, habitatloss as well as diseases, are significant contributors to this biodiversity destruction. Although often ignored from a public perspective, or considered to be of lesser importance than likeable flagship species, amphibians alongside reptiles might face greatest extinction risk under current changing climate [2].</p>
 <p>This project aims at connecting changing climatic conditions and temporal trends in amphibian traits, including extinction risk and diversity, to expand our knowledge about current and future extinction threats to amphibians. The project uses oxygen isotope data to reconstruct the relative temperature changes as well as latitudinal temperature gradients.</p>
-<div id="results" class="section level2">
-<h2>Results</h2>
-<p>When connecting a continuous measure for the correlation of geographic range and duration of species, we find that this correlation is fluctuating over time, and strongly connected to the latitudinal relative temperature gradient. Our results suggest that climatic conditions influence the importance of geogrpahic range on extinction risk for amphibians. The results are now published in Paleo3 [3].</p>
+<div id="results" class="section level3">
+<h3>Results</h3>
+<p>When connecting a continuous measure for the correlation of geographic range and duration of species, we find that this correlation is fluctuating over time, and strongly connected to the latitudinal relative temperature gradient. Our results suggest that climatic conditions influence the importance of geogrpahic range on extinction risk for amphibians. The results are published in Paleo3 [3].</p>
 </div>
-<div id="literature" class="section level2">
-<h2>Literature</h2>
+<div id="literature" class="section level3">
+<h3>Literature</h3>
 <ol style="list-style-type: decimal">
 <li>Warren, R., et al. “Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss.” Nature Climate Change 3.7 (2013): 678‐682.</li>
 <li>Stuart, S. N., et al. “Status and trends of amphibian declines and extinctions worldwide.” Science 306.5702 (2004): 1783‐1786.</li>
@@ -424,16 +399,16 @@ div.tocify {
 <hr />
 </div>
 </div>
-<div id="extinction-risk-in-fossil-and-living-amphibians" class="section level1">
-<h1>Extinction risk in fossil and living amphibians</h1>
-<div id="background" class="section level2">
-<h2>Background</h2>
+<div id="extinction-risk-in-fossil-and-living-amphibians" class="section level2">
+<h2>Extinction risk in fossil and living amphibians</h2>
+<div id="background" class="section level3">
+<h3>Background</h3>
 <p>Amphibians are the most endangered terrestrial vertebrate group [1]. Several studies examined biological, environmental and also anthropogenic factors that can potentially add to extinction risk [2]. Typical influential factors are the geographic range size and bodysize of a species, which have been confirmed in studies on fossils from extinct species as well [3].</p>
 <p>Although amphibians are one of the most threatened groups today, their fossil record and the recorded extinction events of amphibians are usually not taken into account. As the fossil record invites to study plenty of real extinction events, it can provide valuable information about factors influencing a species survival.</p>
 </div>
-<div id="results-1" class="section level2">
-<h2>Results</h2>
-<p>We were able to show in a unique combination of fossil and neontological data how the fossil can actually predict the extinction risk of living species [4].</p>
+<div id="results-1" class="section level3">
+<h3>Results</h3>
+<p>We were able to show in a unique combination of fossil and neontological data how the fossil can actually predict the extinction risk of living species. The results are published in Ecology Letters [4].</p>
 <div style="width:300px; height=100px">
 <p><img src="model_framework.jpg" /></p>
 </div>
@@ -448,14 +423,15 @@ div.tocify {
 <font size="2"> Predicted durations in million years for living amphibian species, based on the model fitted with paleontological data. <a href="https://doi.org/10.1111/ele.13080">Tietje, M. and Rödel, M. O. (2018), figure 3</a>. </font>
 </p>
 </div>
-<div id="literature-1" class="section level2">
-<h2>Literature</h2>
+<div id="literature-1" class="section level3">
+<h3>Literature</h3>
 <ol style="list-style-type: decimal">
 <li>Baillie, J. E. M., Griffiths, J., Turvey, S. T., Loh, J. &amp; Collen, B. 2010 Evolution Lost: Status and Trends of the World’s Vertebrates. Zoological Society of London.</li>
 <li>Sodhi, N. S., Bickford, D., Diesmos, A. C., Lee, T. M., Koh, L. P., Brook, B. W., Sekercioglu, C. H. &amp; Bradshaw, C. J. A. 2008 Measuring the meltdown: drivers of global amphibian extinction and decline. PLoS One 3, e1636. (<a href="doi:10.1371/journal.pone.0001636" class="uri">doi:10.1371/journal.pone.0001636</a>)</li>
 <li>Harnik, P. G. 2011 Direct and indirect effects of biological factors on extinction risk in fossil bivalves. Proc. Natl. Acad. Sci. U. S. A. 108, 13594–13599. (<a href="doi:10.1073/pnas.1100572108" class="uri">doi:10.1073/pnas.1100572108</a>)</li>
 <li>Tietje, M. and Rödel, M. O. (2018), Evaluating the predicted extinction risk of living amphibian species with the fossil record. Ecology Letters. <a href="https://doi.org/10.1111/ele.13080">doi:10.1111/ele.13080</a></li>
 </ol>
+</div>
 </div>
 </div>
 
@@ -492,7 +468,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <p>
 
  <font size="2">
-  2019 Melanie Tietje
+  2020 Melanie Tietje
   <br>
   Last update:
 <script type="text/javascript" charset="utf-8">
@@ -511,8 +487,11 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <a href="https://publons.com/author/1629562/melanie-tietje#profile">
     <img id="logo" src="publons.png" alt="BrandLog" width=30 />
 </a>
-<a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">
-    <img id="logo" src="mfn.jpeg" alt="BrandLog" width=50 />
+<a href="https://orcid.org/0000-0003-1157-2963">
+    <img id="logo" src="orcid.jpeg" alt="BrandLog" width=30 />
+</a>
+<a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">
+    <img id="logo" src="aulogo_uk_var1_blue.png" alt="BrandLog"  height="30" width="72" />
 </a>
 
 </font> 
@@ -537,6 +516,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
