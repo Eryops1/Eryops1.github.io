@@ -15,7 +15,7 @@
 <!-- </div> -->
 
 
- <font size="6">Hi</font> 
+ <font size="6">Melanie Tietje, Dr. rer. nat </font> 
 
 <style>
 * {
@@ -56,7 +56,7 @@
 <div class="row">
   <div class="column left" style="background-color:#FFFFFF;">
 <div style="width:250px; height=1700px">
-![](P1340277_s.jpg) 
+![](P1340277_s2.jpg) 
 </div>
   </div>
   <div class="column right" style="background-color:#FFFFFF;">
