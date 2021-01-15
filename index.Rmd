@@ -15,14 +15,58 @@
 <!-- </div> -->
 
 
- <font size="6">Hello!</font> 
+ <font size="6">Hi</font> 
 
-<div style="width:200px; height=1700px">
-![](portrait.jpg) 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left" style="background-color:#FFFFFF;">
+<div style="width:250px; height=1700px">
+![](P1340277_s.jpg) 
+</div>
+  </div>
+  <div class="column right" style="background-color:#FFFFFF;">
+I`m Melanie, a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in all sorts of macroecological patterns. I am currently part of the [TropiToL project](https://peb-group.net/trf) in which we are exploring large-scale biodiversity patterns in plants by combining geographic, phylogenetic and environmental data. 
+
+I have worked on deep time paleontological as well as neontological topics, extinction risk influencing factors in invertebrates and amphibians, geographic range size patterns, diversity, the combination of climatic with biological data, and recently phylogenies.
+  </div>
 </div>
 
-I`m Melanie, a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html), currently working in the [TropiToL project](https://peb-group.net/trf) where we are exploring large-scale biodiversity patterns in plants, combining geographic and phylogenetic data. 
-I have worked on extinction risk influencing factors, geographic range size patterns, diversity, the combination of climatic with biological data and recently phylogenies. 
+
 
 
 
