@@ -8,6 +8,8 @@ output:
 ---  
 
 # Publications
+Hansen, L. E. S., Baker, W. J., Tietje, M., & Eiserhardt, W. L. (2021). Testing tropical biogeographical regions using the palm family as a model clade. Journal of Biogeography. [https://doi.org/10.1111/jbi.14216](https://doi.org/10.1111/jbi.14216)
+
 Foster, W. J., Gliwa, J., Lembke, C., Pugh, A. C., Hofmann, R., Tietje, M., Varela, S., Foster, L.C., Korn, D.,Aberhan, M. (2020). Evolutionary and ecophenotypic controls on bivalve body size distributions following the end-Permian mass extinction. Global and Planetary Change, 185, 103088. [doi:10.1016/j.gloplacha.2019.103088](https://doi.org/10.1016/j.gloplacha.2019.103088)
 
 Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology [doi:10.1016/j.palaeo.2019.109414](https://doi.org/10.1016/j.palaeo.2019.109414)
