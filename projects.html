@@ -391,8 +391,8 @@ div.tocify {
 <div id="literature" class="section level3">
 <h3>Literature</h3>
 <ol style="list-style-type: decimal">
-<li>Warren, R., et al. “Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss.” Nature Climate Change 3.7 (2013): 678‐682.</li>
-<li>Stuart, S. N., et al. “Status and trends of amphibian declines and extinctions worldwide.” Science 306.5702 (2004): 1783‐1786.</li>
+<li>Warren, R., et al. “Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss.” Nature Climate Change 3.7 (2013): 678‐682.</li>
+<li>Stuart, S. N., et al. “Status and trends of amphibian declines and extinctions worldwide.” Science 306.5702 (2004): 1783‐1786.</li>
 <li>Tietje, M., Rödel, M.-O., Schobben, M. (in press). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology. <a href="https://doi.org/10.1016/j.palaeo.2019.109414">link</a></li>
 </ol>
 <p><br></p>
@@ -548,7 +548,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
