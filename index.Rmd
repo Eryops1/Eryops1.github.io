@@ -60,9 +60,9 @@
 </div>
   </div>
   <div class="column right" style="background-color:#FFFFFF;">
-I`m Melanie, a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in all sorts of macroecological patterns. I am currently part of the [TropiToL project](https://peb-group.net/trf) in which we are exploring large-scale biodiversity patterns in plants by combining geographic, phylogenetic and environmental data. 
+I'm a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in macroecological patterns. I am currently part of the [Plant Evolution and Biodiversity group]((https://peb-group.net/trf)) where I explore large-scale biodiversity patterns of plants by integrating geographic, phylogenetic and environmental data, with a special focus on Tropical Rainforest Hyperdiversity.
 
-I have worked on deep time paleontological as well as neontological topics, extinction risk influencing factors in invertebrates and amphibians, geographic range size patterns, diversity, the combination of climatic with biological data, and recently phylogenies.
+In the past I have worked at the Natural History Museum Berlin, where I covered (and sometimes bridged) deep time paleontological and neontological topics, including extinction risk factors in invertebrates and amphibians, geographic range size patterns, diversity, and the large-scale effect of climate on extinction risk factors.
   </div>
 </div>
 
