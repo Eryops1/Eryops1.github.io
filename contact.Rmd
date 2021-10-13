@@ -25,15 +25,15 @@ email: melanie.tietje[AT]bios.au.dk
 
 -----
 
-# Collaborators & Colleagues
+# Collaborators, colleagues, friends
 
-### The Plant Evolution & Biodiversity Group
+### The Plant Evolution and Biodiversity Group
 
-My current lab at [Aarhus University](https://peb-group.net/). 
+My current lab at [Aarhus University](https://peb-group.net/). We work on questions about the diversity and evolution of plants, criss-crossing several fields including genomics, phylogenetics, macroevolution, comparative biology, biogeography, macroecology, community ecology, and taxonomy.
 
 ### The herpetology lab at Natural History Museum Berlin
 
-My former lab at the [museum](https://www.researchgate.net/lab/Mark-Oliver-Roedel-Lab). Frog experts, snake enthusiasts and allround ecologists. <a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">
+My former [lab](https://www.researchgate.net/lab/Mark-Oliver-Roedel-Lab). Frog experts, snake enthusiasts and allround ecologists. <a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje">
     <img id="logo" src="mfn.jpeg" alt="BrandLog"  height="50" width="100" />
 </a>
 
