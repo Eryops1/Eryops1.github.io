@@ -13,46 +13,41 @@
 
 <title>Curriculum Vitae</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -63,10 +58,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -83,40 +74,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 54px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -144,7 +111,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -156,7 +123,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -167,10 +134,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -182,7 +162,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -308,7 +287,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -362,7 +341,7 @@ div.tocify {
 <link rel="icon" type="image/x-icon" href="eryops_avatar_round.ico" >
 <link rel="shortcut icon" type="image/x-icon" href="eryops_avatar_round.ico"/>
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -374,34 +353,45 @@ div.tocify {
 <div id="research-experience-and-projects" class="section level1">
 <h1>Research experience and projects</h1>
 <p><strong>2019 - ongoing Aarhus University</strong></p>
-<p>Project: Explaining the biological hyperdiversity of Tropical rainforests using the Tree of Life (TropiToL)</p>
+<p>Project: Explaining the biological hyperdiversity of Tropical
+rainforests using the Tree of Life (TropiToL)</p>
 <p><strong>2019 - current Museum für Naturkunde</strong></p>
-<p>Project: Tipping points in habitat type influence on extinction risk in deep time</p>
+<p>Project: Tipping points in habitat type influence on extinction risk
+in deep time</p>
 <p><strong>2018 - 2019</strong></p>
 <p>Project: Amphibian monitoring Nimba Mountains, Guinea</p>
-<p><strong>2014 – 2018 Humboldt Universität zu Berlin | Museum für Naturkunde</strong></p>
+<p><strong>2014 – 2018 Humboldt Universität zu Berlin | Museum für
+Naturkunde</strong></p>
 <p>Doctoral thesis with Dr. Mark-Oliver Rödel</p>
-<p>Project: Combining paleontological and neontological data to assess the extinction risk of amphibians</p>
+<p>Project: Combining paleontological and neontological data to assess
+the extinction risk of amphibians</p>
 <p><strong>2017 Museum für Naturkunde</strong></p>
 <p>Project: Linking climate trends with the amphibian fossil record</p>
 <p><strong>2017 Humboldt Universität zu Berlin</strong></p>
-<p>Project: In vitro early tests on drought tolerance of somatic seedlings</p>
+<p>Project: In vitro early tests on drought tolerance of somatic
+seedlings</p>
 <p><strong>2012 - 2013 Museum für Naturkunde</strong></p>
 <p>Research assistant with Dr. Wolfgang Kießling</p>
 <p>Project: Geographic range dynamics of marine taxa</p>
-<p><strong>2011 Humboldt Universität zu Berlin | Museum für Naturkunde</strong></p>
+<p><strong>2011 Humboldt Universität zu Berlin | Museum für
+Naturkunde</strong></p>
 <p>Graduate student with Wolfgang Kießling</p>
-<p>Project: Geographic range dynamics of marine gastropods - an attempt to predict future geographic ranges</p>
+<p>Project: Geographic range dynamics of marine gastropods - an attempt
+to predict future geographic ranges</p>
 <p><strong>2008 Humboldt Universität zu Berlin</strong></p>
 <p>Undergraduate student with Bernhard Ronacher</p>
-<p>Project: Influence of missing parts on human pattern recognition as revealed by multidimensional scaling</p>
+<p>Project: Influence of missing parts on human pattern recognition as
+revealed by multidimensional scaling</p>
 <p>Student assistant with Bernhard Ronacher</p>
-<p>Project: Navigation and 3-D spatial orientation of desert ants (Tunisia)</p>
+<p>Project: Navigation and 3-D spatial orientation of desert ants
+(Tunisia)</p>
 </div>
 <div id="education" class="section level1">
 <h1>Education</h1>
-<p><strong>2014 – 2018 Humboldt Universität zu Berlin | Museum für Naturkunde</strong></p>
-<p>Thesis title: Combining paleontological and neontological data to assess the extinction risk of amphibians</p>
+<p><strong>2014 – 2018 Humboldt Universität zu Berlin | Museum für
+Naturkunde</strong></p>
+<p>Thesis title: Combining paleontological and neontological data to
+assess the extinction risk of amphibians</p>
 <p>Degree: Dr. rer. nat., summa cum laude</p>
 <p><strong>2008 – 2011 Humboldt Universität zu Berlin</strong></p>
 <p>Study of Organismic Biology and Evolution</p>
@@ -418,19 +408,26 @@ div.tocify {
 </div>
 <div id="grants" class="section level1">
 <h1>Grants</h1>
-<p>MfN Innovationsfond (Museum für Naturkunde Berlin, institute internal grant): Linking climate trends with the amphibian fossil record</p>
-<p>Fellow Program Open Science by Wikimedia and Stifterverband: Opening up science</p>
+<p>MfN Innovationsfond (Museum für Naturkunde Berlin, institute internal
+grant): Linking climate trends with the amphibian fossil record</p>
+<p>Fellow Program Open Science by Wikimedia and Stifterverband: Opening
+up science</p>
 <p>Travel Grant Progressive Palaeontology Conference 2016</p>
-<p>Elsa Neumann Fellowship of the state of Berlin: A paleontological-zoological analysis of the influence of traits on the extinction risk of amphibians</p>
+<p>Elsa Neumann Fellowship of the state of Berlin: A
+paleontological-zoological analysis of the influence of traits on the
+extinction risk of amphibians</p>
 </div>
 <div id="social-commitment" class="section level1">
 <h1>Social commitment</h1>
-<p>2014 - 2017: Elected part of the representation of doctoral students at the Museum für Naturkunde, Leibniz Institute for Research on Evolution and Biodiversity</p>
+<p>2014 - 2017: Elected part of the representation of doctoral students
+at the Museum für Naturkunde, Leibniz Institute for Research on
+Evolution and Biodiversity</p>
 </div>
 <div id="it-skills" class="section level1">
 <h1>IT skills</h1>
 <p><strong>Advanced knowledge</strong></p>
-<p>R programming language (Data analysis, visualization (ggplot), statistics, modeling, Markdown)</p>
+<p>R programming language (Data analysis, visualization (ggplot),
+statistics, modeling, Markdown)</p>
 <p>Microsoft Office, Libre Office</p>
 <p>Typesetting language LaTeX</p>
 <p>Mendeley and BibTeX</p>
@@ -503,7 +500,8 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 </font> 
 </p>
 
-</font>
+</font> 
+
 
 
 </div>
@@ -515,7 +513,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -533,7 +531,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -542,6 +540,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
@@ -554,7 +555,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

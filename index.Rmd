@@ -15,7 +15,7 @@
 <!-- </div> -->
 
 
- <font size="6">Hi </font> 
+ <font size="6">Latest: </font> 
 
 <style>
 * {
@@ -53,16 +53,23 @@
 </head>
 <body>
 
+
 <div class="row">
   <div class="column left" style="background-color:#FFFFFF;">
-<div style="width:250px; height=1700px">
-![](P1340707_2_smaller.jpg) 
+  <a href="https://doi.org/10.1073/pnas.2120662119">
+         <img alt="PNAS link" src="GlobalDrivers.png"
+         width=400" height="300">
+  </a>
 </div>
-  </div>
   <div class="column right" style="background-color:#FFFFFF;">
+
+<-- Check out our latest publication on what drives the global vascular plant diversity and diversification patterns!
+
+<br>
+
 I'm a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in macroecological patterns. I am currently part of the [Plant Evolution and Biodiversity group]((https://peb-group.net/trf)) where I explore large-scale biodiversity patterns of plants by integrating geographic, phylogenetic and environmental data, with a special focus on Tropical Rainforest Hyperdiversity.
 
-In the past I have worked at the Natural History Museum Berlin, where I covered (and sometimes bridged) deep time paleontological and neontological topics, including extinction risk factors in invertebrates and amphibians, geographic range size patterns, diversity, and the large-scale effect of climate on extinction risk factors.
+I have worked on deep time paleontological and neontological topics, including extinction risk factors in invertebrates and amphibians, geographic range size patterns, diversity, and the effect of climate on extinction risk factors.
   </div>
 </div>
 

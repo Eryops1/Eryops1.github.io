@@ -13,46 +13,41 @@
 
 <title>Output</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -63,10 +58,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -83,40 +74,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 54px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -144,7 +111,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -156,7 +123,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -167,10 +134,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -182,7 +162,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -308,7 +287,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -362,7 +341,7 @@ div.tocify {
 <link rel="icon" type="image/x-icon" href="eryops_avatar_round.ico" >
 <link rel="shortcut icon" type="image/x-icon" href="eryops_avatar_round.ico"/>
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -373,58 +352,136 @@ div.tocify {
 
 <div id="publications" class="section level1">
 <h1>Publications</h1>
-<p>Hansen, L. E. S., Baker, W. J., Tietje, M., &amp; Eiserhardt, W. L. (2021). Testing tropical biogeographical regions using the palm family as a model clade. Journal of Biogeography. <a href="https://doi.org/10.1111/jbi.14216">https://doi.org/10.1111/jbi.14216</a></p>
-<p>Foster, W. J., Gliwa, J., Lembke, C., Pugh, A. C., Hofmann, R., Tietje, M., Varela, S., Foster, L.C., Korn, D.,Aberhan, M. (2020). Evolutionary and ecophenotypic controls on bivalve body size distributions following the end-Permian mass extinction. Global and Planetary Change, 185, 103088. <a href="https://doi.org/10.1016/j.gloplacha.2019.103088">doi:10.1016/j.gloplacha.2019.103088</a></p>
-<p>Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology <a href="https://doi.org/10.1016/j.palaeo.2019.109414">doi:10.1016/j.palaeo.2019.109414</a></p>
-<p>Varela, S., Sbrocco, E., Tarroso, P., Pérez-Luque, A.J., Renaudie, J., Warnstädt, N., Fandos, G., Foster, W., Tietje, M. (2019). BioExtreme hackathon en el Museum für Naturkunde de Berlín, Alemania. Ecosistemas 28(1): 129. <a href="https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707">doi: 10.7818/ECOS.1707</a></p>
-<p>Hofmann, R., Tietje, M., and Aberhan, M. (2019). Diversity partitioning in Phanerozoic benthic marine communities. Proceedings of the National Academy of Sciences. <a href="https://www.pnas.org/content/early/2018/12/13/1814487116">OPEN ACCESS</a></p>
-<p>Schobben, M. , Heuer, F. , Tietje, M. , Ghaderi, A. , Korn, D. , Korte, C. and Wignall, P. B. (2018). Chemostratigraphy Across the Permian‐Triassic Boundary. In Chemostratigraphy Across Major Chronological Boundaries (eds A. N. Sial, C. Gaucher, M. Ramkumar and V. P. Ferreira). <a href="https://doi.org/10.1002/9781119382508.ch9">doi:10.1002/9781119382508.ch9</a></p>
-<p>Tietje, M. and Rödel, M.-O. (2018). Evaluating the predicted extinction risk of living amphibian species with the fossil record. Ecology Letters. <a href="https://doi.org/10.1111/ele.13080">doi:10.1111/ele.13080</a></p>
-<p>Melanie Tietje, Mark-Oliver Rödel, Contradicting habitat type-extinction risk relationships between living and fossil amphibians. R. Soc. open sci. 2017 4 170051; <a href="http://rsos.royalsocietypublishing.org/cgi/content/full/rsos.170051?ijkey=HFAoNHwozz9aFKn&amp;keytype=ref">doi: 10.1098/rsos.170051</a>. Published 10 May 2017</p>
-<p>Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajectories of geographical ranges in benthic marine molluscs. Journal of Biogeography, 40: 790–799. <a href="http://onlinelibrary.wiley.com/doi/10.1111/jbi.12030/abstract">doi:10.1111/jbi.12030</a></p>
+<p>Tietje, M., Antonelli, A., Baker, W. J., Govaerts, R., Smith, S. A.,
+&amp; Eiserhardt, W. L. (2022). Global variation in diversification rate
+and species richness are unlinked in plants. Proceedings of the National
+Academy of Sciences, 119(27), e2120662119. <a
+href="https://www.pnas.org/doi/full/10.1073/pnas.2120662119">https://doi.org/10.1073/pnas.2120662119</a></p>
+<p>Rudbeck, A.V., Sun, M., Tietje, M., Gallagher, R.V., Govaerts, R.,
+Smith, S.A., Svenning, J.-C. and Eiserhardt, W.L. (2022), The Darwinian
+shortfall in plants: phylogenetic knowledge is driven by range size.
+Ecography e06142. <a href="https://doi.org/10.1111/ecog.06142"
+class="uri">https://doi.org/10.1111/ecog.06142</a></p>
+<p>Dittrich, C., Tietje, M., &amp; Rödel, M. (2022). Larger is not
+better: no mate preference by European common frog (Rana temporaria)
+males, Behaviour (published online ahead of print 2022). doi: <a
+href="https://doi.org/10.1163/1568539X-bja10169"
+class="uri">https://doi.org/10.1163/1568539X-bja10169</a></p>
+<p>Hansen, L. E. S., Baker, W. J., Tietje, M., &amp; Eiserhardt, W. L.
+(2021). Testing tropical biogeographical regions using the palm family
+as a model clade. Journal of Biogeography. <a
+href="https://doi.org/10.1111/jbi.14216">https://doi.org/10.1111/jbi.14216</a></p>
+<p>Foster, W. J., Gliwa, J., Lembke, C., Pugh, A. C., Hofmann, R.,
+Tietje, M., Varela, S., Foster, L.C., Korn, D.,Aberhan, M. (2020).
+Evolutionary and ecophenotypic controls on bivalve body size
+distributions following the end-Permian mass extinction. Global and
+Planetary Change, 185, 103088. <a
+href="https://doi.org/10.1016/j.gloplacha.2019.103088">doi:10.1016/j.gloplacha.2019.103088</a></p>
+<p>Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of
+geographic range and climate on extinction risk in the deep-time
+amphibian fossil record. Palaeogeography, Palaeoclimatology,
+Palaeoecology <a
+href="https://doi.org/10.1016/j.palaeo.2019.109414">doi:10.1016/j.palaeo.2019.109414</a></p>
+<p>Varela, S., Sbrocco, E., Tarroso, P., Pérez-Luque, A.J., Renaudie,
+J., Warnstädt, N., Fandos, G., Foster, W., Tietje, M. (2019). BioExtreme
+hackathon en el Museum für Naturkunde de Berlín, Alemania. Ecosistemas
+28(1): 129. <a
+href="https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707">doi:
+10.7818/ECOS.1707</a></p>
+<p>Hofmann, R., Tietje, M., and Aberhan, M. (2019). Diversity
+partitioning in Phanerozoic benthic marine communities. Proceedings of
+the National Academy of Sciences. <a
+href="https://www.pnas.org/content/early/2018/12/13/1814487116">OPEN
+ACCESS</a></p>
+<p>Schobben, M. , Heuer, F. , Tietje, M. , Ghaderi, A. , Korn, D. ,
+Korte, C. and Wignall, P. B. (2018). Chemostratigraphy Across the
+Permian‐Triassic Boundary. In Chemostratigraphy Across Major
+Chronological Boundaries (eds A. N. Sial, C. Gaucher, M. Ramkumar and V.
+P. Ferreira). <a
+href="https://doi.org/10.1002/9781119382508.ch9">doi:10.1002/9781119382508.ch9</a></p>
+<p>Tietje, M. and Rödel, M.-O. (2018). Evaluating the predicted
+extinction risk of living amphibian species with the fossil record.
+Ecology Letters. <a
+href="https://doi.org/10.1111/ele.13080">doi:10.1111/ele.13080</a></p>
+<p>Melanie Tietje, Mark-Oliver Rödel, Contradicting habitat
+type-extinction risk relationships between living and fossil amphibians.
+R. Soc. open sci. 2017 4 170051; <a
+href="http://rsos.royalsocietypublishing.org/cgi/content/full/rsos.170051?ijkey=HFAoNHwozz9aFKn&amp;keytype=ref">doi:
+10.1098/rsos.170051</a>. Published 10 May 2017</p>
+<p>Tietje, M. and Kiessling, W. (2013). Predicting extinction from
+fossil trajectories of geographical ranges in benthic marine molluscs.
+Journal of Biogeography, 40: 790–799. <a
+href="http://onlinelibrary.wiley.com/doi/10.1111/jbi.12030/abstract">doi:10.1111/jbi.12030</a></p>
 </div>
 <div id="conference-contributions" class="section level1">
 <h1>Conference contributions</h1>
 <div id="section" class="section level3">
-<h3>2020</h3>
+<h3>2022</h3>
 <ul>
-<li>EGU General Assembly. <a href="https://doi.org/10.5194/egusphere-egu2020-9733,%202020"><em>Global patterns of plant diversity and their evolutionary drivers</em></a></li>
-<li>EGU General Assembly. <a href="https://doi.org/10.5194/egusphere-egu2020-10213"><em>Primary productivity, deoxygenation, and the Gulliver-absence effect determine bivalve body size following the end-Permian mass extinction</em></a></li>
-<li>EGU General Assembly. Co-convener <a href="https://meetingorganizer.copernicus.org/EGU2020/session/36479"><em>Earth System Paleobiology: closing the geological and biological gap</em></a></li>
+<li>IBS Meeting Vancouver. <em>The drivers of global plant
+diversity</em></li>
+<li>ESEB Meeting Prague. <em>Global plant diversity</em></li>
 </ul>
 </div>
 <div id="section-1" class="section level3">
-<h3>2019</h3>
+<h3>2020</h3>
 <ul>
-<li>EGU General Assembly. <em>Climate influences the impact of geographic range size on extinction risk of amphibians</em></li>
+<li>EGU General Assembly. <a
+href="https://doi.org/10.5194/egusphere-egu2020-9733,%202020"><em>Global
+patterns of plant diversity and their evolutionary drivers</em></a></li>
+<li>EGU General Assembly. <a
+href="https://doi.org/10.5194/egusphere-egu2020-10213"><em>Primary
+productivity, deoxygenation, and the Gulliver-absence effect determine
+bivalve body size following the end-Permian mass
+extinction</em></a></li>
+<li>EGU General Assembly. Co-convener <a
+href="https://meetingorganizer.copernicus.org/EGU2020/session/36479"><em>Earth
+System Paleobiology: closing the geological and biological
+gap</em></a></li>
 </ul>
 </div>
 <div id="section-2" class="section level3">
-<h3>2018</h3>
+<h3>2019</h3>
 <ul>
-<li>CPEG - Crossing the Palaeontological Ecological Gap. <em>Fossils for conservation</em></li>
-<li>ESA Annual Meeting. <em>Predicting extinction risk of living amphibian species with the fossil record</em></li>
+<li>EGU General Assembly. <em>Climate influences the impact of
+geographic range size on extinction risk of amphibians</em></li>
 </ul>
 </div>
 <div id="section-3" class="section level3">
-<h3>2017</h3>
+<h3>2018</h3>
 <ul>
-<li>Geobiodiversity - An Integrative Approach Expanding Humboldt’s Vision. <em>Predicting the extinction risk of living amphibians using the fossil record</em> (poster)</li>
-<li><ol start="26" style="list-style-type: decimal">
-<li>Internationalen Naturschutztagung „Zoologischer und botanischer Artenschutz in Mitteleuropa“ <em>Der Zusammenhang zwischen Aussterberisiko von Amphibien und ihrem Lebensraum hat sich umgedreht</em></li>
-</ol></li>
+<li>CPEG - Crossing the Palaeontological Ecological Gap. <em>Fossils for
+conservation</em></li>
+<li>ESA Annual Meeting. <em>Predicting extinction risk of living
+amphibian species with the fossil record</em></li>
 </ul>
 </div>
 <div id="section-4" class="section level3">
-<h3>2016</h3>
+<h3>2017</h3>
 <ul>
-<li>Progressive Palaeontology. <em>From fossil record to amphibian conservation</em></li>
+<li>Geobiodiversity - An Integrative Approach Expanding Humboldt’s
+Vision. <em>Predicting the extinction risk of living amphibians using
+the fossil record</em> (poster)</li>
+<li><ol start="26" style="list-style-type: decimal">
+<li>Internationalen Naturschutztagung „Zoologischer und botanischer
+Artenschutz in Mitteleuropa“ <em>Der Zusammenhang zwischen
+Aussterberisiko von Amphibien und ihrem Lebensraum hat sich
+umgedreht</em></li>
+</ol></li>
 </ul>
 </div>
 <div id="section-5" class="section level3">
+<h3>2016</h3>
+<ul>
+<li>Progressive Palaeontology. <em>From fossil record to amphibian
+conservation</em></li>
+</ul>
+</div>
+<div id="section-6" class="section level3">
 <h3>2015</h3>
 <ul>
-<li>3rd Leibniz PhD Symposium of Section C. <em>The fossil record and conservation</em></li>
+<li>3rd Leibniz PhD Symposium of Section C. <em>The fossil record and
+conservation</em></li>
 </ul>
 </div>
 </div>
@@ -500,7 +557,8 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 </font> 
 </p>
 
-</font>
+</font> 
+
 
 
 </div>
@@ -512,7 +570,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -530,7 +588,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -539,6 +597,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
@@ -551,7 +612,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

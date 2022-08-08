@@ -11,48 +11,43 @@
 
 
 
-<title>archive.utf8</title>
+<title>archive.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -63,10 +58,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -83,40 +74,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 54px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -144,7 +111,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -156,7 +123,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -167,10 +134,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -182,7 +162,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -308,7 +287,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -362,7 +341,7 @@ div.tocify {
 <link rel="icon" type="image/x-icon" href="eryops_avatar_round.ico" >
 <link rel="shortcut icon" type="image/x-icon" href="eryops_avatar_round.ico"/>
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -374,34 +353,77 @@ div.tocify {
 <h1>2017</h1>
 <div id="habitat-and-extinction-risk" class="section level2">
 <h2>Habitat and extinction risk</h2>
-<p>We compared the extinction risk of species from different habitat types. We found that the influence of the habitat type seems to have shifted and was different in the past, where species that were associated with flowing water bodies showed a lower extinction risk than species from e.g. ponds, which is contrary to todays situation. Find all the results in <a href="http://rsos.royalsocietypublishing.org/cgi/content/full/rsos.170051?ijkey=HFAoNHwozz9aFKn&amp;keytype=ref">Tietje &amp; Rödel 2017</a></p>
+<p>We compared the extinction risk of species from different habitat
+types. We found that the influence of the habitat type seems to have
+shifted and was different in the past, where species that were
+associated with flowing water bodies showed a lower extinction risk than
+species from e.g. ponds, which is contrary to todays situation. Find all
+the results in <a
+href="http://rsos.royalsocietypublishing.org/cgi/content/full/rsos.170051?ijkey=HFAoNHwozz9aFKn&amp;keytype=ref">Tietje
+&amp; Rödel 2017</a></p>
 <hr />
 </div>
 <div id="fellow-program-open-science" class="section level2">
 <h2>Fellow Program Open Science</h2>
-<p>Besides bridging the gap between the fossil record and current biology in my PhD work, I am interested in different concepts of Open Science. This website was initialized as part of my work as a fellow in the <a href="https://wikimedia.de/wiki/Fellowprogramm">Open Science Fellow Program</a>. Launched for the first time in 2016 by Wikimedia Germany and Stifterverband the fellow program enables 10 scientists from different areas to open up their research by providing guidance and financial support.</p>
+<p>Besides bridging the gap between the fossil record and current
+biology in my PhD work, I am interested in different concepts of Open
+Science. This website was initialized as part of my work as a fellow in
+the <a href="https://wikimedia.de/wiki/Fellowprogramm">Open Science
+Fellow Program</a>. Launched for the first time in 2016 by Wikimedia
+Germany and Stifterverband the fellow program enables 10 scientists from
+different areas to open up their research by providing guidance and
+financial support.</p>
 <div style="width:300px; height=200px">
 <p><img src="fp_logo_fall_back_4c_neu.png" /></p>
 </div>
-<p>I created this website as part of my work in the <a href="https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows">Open Science Fellow Program</a>. Open Science needs communication, and what better way could there be than making your science explorable online? While learning to use GitHub, I stumbled across GitHub Pages, which resulted in this webpage.</p>
-<p>As part of my project in the fellow program, I concentrate of the aspects reproducibility, community feedback and open publishing. If you are looking for inspiration on how you can make your own research more open, the <a href="http://viennaprinciples.org/">Vienna Principles</a> offer some ideas.</p>
+<p>I created this website as part of my work in the <a
+href="https://wikimedia.de/wiki/BildungWissenschaftKultur/Fellowprogramm/Fellows">Open
+Science Fellow Program</a>. Open Science needs communication, and what
+better way could there be than making your science explorable online?
+While learning to use GitHub, I stumbled across GitHub Pages, which
+resulted in this webpage.</p>
+<p>As part of my project in the fellow program, I concentrate of the
+aspects reproducibility, community feedback and open publishing. If you
+are looking for inspiration on how you can make your own research more
+open, the <a href="http://viennaprinciples.org/">Vienna Principles</a>
+offer some ideas.</p>
 <hr />
-<p>Video summary of the project (German): <iframe src="https://commons.wikimedia.org/wiki/File%3AOpen_Science_Fellow_project_summary.ogg?embedplayer=yes" width="240" height="135" frameborder="0" ></iframe></p>
+<p>Video summary of the project (German):
+<iframe src="https://commons.wikimedia.org/wiki/File%3AOpen_Science_Fellow_project_summary.ogg?embedplayer=yes" width="240" height="135" frameborder="0" ></iframe></p>
 <!---[Video summary](https://commons.wikimedia.org/wiki/File%3AOpen_Science_Fellow_project_summary.ogg) (german only for now)
 -->
 <hr />
 <div id="reproducibility" class="section level3">
 <h3>Reproducibility</h3>
-<p>Making your research reproducible is part of good scientific practice. Therefore, I want to publish the R scripts used in my analysis together with the data and the manuscript. This can be part of the electronic supplement but can also be hosted independently on <a href="https://github.com/">GitHub</a>.</p>
+<p>Making your research reproducible is part of good scientific
+practice. Therefore, I want to publish the R scripts used in my analysis
+together with the data and the manuscript. This can be part of the
+electronic supplement but can also be hosted independently on <a
+href="https://github.com/">GitHub</a>.</p>
 </div>
 <div id="community-feedback" class="section level3">
 <h3>Community feedback</h3>
-<p>Getting feedback on your work when it comes to peer review is good, but getting feedback even earlier, while it is still in progress, might speed up the whole process. Reaching out to your research community gets you valuable tips on your work. However, this costs time (as building this webpage for example). Therefore a part of my project is the evaluation of opening up your research in terms of costs and benefits.</p>
+<p>Getting feedback on your work when it comes to peer review is good,
+but getting feedback even earlier, while it is still in progress, might
+speed up the whole process. Reaching out to your research community gets
+you valuable tips on your work. However, this costs time (as building
+this webpage for example). Therefore a part of my project is the
+evaluation of opening up your research in terms of costs and
+benefits.</p>
 </div>
 <div id="open-publishing-and-preprints" class="section level3">
 <h3>Open publishing and preprints</h3>
-<p>Publishing my work in an open access journal will be the last milestone in this project, but before that I plan on something way more interesting. I want to test preprint and preprint servers, which is something that, for biology or paleontology, is sparsely used in my surroundings. Finding the right preprint server to adress the right crowd as well as responding to hopefully plenty of feedback will be valuable experiences and will likely add to quality and make the publication process a bit easier in the end.</p>
-<p>Another option in the peer review process is aiming at a journal that offers open peer review, which is getting more and more common and adds to the transparency in the review process.</p>
+<p>Publishing my work in an open access journal will be the last
+milestone in this project, but before that I plan on something way more
+interesting. I want to test preprint and preprint servers, which is
+something that, for biology or paleontology, is sparsely used in my
+surroundings. Finding the right preprint server to adress the right
+crowd as well as responding to hopefully plenty of feedback will be
+valuable experiences and will likely add to quality and make the
+publication process a bit easier in the end.</p>
+<p>Another option in the peer review process is aiming at a journal that
+offers open peer review, which is getting more and more common and adds
+to the transparency in the review process.</p>
 </div>
 </div>
 </div>
@@ -468,7 +490,8 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 </font> 
 </p>
 
-</font>
+</font> 
+
 
 
 </div>
@@ -480,7 +503,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -498,7 +521,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -507,6 +530,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
@@ -519,7 +545,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

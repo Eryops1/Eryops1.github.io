@@ -8,6 +8,12 @@ output:
 ---  
 
 # Publications
+Tietje, M., Antonelli, A., Baker, W. J., Govaerts, R., Smith, S. A., & Eiserhardt, W. L. (2022). Global variation in diversification rate and species richness are unlinked in plants. Proceedings of the National Academy of Sciences, 119(27), e2120662119. [https://doi.org/10.1073/pnas.2120662119](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
+
+Rudbeck, A.V., Sun, M., Tietje, M., Gallagher, R.V., Govaerts, R., Smith, S.A., Svenning, J.-C. and Eiserhardt, W.L. (2022), The Darwinian shortfall in plants: phylogenetic knowledge is driven by range size. Ecography e06142. https://doi.org/10.1111/ecog.06142
+
+Dittrich, C., Tietje, M., & Rödel, M. (2022). Larger is not better: no mate preference by European common frog (Rana temporaria) males, Behaviour (published online ahead of print 2022). doi: https://doi.org/10.1163/1568539X-bja10169
+
 Hansen, L. E. S., Baker, W. J., Tietje, M., & Eiserhardt, W. L. (2021). Testing tropical biogeographical regions using the palm family as a model clade. Journal of Biogeography. [https://doi.org/10.1111/jbi.14216](https://doi.org/10.1111/jbi.14216)
 
 Foster, W. J., Gliwa, J., Lembke, C., Pugh, A. C., Hofmann, R., Tietje, M., Varela, S., Foster, L.C., Korn, D.,Aberhan, M. (2020). Evolutionary and ecophenotypic controls on bivalve body size distributions following the end-Permian mass extinction. Global and Planetary Change, 185, 103088. [doi:10.1016/j.gloplacha.2019.103088](https://doi.org/10.1016/j.gloplacha.2019.103088)
@@ -30,6 +36,11 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 
 
 # Conference contributions
+### 2022
+* IBS Meeting Vancouver. *The drivers of global plant diversity*
+* ESEB Meeting Prague. *Global plant diversity*
+
+
 ### 2020
 * EGU General Assembly. [*Global patterns of plant diversity and their evolutionary drivers*](https://doi.org/10.5194/egusphere-egu2020-9733, 2020)
 * EGU General Assembly. [*Primary productivity, deoxygenation, and the Gulliver-absence effect determine bivalve body size following the end-Permian mass extinction*](https://doi.org/10.5194/egusphere-egu2020-10213)
