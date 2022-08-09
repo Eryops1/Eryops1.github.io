@@ -15,7 +15,6 @@
 <!-- </div> -->
 
 
- <font size="6">News </font> 
 
 <style>
 * {
@@ -113,7 +112,8 @@
 
   <div class="column right" style="background-color:#FFFFFF;">
 
-  
+<br><br>
+
 <div style="background-color:lightgrey">
   <font size="5">
   <font color="red">

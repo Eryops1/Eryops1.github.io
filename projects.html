@@ -11,48 +11,43 @@
 
 
 
-<title>projects.utf8</title>
+<title>projects.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -63,10 +58,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -83,40 +74,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 54px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -144,7 +111,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -156,7 +123,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -167,10 +134,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -182,7 +162,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -308,7 +287,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -340,10 +319,10 @@ div.tocify {
 -->
         <li><a href="CV.html">CV</a></li>
         <li><a href="publications.html">Publications & Talks</a></li>
-        <li><a href="archive.html">Archive</a></li>
+<!--        <li><a href="archive.html">Archive</a></li> -->
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="contact.html">Contact & Colleagues</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <li><a href="HTML_stuff.html">R playground</a></li>
         
       </ul>
@@ -362,7 +341,7 @@ div.tocify {
 <link rel="icon" type="image/x-icon" href="eryops_avatar_round.ico" >
 <link rel="shortcut icon" type="image/x-icon" href="eryops_avatar_round.ico"/>
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -372,64 +351,178 @@ div.tocify {
 
 <div id="ongoing" class="section level1">
 <h1>Ongoing</h1>
-<div id="explaining-tropical-hyperdiversity" class="section level2">
-<h2>Explaining tropical hyperdiversity</h2>
-<p>In this project we ask the quite fundamental question why there are so many species in tropical rainforest. Tropical rainforests are widely regarded to harbour about half of the world’s terrestrial species, despite covering less than 10% of the world’s land surface. These numbers are not precise for various reasons, but it is clear that tropical rainforests are outstandingly (“hyper”-)diverse. <a href="https://peb-group.net/trf">more info</a></p>
+<div id="tropical-plant-hyperdiversity" class="section level2">
+<h2>Tropical plant hyperdiversity</h2>
+<p>In my work as Postdoc ar Aarhus University we ask the quite
+fundamental question why there are so many species in tropical
+rainforest. Tropical rainforests are widely regarded to harbour about
+half of the world’s terrestrial species, despite covering less than 10%
+of the world’s land surface. These numbers are not precise for various
+reasons, but it is clear that tropical rainforests are outstandingly
+(“hyper”-)diverse. <a href="https://peb-group.net/trf">Read more about
+the project on our lab webpage</a></p>
+<div id="results" class="section level3">
+<h3>Results</h3>
+<div
+id="global-variation-in-diversification-rate-and-species-richness-are-unlinked-in-plants"
+class="section level4">
+<h4>Global variation in diversification rate and species richness are
+unlinked in plants</h4>
+<p>While dozens of hypotheses have been proposed to explain the immense
+variation in species richness across the planet. Among those hypotheses,
+mechanisms involving variation in the rate of speciation and/or
+extinction have featured prominently. These include the Metabolic Theory
+of Ecology, a textbook theory conceptually linking climate and species
+richness. Yet we find that global patterns of plant species richness and
+diversification are unlinked. We reject these mechanisms for seed plants
+and suggest that it may be time to retire those hypotheses that explain
+global species richness patterns with variation in diversification rate
+and focus on “time for speciation” or ecological processes instead.</p>
+<div style="width:100%">
+<p><img src="global_maps_178.png" /></p>
+</div>
+<p>
+<font size="2"> Global maps for species richness (A) and diversification
+rates (mean root distance, B) <a
+href="https://www.pnas.org/doi/full/10.1073/pnas.2120662119">Tietje et
+al. (2022), Fig 1</a>. </font>
+</p>
+<p>We also provide a global map of global plant species richness and
+diversification rates for about 330,000 species, and put several
+environmental factors to the test to explain these patterns.</p>
+<p>Read the full paper here: <a
+href="https://www.pnas.org/doi/full/10.1073/pnas.2120662119">PNAS</a></p>
 <hr />
+</div>
+</div>
 </div>
 </div>
 <div id="completed" class="section level1">
 <h1>Completed</h1>
-<div id="temporal-patterns-in-extinction-risk-factors-and-climate-in-the-amphibian-fossil-record" class="section level2">
-<h2>Temporal patterns in extinction risk factors and climate in the amphibian fossil record</h2>
-<p>In the coming decades we might face the loss of more than 50% of the climatic ranges for more than half of plants and 34% of animals [1]. Abrupt greenhouse driven climate change and synergistic effects, e.g. d isrupted migration pathways and breeding cycles, changing predator, competitor and prey relations, habitatloss as well as diseases, are significant contributors to this biodiversity destruction. Although often ignored from a public perspective, or considered to be of lesser importance than likeable flagship species, amphibians alongside reptiles might face greatest extinction risk under current changing climate [2].</p>
-<p>This project aims at connecting changing climatic conditions and temporal trends in amphibian traits, including extinction risk and diversity, to expand our knowledge about current and future extinction threats to amphibians. The project uses oxygen isotope data to reconstruct the relative temperature changes as well as latitudinal temperature gradients.</p>
-<div id="results" class="section level3">
+<div
+id="temporal-patterns-in-extinction-risk-factors-and-climate-in-the-amphibian-fossil-record"
+class="section level2">
+<h2>Temporal patterns in extinction risk factors and climate in the
+amphibian fossil record</h2>
+<p>In the coming decades we might face the loss of more than 50% of the
+climatic ranges for more than half of plants and 34% of animals [1].
+Abrupt greenhouse driven climate change and synergistic effects, e.g. d
+isrupted migration pathways and breeding cycles, changing predator,
+competitor and prey relations, habitatloss as well as diseases, are
+significant contributors to this biodiversity destruction. Although
+often ignored from a public perspective, or considered to be of lesser
+importance than likeable flagship species, amphibians alongside reptiles
+might face greatest extinction risk under current changing climate
+[2].</p>
+<p>This project aims at connecting changing climatic conditions and
+temporal trends in amphibian traits, including extinction risk and
+diversity, to expand our knowledge about current and future extinction
+threats to amphibians. The project uses oxygen isotope data to
+reconstruct the relative temperature changes as well as latitudinal
+temperature gradients.</p>
+<div id="results-1" class="section level3">
 <h3>Results</h3>
-<p>When connecting a continuous measure for the correlation of geographic range and duration of species, we find that this correlation is fluctuating over time, and strongly connected to the latitudinal relative temperature gradient. Our results suggest that climatic conditions influence the importance of geogrpahic range on extinction risk for amphibians. The results are published in Paleo3 [3].</p>
+<p>When connecting a continuous measure for the correlation of
+geographic range and duration of species, we find that this correlation
+is fluctuating over time, and strongly connected to the latitudinal
+relative temperature gradient. Our results suggest that climatic
+conditions influence the importance of geographic range on extinction
+risk for amphibians. The results are published in <a
+href="https://doi.org/10.1016/j.palaeo.2019.109414">Paleo3</a> [3].</p>
 </div>
 <div id="literature" class="section level3">
 <h3>Literature</h3>
 <ol style="list-style-type: decimal">
-<li>Warren, R., et al. “Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss.” Nature Climate Change 3.7 (2013): 678‐682.</li>
-<li>Stuart, S. N., et al. “Status and trends of amphibian declines and extinctions worldwide.” Science 306.5702 (2004): 1783‐1786.</li>
-<li>Tietje, M., Rödel, M.-O., Schobben, M. (in press). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology. <a href="https://doi.org/10.1016/j.palaeo.2019.109414">link</a></li>
+<li>Warren, R., et al. “Quantifying the benefit of early climate change
+mitigation in avoiding biodiversity loss.” Nature Climate Change 3.7
+(2013): 678‐682.</li>
+<li>Stuart, S. N., et al. “Status and trends of amphibian declines and
+extinctions worldwide.” Science 306.5702 (2004): 1783‐1786.</li>
+<li>Tietje, M., Rödel, M. O., &amp; Schobben, M. (2020). The effect of
+geographic range and climate on extinction risk in the deep-time
+amphibian fossil record. Palaeogeography, Palaeoclimatology,
+Palaeoecology, 537, 109414.</li>
+<li>Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of
+geographic range and climate on extinction risk in the deep-time
+amphibian fossil record. <a
+href="https://doi.org/10.1016/j.palaeo.2019.109414">Palaeogeography,
+Palaeoclimatology, Palaeoecology.</a></li>
 </ol>
 <p><br></p>
 <hr />
 </div>
 </div>
-<div id="extinction-risk-in-fossil-and-living-amphibians" class="section level2">
+<div id="extinction-risk-in-fossil-and-living-amphibians"
+class="section level2">
 <h2>Extinction risk in fossil and living amphibians</h2>
 <div id="background" class="section level3">
 <h3>Background</h3>
-<p>Amphibians are the most endangered terrestrial vertebrate group [1]. Several studies examined biological, environmental and also anthropogenic factors that can potentially add to extinction risk [2]. Typical influential factors are the geographic range size and bodysize of a species, which have been confirmed in studies on fossils from extinct species as well [3].</p>
-<p>Although amphibians are one of the most threatened groups today, their fossil record and the recorded extinction events of amphibians are usually not taken into account. As the fossil record invites to study plenty of real extinction events, it can provide valuable information about factors influencing a species survival.</p>
+<p>Amphibians are the most endangered terrestrial vertebrate group [1].
+Several studies examined biological, environmental and also
+anthropogenic factors that can potentially add to extinction risk [2].
+Typical influential factors are the geographic range size and bodysize
+of a species, which have been confirmed in studies on fossils from
+extinct species as well [3].</p>
+<p>Although amphibians are one of the most threatened groups today,
+their fossil record and the recorded extinction events of amphibians are
+usually not taken into account. As the fossil record invites to study
+plenty of real extinction events, it can provide valuable information
+about factors influencing a species survival.</p>
 </div>
-<div id="results-1" class="section level3">
+<div id="results-2" class="section level3">
 <h3>Results</h3>
-<p>We were able to show in a unique combination of fossil and neontological data how the fossil can actually predict the extinction risk of living species. The results are published in Ecology Letters [4].</p>
-<div style="width:300px; height=100px">
-<p><img src="model_framework.jpg" /></p>
-</div>
+<p>We were able to show in a unique combination of fossil and
+neontological data how the fossil can actually predict the extinction
+risk of living species. The results are published in Ecology Letters
+[4].</p>
+<p><img src="model_framework.jpg" alt="Model framework" class="center" width=200px>
+<!-- <div style="width:200px; height=100px; class=center"> -->
+<!-- ![](model_framework.jpg)  --> <!-- </div> --></p>
 <p>
-<font size="2"> Model framework for the study. <a href="https://doi.org/10.1111/ele.13080">Tietje, M. and Rödel, M. O. (2018), figure 1</a>. </font>
+<font size="2"> Model framework for the study. <a
+href="https://doi.org/10.1111/ele.13080">Tietje, M. and Rödel, M. O.
+(2018), figure 1</a>. </font>
 </p>
-<p>We used generalised boosted modelling to analyse the impact of several traits that are assumed to influence extinction risk on the stratigraphic duration of amphibian species in the fossil record. We used this fossil calibrated model to predict the extinction risk for living species. We observed a high consensus between our predicted species durations and the current IUCN Red List status of living amphibian species. We also found that today’s Data Deficient species are mainly predicted to experience short durations, hinting at their likely high threat status. Our study suggests that the fossil record can be a suitable tool for the evaluation of current taxa specific Red Listing status.</p>
-<div style="width:400px; height=100px">
+<p>We used generalised boosted modelling to analyse the impact of
+several traits that are assumed to influence extinction risk on the
+stratigraphic duration of amphibian species in the fossil record. We
+used this fossil calibrated model to predict the extinction risk for
+living species. We observed a high consensus between our predicted
+species durations and the current IUCN Red List status of living
+amphibian species. We also found that today’s Data Deficient species are
+mainly predicted to experience short durations, hinting at their likely
+high threat status. Our study suggests that the fossil record can be a
+suitable tool for the evaluation of current taxa specific Red Listing
+status.</p>
+<div style="width:300px; height=100px">
 <p><img src="figure3ELE.png" /></p>
 </div>
 <p>
-<font size="2"> Predicted durations in million years for living amphibian species, based on the model fitted with paleontological data. <a href="https://doi.org/10.1111/ele.13080">Tietje, M. and Rödel, M. O. (2018), figure 3</a>. </font>
+<font size="2"> Predicted durations in million years for living
+amphibian species, based on the model fitted with paleontological data.
+<a href="https://doi.org/10.1111/ele.13080">Tietje, M. and Rödel, M. O.
+(2018), figure 3</a>. </font>
 </p>
 </div>
 <div id="literature-1" class="section level3">
 <h3>Literature</h3>
 <ol style="list-style-type: decimal">
-<li>Baillie, J. E. M., Griffiths, J., Turvey, S. T., Loh, J. &amp; Collen, B. 2010 Evolution Lost: Status and Trends of the World’s Vertebrates. Zoological Society of London.</li>
-<li>Sodhi, N. S., Bickford, D., Diesmos, A. C., Lee, T. M., Koh, L. P., Brook, B. W., Sekercioglu, C. H. &amp; Bradshaw, C. J. A. 2008 Measuring the meltdown: drivers of global amphibian extinction and decline. PLoS One 3, e1636. (<a href="doi:10.1371/journal.pone.0001636" class="uri">doi:10.1371/journal.pone.0001636</a>)</li>
-<li>Harnik, P. G. 2011 Direct and indirect effects of biological factors on extinction risk in fossil bivalves. Proc. Natl. Acad. Sci. U. S. A. 108, 13594–13599. (<a href="doi:10.1073/pnas.1100572108" class="uri">doi:10.1073/pnas.1100572108</a>)</li>
-<li>Tietje, M. and Rödel, M. O. (2018), Evaluating the predicted extinction risk of living amphibian species with the fossil record. Ecology Letters. <a href="https://doi.org/10.1111/ele.13080">doi:10.1111/ele.13080</a></li>
+<li>Baillie, J. E. M., Griffiths, J., Turvey, S. T., Loh, J. &amp;
+Collen, B. 2010 Evolution Lost: Status and Trends of the World’s
+Vertebrates. Zoological Society of London.</li>
+<li>Sodhi, N. S., Bickford, D., Diesmos, A. C., Lee, T. M., Koh, L. P.,
+Brook, B. W., Sekercioglu, C. H. &amp; Bradshaw, C. J. A. 2008 Measuring
+the meltdown: drivers of global amphibian extinction and decline. PLoS
+One 3, e1636. (<a href="doi:10.1371/journal.pone.0001636"
+class="uri">doi:10.1371/journal.pone.0001636</a>)</li>
+<li>Harnik, P. G. 2011 Direct and indirect effects of biological factors
+on extinction risk in fossil bivalves. Proc. Natl. Acad. Sci. U. S. A.
+108, 13594–13599. (<a href="doi:10.1073/pnas.1100572108"
+class="uri">doi:10.1073/pnas.1100572108</a>)</li>
+<li>Tietje, M. and Rödel, M. O. (2018), Evaluating the predicted
+extinction risk of living amphibian species with the fossil record.
+Ecology Letters. <a
+href="https://doi.org/10.1111/ele.13080">doi:10.1111/ele.13080</a></li>
 </ol>
 </div>
 </div>
@@ -458,7 +551,7 @@ div.tocify {
 
 
 
-<div style="background-color:lightgrey;color:grey;padding:20px;">
+<div style="background-color:lightgrey;color:grey;padding:10px;">
 
  <font color="black">
 
@@ -468,7 +561,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <p>
 
  <font size="2">
-  2021 Melanie Tietje
+  2022 Melanie Tietje
   <br>
   Last update:
 <script type="text/javascript" charset="utf-8">
@@ -493,11 +586,10 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">
     <img id="logo" src="aulogo_uk_var1_blue.png" alt="BrandLog"  height="30" width="72" />
 </a>
-
 </font> 
 </p>
+</font> 
 
-</font>
 
 
 </div>
@@ -509,7 +601,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -527,7 +619,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -536,6 +628,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
@@ -548,7 +643,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
