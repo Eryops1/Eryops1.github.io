@@ -64,7 +64,7 @@
             /*positioned relative to parent div (container) */
             position: absolute;   
             /* bottom margin is 0 so that it coincides with container's bottom margin*/
-            bottom: 45%;
+            bottom: -10%;
             left: 5%;
             color: black;
             width: 90%;
@@ -95,7 +95,7 @@
 <div class = "container">
 <a href = "https://doi.org/10.1073/pnas.2120662119">
   <img src="GlobalDrivers.png">
-      <div class="title">
+      <!-- <div class="title"> -->
           Tietje et al. 2022, PNAS
 </a>
 </div>
@@ -109,23 +109,49 @@
   <!-- </div> -->
 
 </div>
-</div>
+
 
   <div class="column right" style="background-color:#FFFFFF;">
 
-  <-- Check out our new publication on what drives global vascular plant diversity and diversification patterns!
   
-  <br>
-
-  I'm a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in macroecological patterns. I am currently part of the     [Plant Evolution and Biodiversity group]((https://peb-group.net/trf)) where I explore large-scale biodiversity patterns of plants by integrating geographic, phylogenetic and environmental data, with a special         focus on Tropical Rainforest Hyperdiversity.
-
-  I have worked on deep time paleontological and neontological topics, including extinction risk factors in invertebrates and amphibians, geographic range size patterns, diversity, and the effect of climate on         extinction risk factors.
+<div style="background-color:lightgrey">
+  <font size="5">
+  <font color="red">
+  </font>
+  Check out our new publication on drivers of global vascular plant diversity and diversification patterns!
+  [PNAS]("https://doi.org/10.1073/pnas.2120662119")
+  </font>
+</div>
+  
   </div>
   
 </div>
 
+  <br>
 
 
+
+<div class="row">
+  
+  <div class="column left" style="background-color:#FFFFFF;">
+  
+ <font size="6">About me </font> 
+ 
+   I'm a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in macroecological patterns. I am currently part of the     [Plant Evolution and Biodiversity group]((https://peb-group.net/trf)) where I explore large-scale biodiversity patterns of plants by integrating geographic, phylogenetic and environmental data, with a special         focus on Tropical Rainforest Hyperdiversity.
+
+  I have worked on deep time paleontological and neontological topics, including extinction risk factors in invertebrates and amphibians, geographic range size patterns, diversity, and the effect of climate on         extinction risk factors.
+
+
+</div>
+
+<div class="column right" style="background-color:#FFFFFF;">
+
+  
+<img src="me_Arizona2022.png" width=400px>
+  
+  </div>
+  
+</div>
 
 
 ------
