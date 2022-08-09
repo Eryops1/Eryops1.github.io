@@ -113,7 +113,7 @@
 
   <div class="column right" style="background-color:#FFFFFF;">
 
-  <-- Check out our latest publication on what drives the global vascular plant diversity and diversification patterns!
+  <-- Check out our new publication on what drives global vascular plant diversity and diversification patterns!
   
   <br>
 
