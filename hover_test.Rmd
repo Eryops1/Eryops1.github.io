@@ -1,46 +1,13 @@
 ---
-title: "R playground"
+layout: page
+title: hover_test
 ---
 
 
-# Playing with Markdown presentations in RStudio (and plotly)
 
- <iframe src="my_first_presi_with_R.html" style="height:400px;width:600px;"></iframe> 
- 
- Note: haven`t figured out how to link to the interactive plotly figure yet...
- 
- 
-------
- 
-# Testing interactive maps with leaflet
+<div class="wrapper"></div>
 
-```{r message=FALSE, echo=FALSE}
-library(htmlwidgets)
-library(leaflet)
-coords <- data.frame(lng = c(13.379609, 13.347779), 
-                     lat = c(52.529969, 52.548627), 
-                     location = c("Work", "Nussbreite"),
-                     marker = c("frog.png", "drink.png"))
-
-leaflet() %>% 
-  addProviderTiles("CartoDB.Positron") %>% 
-  addMarkers(lng=coords$lng, lat=coords$lat, popup = coords$location,
-             icon = icons(iconUrl = c("frog.png", "drink.png"), iconWidth = 40, iconHeight = 40)
-             )
-
-```
-
-<!-- 
-<iframe src="leaflet_interactive_map_test.html" 
-style="height:400px;width:600px;"
-name="leaflet_map"
-scrolling="yes"
-></iframe> 
--->
-
-# HTML test range
-
-
+<br>
 
 <style>
     * {
@@ -120,17 +87,50 @@ scrolling="yes"
       <div style="width:250px; height=250px">
         
         <div class = "container">
-          <img src="GLobalDrivers.png"/>
+          <img src="/assets/images/fig_1.png"/>
                <div class="title">
-                    NEW
+                    Coming soon
                </div>
+        </div>
+        
+      <br>
+      
+        <div class = "container">
+          <a href = "assets/pubs/Lundgren et al. 2021a.pdf">
+            <img src="/assets/images/fig_3.png" />
+                <div class="title">
+                    Lundgren et al. 2021 <i>Science</i>
+               </div>
+          </a>
         </div>
         
     </div>
   </div>
 
   <div class="column right" style="background-color:#FFFFFF;">
-Some text, lorem ipsum etc....
+    <div style="width:250px; height=250px">
+    
+    
+        <div class = "container">
+            <a href = "(http://doi.org/10.1111/1365-2656.13766)">
+                <img src="/assets/images/fig_2.png"/>
+                    <div class="title">
+                        Lundgren et al 2022 <i>JAE</i>
+                    </div>
+            </a>
+        </div>
+        
+        <br>
+        
+        
+        <div class = "container">
+            <a href = "assets/pubs/Lundgren et al 2020.pdf">
+                <img src="/assets/images/fig_4.png"/>
+                <div class="title">
+                    Lundgren et al. 2020 <i>PNAS</i> 
+                </div>
+            </a>
+        </div>
         
         
   </div>

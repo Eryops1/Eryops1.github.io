@@ -53,24 +53,70 @@
 </head>
 <body>
 
+<style>
+    .container {
+        /* Testing mouse over on image  */
+        position: relative;
+        width: 100%;
+    }
+    .title {
+            background-color: rgb(255, 255, 255);
+            /*positioned relative to parent div (container) */
+            position: absolute;   
+            /* bottom margin is 0 so that it coincides with container's bottom margin*/
+            bottom: 0;       
+            color: black;
+            width: 85%;
+            font-size: 13px;
+            font-family: Helvetica, Arial, sans-serif;
+            padding: 0;      
+            /* padding was formerly: 10px 0; */
+            text-align: center;
+            /*invisible because opacity is 0*/
+            opacity: 0;           
+            transition: 0.6s;
+        }
+    .container:hover .title {
+        /*becomes visible on hover*/
+            opacity: 1;       
+    }
+</style>
 
 <div class="row">
+  
   <div class="column left" style="background-color:#FFFFFF;">
+  
+  <div style="width=400 height=400">
+
+  <!-- <div class = "container"> -->
+      <!-- <a href = "https://doi.org/10.1073/pnas.2120662119"> -->
+      <!--   <img src="GlobalDrivers.png"> -->
+      <!--       <div class="title"> -->
+      <!--           Tietje et al. 2022 <i>PNAS</i> -->
+      <!--      </div> -->
+      <!-- </a> -->
+  <!-- </div> -->
+
+  </div>
   <a href="https://doi.org/10.1073/pnas.2120662119">
          <img alt="PNAS link" src="GlobalDrivers.png"
          width=400" height="300">
   </a>
-</div>
+  </div>
+
+
+
   <div class="column right" style="background-color:#FFFFFF;">
 
-<-- Check out our latest publication on what drives the global vascular plant diversity and diversification patterns!
+  <-- Check out our latest publication on what drives the global vascular plant diversity and diversification patterns!
+  
+  <br>
 
-<br>
+  I'm a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in macroecological patterns. I am currently part of the     [Plant Evolution and Biodiversity group]((https://peb-group.net/trf)) where I explore large-scale biodiversity patterns of plants by integrating geographic, phylogenetic and environmental data, with a special         focus on Tropical Rainforest Hyperdiversity.
 
-I'm a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in macroecological patterns. I am currently part of the [Plant Evolution and Biodiversity group]((https://peb-group.net/trf)) where I explore large-scale biodiversity patterns of plants by integrating geographic, phylogenetic and environmental data, with a special focus on Tropical Rainforest Hyperdiversity.
-
-I have worked on deep time paleontological and neontological topics, including extinction risk factors in invertebrates and amphibians, geographic range size patterns, diversity, and the effect of climate on extinction risk factors.
+  I have worked on deep time paleontological and neontological topics, including extinction risk factors in invertebrates and amphibians, geographic range size patterns, diversity, and the effect of climate on         extinction risk factors.
   </div>
+  
 </div>
 
 
