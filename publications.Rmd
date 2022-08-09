@@ -8,7 +8,7 @@ output:
 ---  
 
 # Publications
-Tietje, M., Antonelli, A., Baker, W. J., Govaerts, R., Smith, S. A., & Eiserhardt, W. L. (2022). Global variation in diversification rate and species richness are unlinked in plants. **Proceedings of the National Academy of Sciences**, 119(27), e2120662119. [https://doi.org/10.1073/pnas.2120662119](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
+Tietje, M., Antonelli, A., Baker, W. J., Govaerts, R., Smith, S. A., & Eiserhardt, W. L. (2022). Global variation in diversification rate and species richness are unlinked in plants. **PNAS**, 119(27), e2120662119. [https://doi.org/10.1073/pnas.2120662119](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
 
 Rudbeck, A.V., Sun, M., Tietje, M., Gallagher, R.V., Govaerts, R., Smith, S.A., Svenning, J.-C. and Eiserhardt, W.L. (2022), The Darwinian shortfall in plants: phylogenetic knowledge is driven by range size. **Ecography** e06142. https://doi.org/10.1111/ecog.06142
 
@@ -25,7 +25,7 @@ Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of geographic range a
 #### 2019
 Varela, S., Sbrocco, E., Tarroso, P., Pérez-Luque, A.J., Renaudie, J., Warnstädt, N., Fandos, G., Foster, W., Tietje, M. (2019). BioExtreme hackathon en el Museum für Naturkunde de Berlín, Alemania. **Ecosistemas** 28(1): 129. [doi: 10.7818/ECOS.1707](https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/1707)
 
-Hofmann, R., Tietje, M., and Aberhan, M. (2019). Diversity partitioning in Phanerozoic benthic marine communities. **Proceedings of the National Academy of Sciences** [https://www.pnas.org/content/early/2018/12/13/1814487116](https://www.pnas.org/content/early/2018/12/13/1814487116)
+Hofmann, R., Tietje, M., and Aberhan, M. (2019). Diversity partitioning in Phanerozoic benthic marine communities. **PNAS** [https://www.pnas.org/content/early/2018/12/13/1814487116](https://www.pnas.org/content/early/2018/12/13/1814487116)
 
 #### 2018
 Schobben, M. , Heuer, F. , Tietje, M. , Ghaderi, A. , Korn, D. , Korte, C. and Wignall, P. B. (2018). Chemostratigraphy Across the Permian‐Triassic Boundary. In **Chemostratigraphy Across Major Chronological Boundaries** (eds A. N. Sial, C. Gaucher, M. Ramkumar and V. P. Ferreira). [doi:10.1002/9781119382508.ch9](https://doi.org/10.1002/9781119382508.ch9)
