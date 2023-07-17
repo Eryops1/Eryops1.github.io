@@ -8,9 +8,14 @@ output:
 ---  
 
 # Publications
+Tietje, M.,Antonelli, A., Forest, F., Govaerts, R., Smith, S. A., Sun, M., Baker, W.J., Eiserhardt, W.L. Global hotspots of plant phylogenetic diversity. **New Phytol.** (accepted 24 June)
+
+Maitner, B., Gallagher, R., Svenning, J.-C., Tietje, M., Wenk, E.H. and Eiserhardt, W.L. (2023), A global assessment of the Raunkiæran shortfall in plants: geographic biases in our knowledge of plant traits. **New Phytol.** [https://doi.org/10.1111/nph.18999](https://doi.org/10.1111/nph.18999)
+
+#### 2022
 Tietje, M., Antonelli, A., Baker, W. J., Govaerts, R., Smith, S. A., & Eiserhardt, W. L. (2022). Global variation in diversification rate and species richness are unlinked in plants. **PNAS**, 119(27), e2120662119. [https://doi.org/10.1073/pnas.2120662119](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
 
-Rudbeck, A.V., Sun, M., Tietje, M., Gallagher, R.V., Govaerts, R., Smith, S.A., Svenning, J.-C. and Eiserhardt, W.L. (2022), The Darwinian shortfall in plants: phylogenetic knowledge is driven by range size. **Ecography** e06142. https://doi.org/10.1111/ecog.06142
+Rudbeck, A.V., Sun, M., Tietje, M., Gallagher, R.V., Govaerts, R., Smith, S.A., Svenning, J.-C. and Eiserhardt, W.L. (2022), The Darwinian shortfall in plants: phylogenetic knowledge is driven by range size. **Ecography** e06142. [https://doi.org/10.1111/ecog.06142](https://doi.org/10.1111/ecog.06142)
 
 Dittrich, C., Tietje, M., & Rödel, M. (2022). Larger is not better: no mate preference by European common frog (Rana temporaria) males, **Behaviour** (published online ahead of print 2022). doi: https://doi.org/10.1163/1568539X-bja10169
 
@@ -41,14 +46,19 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 
 
 
-# Conference contributions
+# Conferences
+
+### 2023
+* Evolution, Albuquerque. *The evolutionary assembly of tropical rainforest*
+
+
 ### 2022
-* IBS Meeting Vancouver. *The drivers of global plant diversity*
-* ESEB Meeting Prague. *Global plant diversity*
+* IBS Meeting, Vancouver. *The drivers of global plant diversity*
+* ESEB Meeting, Prague. *Global plant diversity*
 
 
 ### 2020
-* EGU General Assembly. [*Global patterns of plant diversity and their evolutionary drivers*](https://doi.org/10.5194/egusphere-egu2020-9733, 2020)
+* EGU General Assembly. [*Global patterns of plant diversity and their evolutionary drivers*](https://doi.org/10.5194/egusphere-egu2020-9733)
 * EGU General Assembly. [*Primary productivity, deoxygenation, and the Gulliver-absence effect determine bivalve body size following the end-Permian mass extinction*](https://doi.org/10.5194/egusphere-egu2020-10213)
 * EGU General Assembly. Co-convener [*Earth System Paleobiology: closing the geological and biological gap*](https://meetingorganizer.copernicus.org/EGU2020/session/36479)
 
@@ -62,7 +72,7 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 
 ### 2017
 * Geobiodiversity - An Integrative Approach Expanding Humboldt's Vision. *Predicting the extinction risk of living amphibians using the fossil record* (poster)
-* 26. Internationalen Naturschutztagung „Zoologischer und botanischer Artenschutz in Mitteleuropa“ *Der Zusammenhang zwischen Aussterberisiko von Amphibien und ihrem Lebensraum hat sich umgedreht*
+* 26. Internationalen Naturschutztagung „Zoologischer und botanischer Artenschutz in Mitteleuropa“ *Amphibian extinction risk and habitat over time*
 
 ### 2016
 * Progressive Palaeontology. *From fossil record to amphibian conservation*
@@ -74,7 +84,8 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 
 # Reviewing activity
 
-* Wiley: Diversity and Distributions
+* New Phytologist
+* Diversity and Distributions
 * Palaeontologia Electronica
 * PeerJ
 * Ecography

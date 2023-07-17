@@ -13,7 +13,7 @@
 
 <title>index.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
@@ -130,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -163,8 +167,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -172,16 +176,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -351,32 +348,30 @@ $(document).ready(function () {
 </style>
 </head>
 <body>
-<div class="row">
-<div class="column left" style="background-color:#FFFFFF;">
-<p><!-- <div style="width=400 height=400"> --></p>
-<div class="container">
-<p><a href = "https://doi.org/10.1073/pnas.2120662119">
-<img src="GlobalDrivers.png"> <!-- <div class="title"> --> Tietje et
-al. 2022, PNAS </a></p>
-</div>
-<!-- old version -->
-<p><!-- </div> -->
-<!-- <a href="https://doi.org/10.1073/pnas.2120662119"> -->
-<!--        <img alt="PNAS link" src="GlobalDrivers.png" -->
-<!--        width=400 height=300> --> <!-- </a> --> <!-- </div> --></p>
-</div>
-<div class="column right" style="background-color:#FFFFFF;">
-<p><br><br></p>
-<div style="background-color:lightgrey">
-<p><font size="5"> <font color="red"> </font> Check out our new
-publication on drivers of global vascular plant diversity and
-diversification patterns! <a
-href="%22https://doi.org/10.1073/pnas.2120662119%22">PNAS</a>
-</font></p>
-</div>
-</div>
-</div>
-<p><br></p>
+<!-- <div class="row"> -->
+<!--   <div class="column left" style="background-color:#FFFFFF;"> -->
+<!--   <!-- <div style="width=400 height=400"> -->
+<!-- <div class = "container"> -->
+<!-- <a href = "https://doi.org/10.1073/pnas.2120662119"> -->
+<!--   <img src="GlobalDrivers.png"> -->
+<!--       <!-- <div class="title"> -->
+<!--           Tietje et al. 2022, PNAS -->
+<!-- </a> -->
+<!-- </div> -->
+<!-- </div> -->
+<!--   <div class="column right" style="background-color:#FFFFFF;"> -->
+<!-- <br><br> -->
+<!-- <div style="background-color:lightgrey"> -->
+<!--   <font size="5"> -->
+<!--   <font color="red"> -->
+<!--   </font> -->
+<!--   Check out our new publication on drivers of global vascular plant diversity and diversification patterns! -->
+<!--   [PNAS]("https://doi.org/10.1073/pnas.2120662119") -->
+<!--   </font> -->
+<!-- </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!--   <br> -->
 <div class="row">
 <div class="column left" style="background-color:#FFFFFF;">
 <p><font size="6">About me </font></p>
