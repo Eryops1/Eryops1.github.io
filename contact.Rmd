@@ -3,7 +3,7 @@ title: "Contact"
 ---
 
 
-<div style="width:250px; height=1700px">
+<div style="width:250px; height=1500px">
 ![](portrait_smaller.jpg) 
 </div>
 
@@ -43,17 +43,20 @@ My former [lab](https://www.researchgate.net/lab/Mark-Oliver-Roedel-Lab). Frog e
 </a>
 
 
-### Martin Schobben
+<!-- ### Erick Lundgren -->
+<!-- https://ejlundgren.github.io/ -->
 
-[Geobiologist at Utrecht University](https://martinschobben.github.io/webpage/index.html), The Netherlands. He works on the interaction of organisms with their environment, the large biogeochemical cycles and climate, during pivotal periods in the Earths’ history. Developing methodological strategies to reliably read geochemical proxies in terms of the recorded physical and chemical parameters. Has his own R-package: [POINT](https://martinschobben.github.io/point/)
+<!-- ### Martin Schobben -->
 
-<!-- ### Richard Hofmann -->
+<!-- [Geobiologist](https://martinschobben.github.io/webpage/index.html). He works on the interaction of organisms with their environment, the large biogeochemical cycles and climate, during pivotal periods in the Earths’ history. Developing methodological strategies to reliably read geochemical proxies in terms of the recorded physical and chemical parameters. Has his own R-package: [POINT](https://martinschobben.github.io/point/) -->
 
-<!-- [Palaeontologist at Museum für Naturkunde Berlin](http://www.fossilrich.com/), Germany. He is interested in fundamental transformations (i.e. mass extinctions, recovery episodes, radiations, and ecological innovation). -->
+<!-- <!-- ### Richard Hofmann -->
 
-### Johan Renaudie
+<!-- <!-- [Palaeontologist at Museum für Naturkunde Berlin](http://www.fossilrich.com/), Germany. He is interested in fundamental transformations (i.e. mass extinctions, recovery episodes, radiations, and ecological innovation). -->
 
-[Micropaleontologist at Museum für Naturkunde Berlin](https://plannapus.github.io/), Germany. Studies Cenozoic siliceous plankton and their relationship with past climatic and oceanographic changes, and my R-hero.
+<!-- ### Johan Renaudie -->
+
+<!-- [Micropaleontologist at Museum für Naturkunde Berlin](https://plannapus.github.io/), Germany. Studies Cenozoic siliceous plankton and their relationship with past climatic and oceanographic changes, and my R-hero. -->
 
 
 

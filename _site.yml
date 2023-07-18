@@ -21,7 +21,7 @@ name: "my-website"
 #    - text: "Publications"
 #      href: publications.html
 #  right:
-#    - text: "Contact me"
+#    - text: "Contact"
 #    - icon: "glyphicon glyphicon-envelope"
 #      href: contact.html
 output:

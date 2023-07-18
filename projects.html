@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 <style type="text/css">
@@ -211,69 +208,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -283,19 +217,9 @@ div.tocify {
 <div class="container-fluid main-container">
 
 
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
+  <div class="container" style="width:800px;">
     <div class="navbar-header">
       <!-- NOTE: add "navbar-inverse" class for an alternate navbar background -->
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -306,23 +230,22 @@ div.tocify {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">About me</a></li>
-        <li><a href="projects.html">Projects</a></li>
-          
-<!--        <li><a href="https://github.com/Eryops1">Code</a></li>
-
-        <li><a href="info_model.html">Code_Read Me</a></li>
-        <li><a href="models.html">Code_Models</a></li>
--->
-        <li><a href="CV.html">CV</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Research</a></li>
         <li><a href="publications.html">Publications & Talks</a></li>
-<!--        <li><a href="archive.html">Archive</a></li> -->
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="HTML_stuff.html">R playground</a></li>
+
+
+<!--        <li><a href="archive.html">Archive</a></li> 
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="contact.html">Contact</a></li>
         <li><a href="HTML_stuff.html">R playground</a></li>
         
-      </ul>
+      </ul> 
+-->
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
@@ -346,132 +269,98 @@ div.tocify {
 </div>
 
 
-<div id="ongoing" class="section level1">
-<h1>Ongoing</h1>
-<div id="tropical-plant-hyperdiversity" class="section level2">
-<h2>Tropical plant hyperdiversity</h2>
-<p>In my work as Postdoc ar Aarhus University we ask the quite
-fundamental question why there are so many species in tropical
-rainforest. Tropical rainforests are widely regarded to harbour about
-half of the world’s terrestrial species, despite covering less than 10%
-of the world’s land surface. These numbers are not precise for various
-reasons, but it is clear that tropical rainforests are outstandingly
+<div id="tropical-rainforest-hyperdiversity" class="section level1">
+<h1>Tropical rainforest hyperdiversity</h1>
+<p>Tropical rainforests are widely regarded to harbour about half of the
+world’s terrestrial species, despite covering less than 10% of the
+world’s land surface. These numbers are not precise for various reasons,
+but it is clear that tropical rainforests are outstandingly
 (“hyper”-)diverse. <a href="https://peb-group.net/trf">Read more about
-the project on our lab webpage</a></p>
-<div id="results" class="section level3">
-<h3>Results</h3>
-<div
-id="global-variation-in-diversification-rate-and-species-richness-are-unlinked-in-plants"
-class="section level4">
-<h4>Global variation in diversification rate and species richness are
-unlinked in plants</h4>
-<p>While dozens of hypotheses have been proposed to explain the immense
-variation in species richness across the planet. Among those hypotheses,
-mechanisms involving variation in the rate of speciation and/or
-extinction have featured prominently. These include the Metabolic Theory
-of Ecology, a textbook theory conceptually linking climate and species
-richness. Yet we find that global patterns of plant species richness and
-diversification are unlinked. We reject these mechanisms for seed plants
-and suggest that it may be time to retire those hypotheses that explain
-global species richness patterns with variation in diversification rate
-and focus on “time for speciation” or ecological processes instead.</p>
-<div style="width:100%">
-<p><img src="global_maps_178.png" /></p>
+the project on our lab webpage</a>.</p>
+<p><br></p>
+<div id="evolutionary-assembly-of-tropical-rainforests"
+class="section level2">
+<h2>Evolutionary assembly of tropical rainforests</h2>
+<p>In my current work, we look into when and how frequently extant
+tropical rainforest (TRF) plant lineages have colonised the biome. We
+aim at identifying temporal changes of rates of TRF immigration and
+emigration and connect them to environmental changes over millions of
+years. First results hint at immigration rates having only contributed
+little to TRF diversity.</p>
+<p>This is work in progress, more soon to come.</p>
+<p><br></p>
 </div>
-<p>
-<font size="2"> Global maps for species richness (A) and diversification
-rates (mean root distance, B) <a
+<div id="global-phylogenetic-diversity-hotspots" class="section level2">
+<h2>Global phylogenetic diversity hotspots</h2>
+<p>In our latest paper, we show global hotspots of plant PD and how PD
+scales with area compared to species richness. (add link)</p>
+<div class="container">
+<p><a href = ""> <img src="PD_map.png" width="400">
+<!-- <div class="title"--></p>
+<p></a> Tietje et al.,New Phytol. (accepted June 2023)</p>
+</div>
+<p><br></p>
+</div>
+<div id="the-drivers-of-global-plant-diversity" class="section level2">
+<h2>The drivers of global plant diversity</h2>
+<p>We show the interaction of global seed plant diversity,
+diversification rates, and environmental variables in a comprehensive
+framework combining data for 330.000 seed plant species.</p>
+<div class="container">
+<p><a href = "https://doi.org/10.1073/pnas.2120662119">
+<img src="GlobalDrivers.png" width="400"> <!-- <div class="title"--></p>
+<p></a> <a
 href="https://www.pnas.org/doi/full/10.1073/pnas.2120662119">Tietje et
-al. (2022), Fig 1</a>. </font>
-</p>
-<p>We also provide a global map of global plant species richness and
-diversification rates for about 330,000 species, and put several
-environmental factors to the test to explain these patterns.</p>
-<p>Read the full paper here: <a
-href="https://www.pnas.org/doi/full/10.1073/pnas.2120662119">PNAS</a></p>
+al. 2022, PNAS</a></p>
+</div>
+<!-- <div style="width:100%"> -->
+<!-- ![](global_maps_178.png)  -->
+<!-- </div> -->
+<!-- <p><font size="2"> -->
+<!-- Global maps for species richness (A) and diversification rates (mean root distance, B) [Tietje et al. (2022), Fig 1](https://www.pnas.org/doi/full/10.1073/pnas.2120662119). -->
+<!-- </font></p> -->
+<p><br></p>
 <hr />
 </div>
 </div>
-</div>
-</div>
-<div id="completed" class="section level1">
-<h1>Completed</h1>
+<div id="the-amphibian-fossil-record-and-modern-extinction-risk"
+class="section level1">
+<h1>The amphibian fossil record and modern extinction risk</h1>
+<p>My PhD work looked into bridging paleobiology with
+conservation-motivated questions. Using the amphibian fossil record, I
+looked into the influences of habitat types on extinction risk, the
+evaluation of modern day amphibians IUCN assessed extinction risk using
+the fossil record, and temporal variations in the influence of
+geographic range size on extinction risk.</p>
 <div
 id="temporal-patterns-in-extinction-risk-factors-and-climate-in-the-amphibian-fossil-record"
 class="section level2">
 <h2>Temporal patterns in extinction risk factors and climate in the
 amphibian fossil record</h2>
-<p>In the coming decades we might face the loss of more than 50% of the
-climatic ranges for more than half of plants and 34% of animals [1].
-Abrupt greenhouse driven climate change and synergistic effects, e.g. d
-isrupted migration pathways and breeding cycles, changing predator,
-competitor and prey relations, habitatloss as well as diseases, are
-significant contributors to this biodiversity destruction. Although
-often ignored from a public perspective, or considered to be of lesser
-importance than likeable flagship species, amphibians alongside reptiles
-might face greatest extinction risk under current changing climate
-[2].</p>
-<p>This project aims at connecting changing climatic conditions and
-temporal trends in amphibian traits, including extinction risk and
-diversity, to expand our knowledge about current and future extinction
-threats to amphibians. The project uses oxygen isotope data to
-reconstruct the relative temperature changes as well as latitudinal
-temperature gradients.</p>
-<div id="results-1" class="section level3">
-<h3>Results</h3>
-<p>When connecting a continuous measure for the correlation of
-geographic range and duration of species, we find that this correlation
-is fluctuating over time, and strongly connected to the latitudinal
-relative temperature gradient. Our results suggest that climatic
-conditions influence the importance of geographic range on extinction
-risk for amphibians. The results are published in <a
-href="https://doi.org/10.1016/j.palaeo.2019.109414">Paleo3</a> [3].</p>
+<p>The correlation of geographic range and duration of amphibian species
+changes over time, and is strongly connected to the global latitudinal
+temperature gradient. Our results suggest that climatic conditions
+influence the importance of geographic range on extinction risk for
+amphibians.</p>
+<p>The results are published in <a
+href="https://doi.org/10.1016/j.palaeo.2019.109414">Paleo3</a>.</p>
+<!-- ### Literature -->
+<!-- 1. Warren, R., et al. "Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss."  -->
+<!-- Nature Climate Change 3.7 (2013): 678‐682.  -->
+<!-- 2. Stuart, S. N., et al. "Status and trends of amphibian declines and extinctions worldwide." Science 306.5702  -->
+<!-- (2004): 1783‐1786.  -->
+<!-- 3. Tietje, M., Rödel, M. O., & Schobben, M. (2020). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology, 537, 109414. -->
+<!-- 3. Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. [Palaeogeography, Palaeoclimatology, Palaeoecology.](https://doi.org/10.1016/j.palaeo.2019.109414) -->
 </div>
-<div id="literature" class="section level3">
-<h3>Literature</h3>
-<ol style="list-style-type: decimal">
-<li>Warren, R., et al. “Quantifying the benefit of early climate change
-mitigation in avoiding biodiversity loss.” Nature Climate Change 3.7
-(2013): 678‐682.</li>
-<li>Stuart, S. N., et al. “Status and trends of amphibian declines and
-extinctions worldwide.” Science 306.5702 (2004): 1783‐1786.</li>
-<li>Tietje, M., Rödel, M. O., &amp; Schobben, M. (2020). The effect of
-geographic range and climate on extinction risk in the deep-time
-amphibian fossil record. Palaeogeography, Palaeoclimatology,
-Palaeoecology, 537, 109414.</li>
-<li>Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of
-geographic range and climate on extinction risk in the deep-time
-amphibian fossil record. <a
-href="https://doi.org/10.1016/j.palaeo.2019.109414">Palaeogeography,
-Palaeoclimatology, Palaeoecology.</a></li>
-</ol>
-<p><br></p>
-<hr />
-</div>
-</div>
-<div id="extinction-risk-in-fossil-and-living-amphibians"
+<div
+id="predicting-extinction-risk-of-living-amphibians-with-the-fossil-record"
 class="section level2">
-<h2>Extinction risk in fossil and living amphibians</h2>
-<div id="background" class="section level3">
-<h3>Background</h3>
-<p>Amphibians are the most endangered terrestrial vertebrate group [1].
-Several studies examined biological, environmental and also
-anthropogenic factors that can potentially add to extinction risk [2].
-Typical influential factors are the geographic range size and bodysize
-of a species, which have been confirmed in studies on fossils from
-extinct species as well [3].</p>
-<p>Although amphibians are one of the most threatened groups today,
-their fossil record and the recorded extinction events of amphibians are
-usually not taken into account. As the fossil record invites to study
-plenty of real extinction events, it can provide valuable information
-about factors influencing a species survival.</p>
-</div>
-<div id="results-2" class="section level3">
-<h3>Results</h3>
+<h2>Predicting extinction risk of living amphibians with the fossil
+record</h2>
 <p>We were able to show in a unique combination of fossil and
-neontological data how the fossil can actually predict the extinction
-risk of living species. The results are published in Ecology Letters
-[4].</p>
+neontological data and machine learning based models how the fossil
+record can predict the IUCN assessed extinction risk of living species.
+The results are published in Ecology Letters [4].</p>
 <p><img src="model_framework.jpg" alt="Model framework" class="center" width=200px>
 <!-- <div style="width:200px; height=100px; class=center"> -->
 <!-- ![](model_framework.jpg)  --> <!-- </div> --></p>
@@ -480,17 +369,6 @@ risk of living species. The results are published in Ecology Letters
 href="https://doi.org/10.1111/ele.13080">Tietje, M. and Rödel, M. O.
 (2018), figure 1</a>. </font>
 </p>
-<p>We used generalised boosted modelling to analyse the impact of
-several traits that are assumed to influence extinction risk on the
-stratigraphic duration of amphibian species in the fossil record. We
-used this fossil calibrated model to predict the extinction risk for
-living species. We observed a high consensus between our predicted
-species durations and the current IUCN Red List status of living
-amphibian species. We also found that today’s Data Deficient species are
-mainly predicted to experience short durations, hinting at their likely
-high threat status. Our study suggests that the fossil record can be a
-suitable tool for the evaluation of current taxa specific Red Listing
-status.</p>
 <div style="width:300px; height=100px">
 <p><img src="figure3ELE.png" /></p>
 </div>
@@ -500,28 +378,6 @@ amphibian species, based on the model fitted with paleontological data.
 <a href="https://doi.org/10.1111/ele.13080">Tietje, M. and Rödel, M. O.
 (2018), figure 3</a>. </font>
 </p>
-</div>
-<div id="literature-1" class="section level3">
-<h3>Literature</h3>
-<ol style="list-style-type: decimal">
-<li>Baillie, J. E. M., Griffiths, J., Turvey, S. T., Loh, J. &amp;
-Collen, B. 2010 Evolution Lost: Status and Trends of the World’s
-Vertebrates. Zoological Society of London.</li>
-<li>Sodhi, N. S., Bickford, D., Diesmos, A. C., Lee, T. M., Koh, L. P.,
-Brook, B. W., Sekercioglu, C. H. &amp; Bradshaw, C. J. A. 2008 Measuring
-the meltdown: drivers of global amphibian extinction and decline. PLoS
-One 3, e1636. (<a href="doi:10.1371/journal.pone.0001636"
-class="uri">doi:10.1371/journal.pone.0001636</a>)</li>
-<li>Harnik, P. G. 2011 Direct and indirect effects of biological factors
-on extinction risk in fossil bivalves. Proc. Natl. Acad. Sci. U. S. A.
-108, 13594–13599. (<a href="doi:10.1073/pnas.1100572108"
-class="uri">doi:10.1073/pnas.1100572108</a>)</li>
-<li>Tietje, M. and Rödel, M. O. (2018), Evaluating the predicted
-extinction risk of living amphibian species with the fossil record.
-Ecology Letters. <a
-href="https://doi.org/10.1111/ele.13080">doi:10.1111/ele.13080</a></li>
-</ol>
-</div>
 </div>
 </div>
 
@@ -592,8 +448,6 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -626,35 +480,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

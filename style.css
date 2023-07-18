@@ -2,7 +2,20 @@ blockquote {
   font-style: italic
 }
 
-body { font-size: 160%; }
+/* Whole document: */
+body{
+  font-size: 11pt;
+  width:800px;
+  margin:0 auto;
+}
+/* Headers */
+h1{
+  font-size: 15pt;
+}
+h2,h3,h4,h5,h6{
+  font-size: 12pt;
+  font-style: italic;
+}
 
 
 .wrapper {
@@ -13,3 +26,4 @@ body { font-size: 160%; }
   height: 150px;
   display: block;
 }
+
