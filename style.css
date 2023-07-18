@@ -5,7 +5,7 @@ blockquote {
 /* Whole document: */
 body{
   font-size: 11pt;
-  width:800px;
+  width:700px;
   margin:0 auto;
 }
 /* Headers */
@@ -27,3 +27,32 @@ h2,h3,h4,h5,h6{
   display: block;
 }
 
+.containerfig {
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

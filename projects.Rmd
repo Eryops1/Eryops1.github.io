@@ -4,7 +4,6 @@ output:
     toc: no
     toc_depth: 2
     toc_float: yes
-    css: style.css
 ---
 
 # Tropical rainforest hyperdiversity
@@ -17,7 +16,15 @@ Tropical rainforests are widely regarded to harbour about half of the world's te
 
 In my current work, we look into when and how frequently extant tropical rainforest (TRF) plant lineages have colonised the biome. We aim at identifying temporal changes of rates of TRF immigration and emigration and connect them to environmental changes over millions of years. First results hint at immigration rates having only contributed little to TRF diversity.
 
-This is work in progress, more soon to come.
+<div class = "containerfig">
+<a href = "">
+  <img src="Bisse_average_model.png" width="300">
+      <!-- <div class="title"-->
+
+</a>
+</div>
+
+This is work in progress, more to come.
 
 <br>
 
@@ -27,14 +34,14 @@ This is work in progress, more soon to come.
 In our latest paper, we show global hotspots of plant PD and how PD scales with area compared to species richness. (add link)
 
 
-<div class = "container">
+<div class = "containerfig">
 <a href = "">
-  <img src="PD_map.png" width="400">
+  <img src="PD_map.png" width="360">
       <!-- <div class="title"-->
 
 </a>
-  Tietje et al.,New Phytol. (accepted June 2023)
 </div>
+  Tietje et al.,New Phytol. (accepted June 2023)
 
 <br>
 
@@ -43,14 +50,15 @@ In our latest paper, we show global hotspots of plant PD and how PD scales with 
 
 We show the interaction of global seed plant diversity, diversification rates, and environmental variables in a comprehensive framework combining data for 330.000 seed plant species.
 
-<div class = "container">
+<div class = "containerfig">
 <a href = "https://doi.org/10.1073/pnas.2120662119">
-  <img src="GlobalDrivers.png" width="400">
+  <img src="GlobalDrivers.png" width="420">
       <!-- <div class="title"-->
           
 </a>
-[Tietje et al. 2022, PNAS](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
 </div>
+
+Read the paper here: [Tietje et al. 2022, PNAS](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
 
 <!-- <div style="width:100%"> -->
 <!-- ![](global_maps_178.png)  -->
@@ -66,8 +74,18 @@ We show the interaction of global seed plant diversity, diversification rates, a
 ---------------------------------------------------
 
 # The amphibian fossil record and modern extinction risk
+<div class = "containerfig">
+<a href = "https://doi.org/10.18452/19728">
+  <img src="frog_threats.png" width="400">
+      <!-- <div class="title"-->
+          
+</a>
+</div>
+[Dissertation (2018)](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
 
 My PhD work looked into bridging paleobiology with conservation-motivated questions. Using the amphibian fossil record, I looked into the influences of habitat types on extinction risk, the evaluation of modern day amphibians IUCN assessed extinction risk using the fossil record, and temporal variations in the influence of geographic range size on extinction risk.
+
+<br>
 
 ## Temporal patterns in extinction risk factors and climate in the amphibian fossil record
 The correlation of geographic range and duration of amphibian species changes over time, and is strongly connected to the global latitudinal temperature gradient. Our results suggest that climatic conditions influence the importance of geographic range on extinction risk for amphibians.
@@ -84,25 +102,36 @@ The results are published in [Paleo3](https://doi.org/10.1016/j.palaeo.2019.1094
 <!-- 3. Tietje, M., Rödel, M. O., & Schobben, M. (2020). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology, 537, 109414. -->
 <!-- 3. Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. [Palaeogeography, Palaeoclimatology, Palaeoecology.](https://doi.org/10.1016/j.palaeo.2019.109414) -->
 
-
+<br>
 
 ## Predicting extinction risk of living amphibians with the fossil record
 
-We were able to show in a unique combination of fossil and neontological data and machine learning based models how the fossil record can predict the IUCN assessed extinction risk of living species. The results are published in Ecology Letters [4].
+We were able to show in a unique combination of fossil and neontological data and machine learning based models how the fossil record can predict the IUCN assessed extinction risk of living species. The results are published in Ecology Letters [Tietje, M. and Rödel, M. O. (2018), figure 1](https://doi.org/10.1111/ele.13080).
 
-<img src="model_framework.jpg" alt="Model framework" class="center" width=200px>
+
+<!-- <div class="row"> -->
+<!--   <div class="column left" style="background-color:#FFFFFF;"> -->
+<!--     <img src="model_framework.jpg" width=380px> -->
+<!--   </div> -->
+
+<!--   <div class="column right" style="background-color:#FFFFFF;"> -->
+<!--     <img src="figure3ELE.png" width=380px> -->
+<!--     </div> -->
+<!-- </div> -->
+  
+<!--  <img src="model_framework.jpg" alt="Model framework" class="center" width=200px>
 <!-- <div style="width:200px; height=100px; class=center"> -->
 <!-- ![](model_framework.jpg)  -->
-<!-- </div> -->
+<!-- </div> 
 
 <p><font size="2">
 Model framework for the study. [Tietje, M. and Rödel, M. O. (2018), figure 1](https://doi.org/10.1111/ele.13080).
-</font></p>
+</font></p> -->
 
 
-<div style="width:300px; height=100px">
-![](figure3ELE.png) 
-</div>
+<!-- <div style="width:300px; height=100px"> -->
+<!-- ![](figure3ELE.png)  -->
+<!-- </div> -->
 
 <p><font size="2">
 Predicted durations in million years for living amphibian species, based on the model fitted with paleontological data. [Tietje, M. and Rödel, M. O. (2018), figure 3](https://doi.org/10.1111/ele.13080).

@@ -4,7 +4,7 @@ title: ""
 
 
 <div style="width:250px; height=1500px">
-![](portrait_smaller.jpg) 
+![](P1340707_2_smaller.jpg) 
 </div>
 
 <a href="https://github.com/Eryops1">
