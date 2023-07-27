@@ -31,7 +31,7 @@ This is work in progress, more to come.
 
 ## Global phylogenetic diversity hotspots
 
-In our latest paper, we show global hotspots of plant PD and how PD scales with area compared to species richness. (add link)
+In our latest paper, we show global hotspots of plant PD and how PD scales with area compared to species richness.
 
 
 <div class = "containerfig">
@@ -41,7 +41,7 @@ In our latest paper, we show global hotspots of plant PD and how PD scales with 
 
 </a>
 </div>
-  Tietje et al.,New Phytol. (accepted June 2023)
+  [Tietje et al., New Phytol.](https://doi.org/10.1111/nph.19151)
 
 <br>
 

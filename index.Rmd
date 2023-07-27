@@ -5,14 +5,14 @@
 
 <br>
 
-<!-- <div style="background-color:lightgrey"> -->
-<!--   <font size="5"> -->
-<!--   <font color="red"> -->
-<!--   NEWS : -->
-<!--   </font> -->
-<!--   Our paper on [Diversity partitioning in the Phanerozoic](https://www.pnas.org/content/early/2018/12/13/1814487116) in PNAS -->
-<!--   </font> -->
-<!-- </div> -->
+<div style="background-color:lightgrey">
+  <font size="5">
+  <font color="red">
+  News :
+  </font>
+  Fresh paper on [Plant Phylogenetic diversity hotspots](https://doi.org/10.1111/nph.19151) in New Phytologist
+  </font>
+</div>
 
 
 

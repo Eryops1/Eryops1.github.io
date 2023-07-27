@@ -8,7 +8,8 @@ output:
 ---  
 
 # Publications
-Tietje, M.,Antonelli, A., Forest, F., Govaerts, R., Smith, S. A., Sun, M., Baker, W.J., Eiserhardt, W.L. Global hotspots of plant phylogenetic diversity. **New Phytol.** (accepted 24 June)
+#### 2023
+Tietje, M., Antonelli, A., Forest, F., Govaerts, R., Smith, S.A., Sun, M., Baker, W.J. and Eiserhardt, W.L. (2023), Global hotspots of plant phylogenetic diversity. **New Phytol.** [https://doi.org/10.1111/nph.19151](https://doi.org/10.1111/nph.19151)
 
 Maitner, B., Gallagher, R., Svenning, J.-C., Tietje, M., Wenk, E.H. and Eiserhardt, W.L. (2023), A global assessment of the Raunkiæran shortfall in plants: geographic biases in our knowledge of plant traits. **New Phytol.** [https://doi.org/10.1111/nph.18999](https://doi.org/10.1111/nph.18999)
 
