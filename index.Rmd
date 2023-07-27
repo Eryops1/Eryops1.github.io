@@ -8,9 +8,9 @@
 <div style="background-color:lightgrey">
   <font size="5">
   <font color="red">
-  News :
+  News ->
   </font>
-  Fresh paper on [Plant Phylogenetic diversity hotspots](https://doi.org/10.1111/nph.19151) in New Phytologist
+  Fresh paper on [Plant Phylogenetic diversity hotspots](https://doi.org/10.1111/nph.19151)
   </font>
 </div>
 
