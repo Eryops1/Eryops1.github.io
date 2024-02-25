@@ -13,7 +13,7 @@
 
 <title>publications.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
@@ -130,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -163,8 +167,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -172,16 +176,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -275,6 +272,19 @@ $(document).ready(function () {
 <div id="publications" class="section level1">
 <h1>Publications</h1>
 <div id="section" class="section level4">
+<h4>2024</h4>
+<p>Trepel J, le Roux E, Abraham AJ, Buitenwerf R, Kamp J, Kristensen JA,
+Tietje M, Lundgren EJ, Svenning J-C (2024). Meta-analysis shows that
+wild large herbivores shape ecosystem properties and promote spatial
+heterogeneity. <strong>Nature ecology &amp; evolution</strong>. <a
+href="https://doi.org/10.1038/s41559-024-02327-6">https://doi.org/10.1038/s41559-024-02327-6</a></p>
+<p>Lundgren EJ, Bergman J, Trepel J, le Roux E, Monsarrat S, Kristensen
+JA, Pedersen RØ, Pereyra P, Tietje M, Svenning J-C. (2024). Functional
+traits-not nativeness-shape the effects of large mammalian herbivores on
+plant communities. <strong>Science</strong> 383: 531–537. <a
+href="https://doi.org/10.1126/science.adh2616">https://doi.org/10.1126/science.adh2616</a></p>
+</div>
+<div id="section-1" class="section level4">
 <h4>2023</h4>
 <p>Tietje, M., Antonelli, A., Forest, F., Govaerts, R., Smith, S.A.,
 Sun, M., Baker, W.J. and Eiserhardt, W.L. (2023), Global hotspots of
@@ -286,7 +296,7 @@ shortfall in plants: geographic biases in our knowledge of plant traits.
 <strong>New Phytol.</strong> <a
 href="https://doi.org/10.1111/nph.18999">https://doi.org/10.1111/nph.18999</a></p>
 </div>
-<div id="section-1" class="section level4">
+<div id="section-2" class="section level4">
 <h4>2022</h4>
 <p>Tietje, M., Antonelli, A., Baker, W. J., Govaerts, R., Smith, S. A.,
 &amp; Eiserhardt, W. L. (2022). Global variation in diversification rate
@@ -304,14 +314,14 @@ males, <strong>Behaviour</strong> (published online ahead of print
 2022). doi: <a href="https://doi.org/10.1163/1568539X-bja10169"
 class="uri">https://doi.org/10.1163/1568539X-bja10169</a></p>
 </div>
-<div id="section-2" class="section level4">
+<div id="section-3" class="section level4">
 <h4>2021</h4>
 <p>Hansen, L. E. S., Baker, W. J., Tietje, M., &amp; Eiserhardt, W. L.
 (2021). Testing tropical biogeographical regions using the palm family
 as a model clade. <strong>Journal of Biogeography</strong>. <a
 href="https://doi.org/10.1111/jbi.14216">https://doi.org/10.1111/jbi.14216</a></p>
 </div>
-<div id="section-3" class="section level4">
+<div id="section-4" class="section level4">
 <h4>2020</h4>
 <p>Foster, W. J., Gliwa, J., Lembke, C., Pugh, A. C., Hofmann, R.,
 Tietje, M., Varela, S., Foster, L.C., Korn, D.,Aberhan, M. (2020).
@@ -325,7 +335,7 @@ amphibian fossil record. <strong>Palaeogeography, Palaeoclimatology,
 Palaeoecology</strong> <a
 href="https://doi.org/10.1016/j.palaeo.2019.109414">doi:10.1016/j.palaeo.2019.109414</a></p>
 </div>
-<div id="section-4" class="section level4">
+<div id="section-5" class="section level4">
 <h4>2019</h4>
 <p>Varela, S., Sbrocco, E., Tarroso, P., Pérez-Luque, A.J., Renaudie,
 J., Warnstädt, N., Fandos, G., Foster, W., Tietje, M. (2019). BioExtreme
@@ -338,7 +348,7 @@ partitioning in Phanerozoic benthic marine communities.
 <strong>PNAS</strong> <a
 href="https://www.pnas.org/content/early/2018/12/13/1814487116">https://www.pnas.org/content/early/2018/12/13/1814487116</a></p>
 </div>
-<div id="section-5" class="section level4">
+<div id="section-6" class="section level4">
 <h4>2018</h4>
 <p>Schobben, M. , Heuer, F. , Tietje, M. , Ghaderi, A. , Korn, D. ,
 Korte, C. and Wignall, P. B. (2018). Chemostratigraphy Across the
@@ -351,7 +361,7 @@ extinction risk of living amphibian species with the fossil record.
 <strong>Ecology Letters</strong>. <a
 href="https://doi.org/10.1111/ele.13080">doi:10.1111/ele.13080</a></p>
 </div>
-<div id="section-6" class="section level4">
+<div id="section-7" class="section level4">
 <h4>2017</h4>
 <p>Melanie Tietje, Mark-Oliver Rödel, Contradicting habitat
 type-extinction risk relationships between living and fossil amphibians.
@@ -359,7 +369,7 @@ type-extinction risk relationships between living and fossil amphibians.
 href="http://rsos.royalsocietypublishing.org/cgi/content/full/rsos.170051?ijkey=HFAoNHwozz9aFKn&amp;keytype=ref">doi:
 10.1098/rsos.170051</a>. Published 10 May 2017</p>
 </div>
-<div id="section-7" class="section level4">
+<div id="section-8" class="section level4">
 <h4>2013</h4>
 <p>Tietje, M. and Kiessling, W. (2013). Predicting extinction from
 fossil trajectories of geographical ranges in benthic marine molluscs.
@@ -369,14 +379,14 @@ href="http://onlinelibrary.wiley.com/doi/10.1111/jbi.12030/abstract">doi:10.1111
 </div>
 <div id="conferences" class="section level1">
 <h1>Conferences</h1>
-<div id="section-8" class="section level3">
+<div id="section-9" class="section level3">
 <h3>2023</h3>
 <ul>
 <li>Evolution, Albuquerque. <em>The evolutionary assembly of tropical
 rainforest</em></li>
 </ul>
 </div>
-<div id="section-9" class="section level3">
+<div id="section-10" class="section level3">
 <h3>2022</h3>
 <ul>
 <li>IBS Meeting, Vancouver. <em>The drivers of global plant
@@ -384,7 +394,7 @@ diversity</em></li>
 <li>ESEB Meeting, Prague. <em>Global plant diversity</em></li>
 </ul>
 </div>
-<div id="section-10" class="section level3">
+<div id="section-11" class="section level3">
 <h3>2020</h3>
 <ul>
 <li>EGU General Assembly. <a
@@ -401,14 +411,14 @@ System Paleobiology: closing the geological and biological
 gap</em></a></li>
 </ul>
 </div>
-<div id="section-11" class="section level3">
+<div id="section-12" class="section level3">
 <h3>2019</h3>
 <ul>
 <li>EGU General Assembly. <em>Climate influences the impact of
 geographic range size on extinction risk of amphibians</em></li>
 </ul>
 </div>
-<div id="section-12" class="section level3">
+<div id="section-13" class="section level3">
 <h3>2018</h3>
 <ul>
 <li>CPEG - Crossing the Palaeontological Ecological Gap. <em>Fossils for
@@ -417,7 +427,7 @@ conservation</em></li>
 amphibian species with the fossil record</em></li>
 </ul>
 </div>
-<div id="section-13" class="section level3">
+<div id="section-14" class="section level3">
 <h3>2017</h3>
 <ul>
 <li>Geobiodiversity - An Integrative Approach Expanding Humboldt’s
@@ -430,14 +440,14 @@ over time</em></li>
 </ol></li>
 </ul>
 </div>
-<div id="section-14" class="section level3">
+<div id="section-15" class="section level3">
 <h3>2016</h3>
 <ul>
 <li>Progressive Palaeontology. <em>From fossil record to amphibian
 conservation</em></li>
 </ul>
 </div>
-<div id="section-15" class="section level3">
+<div id="section-16" class="section level3">
 <h3>2015</h3>
 <ul>
 <li>3rd Leibniz PhD Symposium of Section C. <em>The fossil record and
@@ -489,7 +499,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <p>
 
  <font size="2">
-  2022 Melanie Tietje
+  2024 Melanie Tietje
   <br>
   Last update:
 <script type="text/javascript" charset="utf-8">
@@ -511,9 +521,9 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <a href="https://orcid.org/0000-0003-1157-2963">
     <img id="logo" src="orcid.jpeg" alt="ORCID" width=30 />
 </a>
-<a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">
+<!-- <a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">
     <img id="logo" src="aulogo_uk_var1_blue.png" alt="AU website"  height="30" width="72" />
-</a>
+</a> -->
 <a href="https://scholar.google.de/citations?user=8M4-u88AAAAJ&hl=de">
     <img id="logo" src="scholar_logo_64dp.png" alt="Google Scholar"  height="30" width="150" />
 </a>
@@ -521,9 +531,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 </p>
 </font> 
 
-<body>
-  <script async data-id="101420811" src="//static.getclicky.com/js"></script>
-</body>
+<script async data-id="101420811" src="//static.getclicky.com/js"></script>
 
 
 

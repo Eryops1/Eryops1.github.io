@@ -1,18 +1,18 @@
 
 
 
-<div class="wrapper"></div>
+<!-- <div class="wrapper"></div> -->
 
-<br>
+<!-- <br> -->
 
-<div style="background-color:lightgrey">
-  <font size="5">
-  <font color="red">
-  News ->
-  </font>
-  Fresh paper on [Plant Phylogenetic diversity hotspots](https://doi.org/10.1111/nph.19151)
-  </font>
-</div>
+<!-- <div style="background-color:lightgrey"> -->
+<!--   <font size="5"> -->
+<!--   <font color="red"> -->
+<!--   News -> -->
+<!--   </font> -->
+<!--   Fresh paper on [Plant Phylogenetic diversity hotspots](https://doi.org/10.1111/nph.19151) -->
+<!--   </font> -->
+<!-- </div> -->
 
 
 
@@ -129,10 +129,9 @@
   
  <font size="5">About me </font> 
  
-   I'm a quantitative ecologist at [Aarhus University](https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html) interested in macroecological patterns. I am currently part of the [Plant Evolution and Biodiversity group]((https://peb-group.net/trf)) where I explore large-scale biodiversity patterns of plants by integrating geographic, phylogenetic and environmental data, with a special         focus on Tropical Rainforest Hyperdiversity.
+   I'm a quantitative ecologist in the Hedges Lab at [Temple University](http://www.hedgeslab.org/people.php) interested in all kinds of (macro-)ecological topics and patterns.  
 
-  I have worked on deep time paleontological and neontological topics, including extinction risk factors in invertebrates and amphibians, geographic range size patterns, diversity, and the effect of climate on         extinction risk factors.
-
+  I have worked on deep time paleontological and neontological topics, including extinction risk factors (and climatic effects on them) in invertebrates and amphibians, geographic range size patterns, diversity, and macroevolutionary questions regarding the assembly of tropical rainforests. 
 
 </div>
 

@@ -8,6 +8,12 @@ output:
 ---  
 
 # Publications
+#### 2024
+Trepel J, le Roux E, Abraham AJ, Buitenwerf R, Kamp J, Kristensen JA, Tietje M, Lundgren EJ, Svenning J-C (2024). Meta-analysis shows that wild large herbivores shape ecosystem properties and promote spatial heterogeneity. **Nature ecology & evolution**. [https://doi.org/10.1038/s41559-024-02327-6](https://doi.org/10.1038/s41559-024-02327-6)
+
+Lundgren EJ, Bergman J, Trepel J, le Roux E, Monsarrat S, Kristensen JA, Pedersen RØ, Pereyra P, Tietje M, Svenning J-C. (2024). Functional traits-not nativeness-shape the effects of large mammalian herbivores on plant communities. **Science** 383: 531–537. [https://doi.org/10.1126/science.adh2616](https://doi.org/10.1126/science.adh2616)
+
+
 #### 2023
 Tietje, M., Antonelli, A., Forest, F., Govaerts, R., Smith, S.A., Sun, M., Baker, W.J. and Eiserhardt, W.L. (2023), Global hotspots of plant phylogenetic diversity. **New Phytol.** [https://doi.org/10.1111/nph.19151](https://doi.org/10.1111/nph.19151)
 

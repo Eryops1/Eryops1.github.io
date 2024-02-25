@@ -6,6 +6,11 @@ output:
     toc_float: yes
 ---
 
+# A new system to assess extinction risk
+This is my current work at Temple University, and since I just started (February 2024) nothing to report yet. But trust me, this is gonna be exciting!
+
+<br>
+
 # Tropical rainforest hyperdiversity
 Tropical rainforests are widely regarded to harbour about half of the world's terrestrial species, despite covering less than 10% of the world's land surface. These numbers are not precise for various reasons, but it is clear that tropical rainforests are outstandingly ("hyper"-)diverse. [Read more about the project on our lab webpage](https://peb-group.net/trf).
 

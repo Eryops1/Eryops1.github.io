@@ -13,7 +13,7 @@
 
 <title>projects.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
@@ -130,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -163,8 +167,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -172,16 +176,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -272,6 +269,13 @@ $(document).ready(function () {
 </div>
 
 
+<div id="a-new-system-to-assess-extinction-risk" class="section level1">
+<h1>A new system to assess extinction risk</h1>
+<p>This is my current work at Temple University, and since I just
+started (February 2024) nothing to report yet. But trust me, this is
+gonna be exciting!</p>
+<p><br></p>
+</div>
 <div id="tropical-rainforest-hyperdiversity" class="section level1">
 <h1>Tropical rainforest hyperdiversity</h1>
 <p>Tropical rainforests are widely regarded to harbour about half of the
@@ -445,7 +449,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <p>
 
  <font size="2">
-  2022 Melanie Tietje
+  2024 Melanie Tietje
   <br>
   Last update:
 <script type="text/javascript" charset="utf-8">
@@ -467,9 +471,9 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 <a href="https://orcid.org/0000-0003-1157-2963">
     <img id="logo" src="orcid.jpeg" alt="ORCID" width=30 />
 </a>
-<a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">
+<!-- <a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html">
     <img id="logo" src="aulogo_uk_var1_blue.png" alt="AU website"  height="30" width="72" />
-</a>
+</a> -->
 <a href="https://scholar.google.de/citations?user=8M4-u88AAAAJ&hl=de">
     <img id="logo" src="scholar_logo_64dp.png" alt="Google Scholar"  height="30" width="150" />
 </a>
@@ -477,9 +481,7 @@ This page is licensed <a rel="license" href="http://creativecommons.org/licenses
 </p>
 </font> 
 
-<body>
-  <script async data-id="101420811" src="//static.getclicky.com/js"></script>
-</body>
+<script async data-id="101420811" src="//static.getclicky.com/js"></script>
 
 
 
