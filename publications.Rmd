@@ -5,10 +5,18 @@ output:
     toc: no
     toc_float: true
     toc_depth: 2
+
 ---  
 
 # Publications
+
 #### 2024
+Bergman J, Pedersen RØ, Lundgren EJ, Trepel J, Pearce EA, Czyżewski S, Tietje M, Lemoine RT, Macià MC, Schierup MH, Svenning J-C (**in prep**) Trade-offs beget trade-offs: Causal analysis of mammalian population dynamics. 
+
+Wrisberg O, Petoe P, Bacon CD, Bellot S, Baker WJ, Cano A, Couvreur TLP, Dransfield J, Ferreira P, Henderson A, Stauffer F, Tietje M, Weigelt P, Eiserhardt WL (**in prep**) Effects of Area, Isolation and Elevation on Island Plant speciation. 
+
+Trepel J, Abraham AJ, Lundgren EJ, Ferraro KM, Fløjgaard C, Haugaard L., Sunde P, Pedersen RØ, Tietje M, Kamp J, & le Roux E (2024). Zoogeochemistry of a protected area: Driven by anthropogenic impacts and animal behavior. **Conservation Science and Practice**, 6(5). [https://doi.org/10.1111/csp2.13107](https://doi.org/10.1111/csp2.13107)
+
 Trepel J, le Roux E, Abraham AJ, Buitenwerf R, Kamp J, Kristensen JA, Tietje M, Lundgren EJ, Svenning J-C (2024). Meta-analysis shows that wild large herbivores shape ecosystem properties and promote spatial heterogeneity. **Nature ecology & evolution**. [https://doi.org/10.1038/s41559-024-02327-6](https://doi.org/10.1038/s41559-024-02327-6)
 
 Lundgren EJ, Bergman J, Trepel J, le Roux E, Monsarrat S, Kristensen JA, Pedersen RØ, Pereyra P, Tietje M, Svenning J-C. (2024). Functional traits-not nativeness-shape the effects of large mammalian herbivores on plant communities. **Science** 383: 531–537. [https://doi.org/10.1126/science.adh2616](https://doi.org/10.1126/science.adh2616)
@@ -18,6 +26,8 @@ Lundgren EJ, Bergman J, Trepel J, le Roux E, Monsarrat S, Kristensen JA, Pederse
 Tietje, M., Antonelli, A., Forest, F., Govaerts, R., Smith, S.A., Sun, M., Baker, W.J. and Eiserhardt, W.L. (2023), Global hotspots of plant phylogenetic diversity. **New Phytol.** [https://doi.org/10.1111/nph.19151](https://doi.org/10.1111/nph.19151)
 
 Maitner, B., Gallagher, R., Svenning, J.-C., Tietje, M., Wenk, E.H. and Eiserhardt, W.L. (2023), A global assessment of the Raunkiæran shortfall in plants: geographic biases in our knowledge of plant traits. **New Phytol.** [https://doi.org/10.1111/nph.18999](https://doi.org/10.1111/nph.18999)
+
+Antonelli A, Fry C, Smith RJ, Eden J, Govaerts RHA, Kersey P, Nic Lughadha E, Onstein RE, Simmonds MSJ, Zizka A, Ackerman JD, Adams VM, Ainsworth AM, Albouy C, Allen AP, Allen SP, Allio R, Auld TD, Bachman SP, ... Zuntini AR (2023). **State of the World's Plants and Fungi, 2023**: Tackling the Nature Emergency: Evidence, Gaps and Priorities. Royal Botanic Gardens, Kew. [https://doi.org/10.34885/WNWN-6S63](https://doi.org/10.34885/WNWN-6S63)
 
 #### 2022
 Tietje, M., Antonelli, A., Baker, W. J., Govaerts, R., Smith, S. A., & Eiserhardt, W. L. (2022). Global variation in diversification rate and species richness are unlinked in plants. **PNAS**, 119(27), e2120662119. [https://doi.org/10.1073/pnas.2120662119](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
@@ -55,8 +65,12 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 
 # Conferences
 
+### 2024
+* IBS, Prague. *The evolutionary assembly of tropical rainforest*
+
+
 ### 2023
-* Evolution, Albuquerque. *The evolutionary assembly of tropical rainforest*
+* Evolution, Albuquerque. *Rise of tropical rainforests*
 
 
 ### 2022
@@ -91,9 +105,14 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 
 # Reviewing activity
 
-* New Phytologist
-* Diversity and Distributions
+* Palaeontology
 * Palaeontologia Electronica
-* PeerJ
+* Current Zoology 
 * Ecography
+* Global Ecology and Biogegraphy
+* New Phytologist
+* PeerJ
+* Diversity and Distributions
+* Biology Letters
+* Applications in Plant Sciences
 
