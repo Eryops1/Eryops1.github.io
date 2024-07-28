@@ -7,7 +7,7 @@ output:
 ---
 
 # A new system to assess extinction risk
-This is my current work at Temple University, and since I just started (February 2024) nothing to report yet. But trust me, this is gonna be exciting!
+This is my current work at Temple University since February 2024, not much to show yet. Ongoing work includes diving into species distribution models and global patterns of extinction risk according to IUCN Red List assessment in Primary Forest and other habitat types.
 
 <br>
 
@@ -19,7 +19,7 @@ Tropical rainforests are widely regarded to harbour about half of the world's te
 
 ## Evolutionary assembly of tropical rainforests
 
-In my current work, we look into when and how frequently extant tropical rainforest (TRF) plant lineages have colonised the biome. We aim at identifying temporal changes of rates of TRF immigration and emigration and connect them to environmental changes over millions of years. First results hint at immigration rates having only contributed little to TRF diversity.
+In this project, we look into when and how frequently extant tropical rainforest (TRF) plant lineages have colonised the biome. We aim at identifying temporal changes of rates of TRF immigration and emigration and connect them to environmental changes over millions of years. First results hint at immigration rates having only contributed little to TRF diversity.
 
 <div class = "containerfig">
 <a href = "">
@@ -29,14 +29,14 @@ In my current work, we look into when and how frequently extant tropical rainfor
 </a>
 </div>
 
-This is work in progress, more to come.
+This is still work in progress and on the "to-publish"-pile.
 
 <br>
 
 
 ## Global phylogenetic diversity hotspots
 
-In our latest paper, we show global hotspots of plant PD and how PD scales with area compared to species richness.
+Global hotspots of plant PD and how PD scales with area compared to species richness. 
 
 
 <div class = "containerfig">
@@ -88,7 +88,7 @@ Read the paper here: [Tietje et al. 2022, PNAS](https://www.pnas.org/doi/full/10
 </div>
 [Dissertation (2018)](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
 
-My PhD work looked into bridging paleobiology with conservation-motivated questions. Using the amphibian fossil record, I looked into the influences of habitat types on extinction risk, the evaluation of modern day amphibians IUCN assessed extinction risk using the fossil record, and temporal variations in the influence of geographic range size on extinction risk.
+My PhD thesis looked into bridging paleobiology with conservation-motivated questions. Using the amphibian fossil record, I looked into the influences of habitat types on extinction risk, the evaluation of modern day amphibians IUCN assessed extinction risk using the fossil record, and temporal variations in the influence of geographic range size on extinction risk.
 
 <br>
 
