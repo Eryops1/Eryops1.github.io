@@ -7,12 +7,12 @@ output:
 ---
 
 # A new system to assess extinction risk
-This is my current work at Temple University since February 2024, not much to show yet. Ongoing work includes diving into species distribution models and global patterns of extinction risk according to IUCN Red List assessment in Primary Forest and other habitat types.
+This is my current work at Temple University since February 2024. Ongoing work includes diving into species distribution models and global patterns of extinction risk according to IUCN Red List assessment in Primary Forest and other habitat types.
 
 <br>
 
 # Tropical rainforest hyperdiversity
-Tropical rainforests are widely regarded to harbour about half of the world's terrestrial species, despite covering less than 10% of the world's land surface. These numbers are not precise for various reasons, but it is clear that tropical rainforests are outstandingly ("hyper"-)diverse. [Read more about the project on our lab webpage](https://peb-group.net/trf).
+This is a project I was working on as a Postdoc at Aarhus University. Tropical rainforests harbour about half of the world's terrestrial species, despite covering less than 10% of the world's land surface. These numbers are not precise for various reasons, but it is clear that tropical rainforests are outstandingly ("hyper"-)diverse. [Read more on the lab webpage](https://bio.au.dk/en/research/research-areas/genetics-and-evolution/plant-evolution-and-biodiversity).
 
 
 <br>
@@ -53,7 +53,7 @@ Global hotspots of plant PD and how PD scales with area compared to species rich
 
 ## The drivers of global plant diversity
 
-We show the interaction of global seed plant diversity, diversification rates, and environmental variables in a comprehensive framework combining data for 330.000 seed plant species.
+What drives global plant biodiversity? We show the interaction of plant diversity with diversification rates and environmental variables in a structural equation model framework combining data for 330.000 seed plant species.
 
 <div class = "containerfig">
 <a href = "https://doi.org/10.1073/pnas.2120662119">
@@ -88,7 +88,7 @@ Read the paper here: [Tietje et al. 2022, PNAS](https://www.pnas.org/doi/full/10
 </div>
 [Dissertation (2018)](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
 
-My PhD thesis looked into bridging paleobiology with conservation-motivated questions. Using the amphibian fossil record, I looked into the influences of habitat types on extinction risk, the evaluation of modern day amphibians IUCN assessed extinction risk using the fossil record, and temporal variations in the influence of geographic range size on extinction risk.
+My PhD thesis bridged paleobiology and conservation-motivated questions. Using the amphibian fossil record, I explored the influences of habitat types on extinction risk, the evaluation of modern day amphibians IUCN assessed extinction risk using the fossil record, and temporal variations in the influence of geographic range size on extinction risk.
 
 <br>
 
