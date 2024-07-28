@@ -2,13 +2,29 @@
 title: "R playground"
 ---
 
+# Testing maps with mapview
+
+```{r message=FALSE, echo=FALSE}
+library(mapview)
+library(data.table)
+library(terra)
+# meles: https://doi.org/10.15468/dl.rq4vn7
+dat = fread("meles.csv")
+# coord <- data.frame(lon = c(10.2313, 10.199115615439986), 
+#                      lat = c(56.1767, 56.16692355244127), 
+#                      location = c("Den Permanente", "Work"))
+coord <- vect(dat, geom=c("decimalLongitude", "decimalLatitude"), crs="EPSG:4326", keepgeom=FALSE)
+hull <- terra::convHull(coord)
+mapview(coord, zcol='month')+mapview(hull, legend=F, alpha.regions = 0.2)
+```
+
+
 
 # Playing with Markdown presentations in RStudio (and plotly)
 
  <iframe src="my_first_presi_with_R.html" style="height:400px;width:600px;"></iframe> 
  
- Note: haven`t figured out how to link to the interactive plotly figure yet...
- 
+(No idea how to make this interactive plotly figure work...) 
  
 ------
  
@@ -38,48 +54,48 @@ scrolling="yes"
 ></iframe> 
 -->
 
-# HTML test range
+<!-- # HTML test range -->
 
 
 
 
-<style>
-    .container {
-        /* Testing mouse over on image  */
-        position: relative;
-        width: 100%;
-    }
-    
-    .title {
-            background-color: rgb(255, 255, 255);
-            /*positioned relative to parent div (container) */
-            position: absolute;   
-            /* bottom margin is 0 so that it coincides with container's bottom margin*/
-            bottom: 0;       
-            color: black;
-            width: 85%;
-            font-size: 13px;
-            font-family: Helvetica, Arial, sans-serif;
-            padding: 0;      
-            /* padding was formerly: 10px 0; */
-            text-align: center;
-            /*invisible because opacity is 0*/
-            opacity: 0;           
-            transition: 0.6s;
-        }
-     
-    .container:hover .title {
-        /*becomes visible on hover*/
-            opacity: 1;       
-    }
-</style>
+<!-- <style> -->
+<!--     .container { -->
+<!--         /* Testing mouse over on image  */ -->
+<!--         position: relative; -->
+<!--         width: 100%; -->
+<!--     } -->
 
-<body>
+<!--     .title { -->
+<!--             background-color: rgb(255, 255, 255); -->
+<!--             /*positioned relative to parent div (container) */ -->
+<!--             position: absolute;    -->
+<!--             /* bottom margin is 0 so that it coincides with container's bottom margin*/ -->
+<!--             bottom: 0;        -->
+<!--             color: black; -->
+<!--             width: 85%; -->
+<!--             font-size: 13px; -->
+<!--             font-family: Helvetica, Arial, sans-serif; -->
+<!--             padding: 0;       -->
+<!--             /* padding was formerly: 10px 0; */ -->
+<!--             text-align: center; -->
+<!--             /*invisible because opacity is 0*/ -->
+<!--             opacity: 0;            -->
+<!--             transition: 0.6s; -->
+<!--         } -->
 
-        <div class = "container">
-          <img src="GLobalDrivers.png"/>
-               <div class="title">
-                    NEW
-               </div>
-        </div>
+<!--     .container:hover .title { -->
+<!--         /*becomes visible on hover*/ -->
+<!--             opacity: 1;        -->
+<!--     } -->
+<!-- </style> -->
+
+<!-- <body> -->
+
+<!--         <div class = "container"> -->
+<!--           <img src="GLobalDrivers.png"/> -->
+<!--                <div class="title"> -->
+<!--                     NEW -->
+<!--                </div> -->
+<!--         </div> -->
 
