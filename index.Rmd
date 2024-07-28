@@ -129,9 +129,11 @@
   
  <font size="5">About me </font> 
  
-   I'm a quantitative ecologist in the Hedges Lab at [Temple University](http://www.hedgeslab.org/people.php) interested in all kinds of (macro-)ecological topics and patterns.  
+   I'm a quantitative ecologist interested in all kinds of (macro-)ecological topics and patterns. Currently my home is the Center for Biodiversity at [Temple University](http://www.hedgeslab.org/people.php) in Philadelphia.
 
   I have worked on deep time paleontological and neontological topics, including extinction risk factors (and climatic effects on them) in invertebrates and amphibians, geographic range size patterns, diversity, and macroevolutionary questions regarding the assembly of tropical rainforests. 
+  
+  When I am not working I love to work on bikes, brew beer, watch sci-fi and cartoons and if there is still time go camping in the desert. 
 
 </div>
 
