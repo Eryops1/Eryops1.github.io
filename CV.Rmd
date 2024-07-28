@@ -8,129 +8,81 @@ output:
 
 # Research experience and projects
 
-**2024 - ongoing Temple University**
+**2024 - ongoing: Postdoc**\
+Temple University, Philadelphia, USA\
+[Center for Biodiversity](http://www.biodiversitycenter.org/people) (PI: Blair Hedges)\
+Project: Forecasting functional biodiversity change with satellite remote sensing and modeling (NSF)
 
-Project: Forecasting functional biodiversity change with satellite remote sensing and modeling. 
-Position: Research assistant professor
 
+**2019 - 2023: Postdoc**\
+Aarhus University, Denmark\
+Section for Ecoinformatics and Biodiversity, [Plant Evolution and Biodiversity](https://bio.au.dk/en/research/research-areas/genetics-and-evolution/plant-evolution-and-biodiversity) (PI: Wolf Eiserhardt)\
+Project: TropiToL - Explaining the biological hyperdiversity of Tropical rainforests using the Tree of Life (Villum Fonden)
 
-**2019 - 2023 Aarhus University**
+**2018 - 2019: Research assistant**\
+Natural History Museum Berlin, [Herpetology](https://www.museumfuernaturkunde.berlin/en/science/reptiles-and-amphibians)\
+Data analysis for amphibian monitoring project in the Nimba Mountains, Guinea
 
-Project: Explaining the biological hyperdiversity of Tropical rainforests using the Tree of Life (TropiToL). 
-Position: Postdoctoral researcher
-
-**2018 - 2019**
-
-Project: Amphibian monitoring Nimba Mountains, Guinea
-Project: Tipping points in habitat type influence on extinction risk in deep time
-
-**2014 – 2018 Humboldt Universität zu Berlin | Museum für Naturkunde**
-
-Doctoral thesis with Dr. Mark-Oliver Rödel
-
+**2014 – 2018: Doctoral candidate**\
+Humboldt Universität zu Berlin | Natural History Museum Berlin\
 Project: Combining paleontological and neontological data to assess the extinction risk of amphibians
 
-
-**2017 Museum für Naturkunde**
-
-Project: Linking climate trends with the amphibian fossil record
-
-
-**2017 Humboldt Universität zu Berlin**
-
-Project: In vitro early tests on drought tolerance of somatic seedlings
+**2012 - 2013: Research assistent**
+Natural History Museum Berlin, Paleoecology\
+Project: Geographic range dynamics of marine invertebrates
 
 
-**2012 - 2013 Museum für Naturkunde**
-
-Research assistant with Dr. Wolfgang Kießling
-
-Project: Geographic range dynamics of marine taxa
-
-
-**2011 Humboldt Universität zu Berlin | Museum für Naturkunde**
-
-Graduate student with Wolfgang Kießling
-
-Project: Geographic range dynamics of marine gastropods - an attempt to predict future geographic ranges
-
-
-**2008 Humboldt Universität zu Berlin**
-
-Undergraduate student with Bernhard Ronacher
-
-Project: Influence of missing parts on human pattern recognition as revealed by multidimensional scaling
-
-Student assistant with Bernhard Ronacher
-
-Project: Navigation and 3-D spatial orientation of desert ants (Tunisia)
+**2008: Field work assistant**\
+Humboldt Universität zu Berlin, Behavioural Physiology\
+Navigation mechanisms of Cataglyphis fortis in Tunisia
 
 
 # Education
 
-**2014 – 2018 Humboldt Universität zu Berlin | Museum für Naturkunde**
+**2014 – 2018: Doctoral candidate**\
+Humboldt Universität zu Berlin | Natural History Museum Berlin\
+Thesis title: Combining paleontological and neontological data to assess the extinction risk of amphibians\
+Degree: Dr. rer. nat. (summa cum laude)
 
-Thesis title: Combining paleontological and neontological data to assess the extinction risk of amphibians
+**2008 – 2011: Master student**\
+Humboldt Universität zu Berlin\
+MSc Organismic Biology and Evolution\
+Degree: Master of Science (1.3, very good)
 
-Degree: Dr. rer. nat., summa cum laude
-
-
-**2008 – 2011 Humboldt Universität zu Berlin**
-
-Study of Organismic Biology and Evolution
-
-Degree: Master of Science, 1.3 (very good)
-
-**2005 – 2008 Humboldt Universität zu Berlin**
-
-Study of Biology
-
-Degree: Bachelor of Science, 2.3 (good)
+**2005 – 2008: Bachelor student**\
+Humboldt Universität zu Berlin\
+BSc Biology\
+Degree: Bachelor of Science (2.3, good)
 
 
 # Languages
-German (first language)
-
-English (business fluent)
-
-French (basic knowledge)
+* German (first language)
+* English (business fluent)
+* French (basic knowledge)
+* Danish (basic knowledge)
 
 
 # Grants 
 
-MfN Innovationsfond (Museum für Naturkunde Berlin, institute internal grant): Linking climate trends with the amphibian fossil record
-
-Fellow Program Open Science by Wikimedia and Stifterverband: Opening up science
-
-Travel Grant Progressive Palaeontology Conference 2016
-
-Elsa Neumann Fellowship of the state of Berlin: A paleontological-zoological analysis of the influence of traits on the extinction risk of amphibians
+* MfN Innovationsfond (Natural History Museum Berlin Berlin, institute internal grant): Linking climate trends with the amphibian fossil record
+* Fellow Program Open Science by Wikimedia and Stifterverband: Opening up science
+* Travel Grant Progressive Palaeontology Conference 2016
+* Elsa Neumann Fellowship of the state of Berlin: A paleontological-zoological analysis of the influence of traits on the extinction risk of amphibians
 
 
-# Social commitment
+# Commitee work
 
-2014 - 2017: Elected part of the representation of doctoral students at the Museum für Naturkunde, Leibniz Institute for Research on Evolution and Biodiversity
-
-
-# IT skills 
-**Advanced knowledge**
-
-R programming language (Data analysis, visualization (ggplot), statistics, modeling, Markdown)
-
-Microsoft Office, Libre Office
-
-Typesetting language LaTeX
-
-Mendeley and BibTeX
+2014 - 2017: Elected member of the representation of doctoral researchers at Natural History Museum Berlin\
+2007 - 2011: Student council at the Humboldt University of Berlin
 
 
-**Basic knowledge**
+# Software and programming 
 
-BEAST, Tracer, Mesquite, GPlates
-
-Image editing with Photoshop, GIMP, Inkscape, Illustrator
-
-QGIS
-
-HTML
+* LaTeX\
+* Inkscape, GIMP, Photoshop (basics)\
+* QGIS, BEAST, Tracer, Mesquite, GPlates, Git(Hub)\
+* BASH for SLURM managed clusters\
+* R (12+ years experience. Spatial and phylogenetic data. Data analysis, statistics, visualization, Markdown, structural equation models, gradient boosting machines and other machine learning, trait evolution models; e.g. Mk-models, state-dependent speciation and extinction models)\
+* Java Script (basics to get by in Google Earth Engine)\
+* Python (basics)
 
