@@ -129,11 +129,12 @@
   
  <font size="5">About me </font> 
  
-   I'm a quantitative ecologist interested in all kinds of macroecological topics and patterns. Currently my home is the Center for Biodiversity at [Temple University](http://www.hedgeslab.org/people.php) in Philadelphia.
+   I'm a quantitative ecologist interested in all kinds of macroecological topics and patterns. I recently started a Postdoc at the Czech University of Life Sciences in Prague, working in the [MOBI Lab](https://petrkeil.github.io/) on changes in biodiversity across space and time.
+
 
   I have worked on deep time paleontological and neontological topics, including extinction risk factors (and climatic effects on them) in invertebrates and amphibians, geographic range size patterns, diversity, and macroevolutionary questions regarding the assembly of tropical rainforests. 
   
-  When I am not working I love to work on bikes, brew beer, watch sci-fi and cartoons and if there is still time go camping in the desert. 
+  When I am not working I love to work on bikes, brew beer, watch sci-fi and cartoons and if possible go camping in the desert. 
 
 
 </div>

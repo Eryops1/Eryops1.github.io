@@ -6,8 +6,15 @@ output:
     toc_float: yes
 ---
 
+# Biodiversity changes over space, and time
+This is my current work at CZU in Prague. Since January 2025, I am part of the team working on the BEAST project, which is focusing on temporal changes (and their drivers) of several biodiversity markers across space, time, and over different scales.
+<br> <br>Take a look here for the project description: [BEAST](https://petrkeil.github.io/funding/post/2023/01/01/BEAST.html)
+
+<br>
+
+
 # A new system to assess extinction risk
-This is my current work at Temple University since February 2024. Ongoing work includes diving into species distribution models and global patterns of extinction risk according to IUCN Red List assessment in Primary Forest and other habitat types.
+I have been working on this project at Temple University in 2024, which involves species distribution model-based quantitative measures or extinction dates, pontentially providing an alternative to the current IUCN Red List assessment with new remote sensing techniques to identify Primary Forest and other landcover type changes in the past, present and future.
 
 <br>
 

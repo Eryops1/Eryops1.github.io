@@ -8,7 +8,13 @@ output:
 
 # Research experience and projects
 
-**2024 - ongoing: Postdoc**\
+**2025 - ongoing: Postdoc**\
+Czech University of Life Sciences in Prague, Czech Republic\
+[Modelling of Biodiversity Lab (MOBI Lab)](https://petrkeil.github.io/) (PI: Petr Keil)\
+Project: BEAST: Biodiversity dynamics across a continuum of space, time, and their scales (ERC)
+
+
+**2024: Postdoc**\
 Temple University, Philadelphia, USA\
 [Center for Biodiversity](http://www.biodiversitycenter.org/people) (PI: Blair Hedges)\
 Project: Forecasting functional biodiversity change with satellite remote sensing and modeling (NSF)
