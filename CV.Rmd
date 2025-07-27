@@ -63,9 +63,10 @@ Degree: Bachelor of Science (2.3, good)
 
 # Languages
 * German (first language)
-* English (business fluent)
-* French (basic knowledge)
-* Danish (basic knowledge)
+* English (proficient)
+* French (intermediate)
+* Danish (basics)
+* Czech (learning the basics)
 
 
 # Grants 
