@@ -13,6 +13,7 @@ Since January 2025, I am happy to be part of Petr Keils lab at the Czech Univers
 <br>
 
 ## Large-scale co-occurrence dynamics in bird assemblages
+<a id="coocc"></a>
 
 The major finding of studies of biodiversity change is that changes in species composition are more pronounced than changes in species richness (Blowes et al., 2019; Dornelas et al., 2014). But species composition has many facets, and some of them still lack empirical assessment. 
 What has rarely been studied is changes in spatial association, whether species have been moving closer to other species, or further apart, changing the perspective from per-site composition (e.g. beta diversity) to per-species composition (e.g. co-occurrence). In other words, we lack large-scale empirical assessments of temporal change of species co-occurrence patterns (Ulrich et al., 2017). 
