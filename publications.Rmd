@@ -65,6 +65,9 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 
 # Conferences
 
+### 2025
+* ESA, Baltimore. *Large-scale co-occurrence dynamics in bird assemblages*
+
 ### 2024
 * IBS, Prague. *The evolutionary assembly of tropical rainforest*
 
@@ -115,4 +118,5 @@ Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajector
 * Diversity and Distributions
 * Biology Letters
 * Applications in Plant Sciences
+* Science
 

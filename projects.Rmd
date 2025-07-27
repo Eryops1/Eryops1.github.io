@@ -7,10 +7,23 @@ output:
 ---
 
 # Biodiversity changes over space, and time
-This is my current work at CZU in Prague. Since January 2025, I am part of the team working on the BEAST project, which is focusing on temporal changes (and their drivers) of several biodiversity markers across space, time, and over different scales.
-<br> <br>Take a look here for the project description: [BEAST](https://petrkeil.github.io/funding/post/2023/01/01/BEAST.html)
+Since January 2025, I am happy to be part of Petr Keils lab at the Czech University of Life Sciences (CZU) in Prague  working on the BEAST project, which is looking at temporal changes and their drivers of different biodiversity markers across space, time, and over different scales.
+<br> <br>Take a look here for the project description:  [![BEAST](BEAST.png){ width=100px }](https://petrkeil.github.io/funding/post/2023/01/01/BEAST.html)
 
 <br>
+
+## Large-scale co-occurrence dynamics in bird assemblages
+
+The major finding of studies of biodiversity change is that changes in species composition are more pronounced than changes in species richness (Blowes et al., 2019; Dornelas et al., 2014). But species composition has many facets, and some of them still lack empirical assessment. 
+What has rarely been studied is changes in spatial association, whether species have been moving closer to other species, or further apart, changing the perspective from per-site composition (e.g. beta diversity) to per-species composition (e.g. co-occurrence). In other words, we lack large-scale empirical assessments of temporal change of species co-occurrence patterns (Ulrich et al., 2017). 
+This project analyses bird co-occurrence patterns from Europe, New York State, New Zealand, and Czech Republic over almost 50 years.
+
+
+<div class = "containerfig">
+<!-- <a href = ""> -->
+  <img src="co-occ_over_time.png" width="250">
+<!-- </a> -->
+</div>
 
 
 # A new system to assess extinction risk
@@ -29,14 +42,13 @@ This is a project I was working on as a Postdoc at Aarhus University. Tropical r
 In this project, we look into when and how frequently extant tropical rainforest (TRF) plant lineages have colonised the biome. We aim at identifying temporal changes of rates of TRF immigration and emigration and connect them to environmental changes over millions of years. First results hint at immigration rates having only contributed little to TRF diversity.
 
 <div class = "containerfig">
-<a href = "">
+<!-- <a href = ""> -->
   <img src="Bisse_average_model.png" width="300">
       <!-- <div class="title"-->
-
-</a>
+<!-- </a> -->
 </div>
 
-This is still work in progress and on the "to-publish"-pile.
+This ongoing work in progress and on the "to-publish"-pile.
 
 <br>
 
@@ -47,14 +59,13 @@ Global hotspots of plant PD and how PD scales with area compared to species rich
 
 
 <div class = "containerfig">
-<a href = "">
+<a href = "https://doi.org/10.1111/nph.19151">
   <img src="PD_map.png" width="360">
-      <!-- <div class="title"-->
-
 </a>
 </div>
-  [Tietje et al., New Phytol.](https://doi.org/10.1111/nph.19151)
-
+<center>
+ [Tietje et al. 2023, New Phytologist](https://doi.org/10.1111/nph.19151)
+</center>
 <br>
 
 
@@ -69,8 +80,9 @@ What drives global plant biodiversity? We show the interaction of plant diversit
           
 </a>
 </div>
-
-Read the paper here: [Tietje et al. 2022, PNAS](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
+<center>
+[Tietje et al. 2022, PNAS](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
+</center>
 
 <!-- <div style="width:100%"> -->
 <!-- ![](global_maps_178.png)  -->
@@ -93,7 +105,9 @@ Read the paper here: [Tietje et al. 2022, PNAS](https://www.pnas.org/doi/full/10
           
 </a>
 </div>
-[Dissertation (2018)](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
+<center>
+[Link to dissertation (2018)](https://doi.org/10.18452/19728)
+</center>
 
 My PhD thesis bridged paleobiology and conservation-motivated questions. Using the amphibian fossil record, I explored the influences of habitat types on extinction risk, the evaluation of modern day amphibians IUCN assessed extinction risk using the fossil record, and temporal variations in the influence of geographic range size on extinction risk.
 

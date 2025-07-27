@@ -134,7 +134,7 @@
 
   I have worked on deep time paleontological and neontological topics, including extinction risk factors (and climatic effects on them) in invertebrates and amphibians, geographic range size patterns, diversity, and macroevolutionary questions regarding the assembly of tropical rainforests. 
   
-  When I am not working I love to work on bikes, brew beer, watch sci-fi and cartoons and if possible go camping in the desert. 
+  When I am not working I love to work on bikes, brew beer, watch sci-fi and cartoons and if possible spend time in the desert. 
 
 
 </div>
@@ -147,6 +147,12 @@
   </div>
   
 </div>
+
+
+<div style="background-color: #005C5D; color: white; font-size: 16px; text-align: center; padding: 8px;">
+  Come find me at my poster at ESA in Baltimore, 11 August!
+</div>
+
 
 
 ------
