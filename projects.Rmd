@@ -26,9 +26,12 @@ This project analyses bird co-occurrence patterns from Europe, New York State, N
 <!-- </a> -->
 </div>
 
+<br>
+
 
 # A new system to assess extinction risk
-I have been working on this project at Temple University in 2024, which involves species distribution model-based quantitative measures or extinction dates, pontentially providing an alternative to the current IUCN Red List assessment with new remote sensing techniques to identify Primary Forest and other landcover type changes in the past, present and future.
+I have been working on this project at Temple University in Phildalephia in 2024, which involves species distribution model-based quantitative measures or extinction dates, pontentially providing an alternative to the current IUCN Red List assessment with new remote sensing techniques to identify Primary Forest and other landcover type changes in the past, present and future. <br>
+The manuscript is currently in review.
 
 <br>
 
