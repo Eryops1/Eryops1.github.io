@@ -151,7 +151,7 @@
 
 
 <div style="background-color: #005C5D; color: white; font-size: 16px; text-align: center; padding: 8px;">
-  I will be at the IBS meeting in Aarhus in January 2026 (7 August) <br> talking about my latest project about
+  I will be at the IBS meeting in Aarhus in January 2026 (07.01., Wednesday) <br> talking about my latest project about
   Co-occurrence dynamics in birds!
 </div>
 
