@@ -1,0 +1,73 @@
+under construction
+
+# Beer
+ <<<< only the latest ones, TBC >>>>
+
+<div class="row">
+  <div class="column column-left">
+
+**Grapefruit Rosemary brute XPA**
+
+<div class = "containerfig">
+  <img src="pics/beer/XPA.jpg" width="250">
+</div>
+
+
+
+
+</div>
+<div class="column column-right">
+
+**Raspberry Blonde**
+
+<div class = "containerfig">
+  <img src="pics/beer/raspberry.jpg" width="250">
+</div>
+
+</div>
+</div>
+
+
+-----------
+
+<div class="row">
+  <div class="column column-left">
+**Blue Moon Freestyle Witbier**
+
+<div class = "containerfig">
+  <img src="pics/beer/bluemoon2021.jpg" width="250">
+</div>
+
+</div>
+<div class="column column-right">
+
+<div class = "containerfig">
+  <img src="pics/beer/german_pilsner.jpg" width="250">
+</div>
+
+
+</div>
+</div>
+
+
+
+-----------
+
+
+<div class="row">
+  <div class="column column-left">
+  
+
+
+</div>
+<div class="column column-right">
+
+
+
+
+</div>
+</div>
+
+
+
+
