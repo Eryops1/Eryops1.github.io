@@ -1,172 +1,189 @@
----
-output:
-  html_document:
-    toc: no
-    toc_depth: 2
-    toc_float: yes
----
+# CURRENT PROJECTS
+[![BEAST](pics/BEAST.png){ width=100px }](https://petrkeil.github.io/funding/post/2023/01/01/BEAST.html)
 
-# Biodiversity changes over space, and time
-Since January 2025, I am happy to be part of Petr Keils lab at the Czech University of Life Sciences (CZU) in Prague  working on the BEAST project, which is looking at temporal changes and their drivers of different biodiversity markers across space, time, and over different scales.
-<br> <br>Take a look here for the project description:  [![BEAST](BEAST.png){ width=100px }](https://petrkeil.github.io/funding/post/2023/01/01/BEAST.html)
+Since January 2025 I am at CZU in Prague working with [Petr Keils lab](https://petrkeil.github.io/funding/post/2023/01/01/BEAST.html) on temporal biodiversity changes and their drivers. 
 
-<br>
+<div class="row">
+  <div class="column column-left">
 
-## Large-scale co-occurrence dynamics in bird assemblages
+**Large-scale co-occurrence dynamics in bird assemblages**
 <a id="coocc"></a>
 
-The major finding of studies of biodiversity change is that changes in species composition are more pronounced than changes in species richness (Blowes et al., 2019; Dornelas et al., 2014). But species composition has many facets, and some of them still lack empirical assessment. 
-What has rarely been studied is changes in spatial association, whether species have been moving closer to other species, or further apart, changing the perspective from per-site composition (e.g. beta diversity) to per-species composition (e.g. co-occurrence). In other words, we lack large-scale empirical assessments of temporal change of species co-occurrence patterns (Ulrich et al., 2017). 
-This project analyses bird co-occurrence changes from Europe, New York State, New Zealand, and Czech Republic over 30 years.
-
-
 <div class = "containerfig">
-<!-- <a href = ""> -->
-  <img src="co-occ_over_time.png" width="250">
-<!-- </a> -->
+  <img src="pics/co-occ_over_time.png" width="250">
 </div>
 
-<br>
+
+A major pattern in biodiversity change is that species turnover is more
+pronounced than changes in species richness (Blowes et al., 2019; Dornelas et
+al., 2014). Species turnover has many facets though, and changes in spatial
+association have rarely been studied. This project analyses bird co-occurrence
+changes from Europe, New York State, New Zealand, and Czech Republic over 30
+years.
+
+//> Currently resubmitted to Nature after peer review.
 
 
-# A new system to assess extinction risk
-I have been working on this project at Temple University in Phildalephia in 2024, which involves species distribution model-based quantitative measures or extinction dates, pontentially providing an alternative to the current IUCN Red List assessment with new remote sensing techniques to identify Primary Forest and other landcover type changes in the past, present and future. <br>
-The manuscript is currently in review.
 
-<br>
+</div>
+<div class="column column-right">
 
-# Tropical rainforest hyperdiversity
-This is a project I was working on as a Postdoc at Aarhus University. Tropical rainforests harbour about half of the world's terrestrial species, despite covering less than 10% of the world's land surface. These numbers are not precise for various reasons, but it is clear that tropical rainforests are outstandingly ("hyper"-)diverse. [Read more on the lab webpage](https://bio.au.dk/en/research/research-areas/genetics-and-evolution/plant-evolution-and-biodiversity).
-
-
-<br>
-
-## Evolutionary assembly of tropical rainforests
-
-In this project, we look into when and how frequently extant tropical rainforest (TRF) plant lineages have colonised the biome. We aim at identifying temporal changes of rates of TRF immigration and emigration and connect them to environmental changes over millions of years. First results hint at immigration rates having only contributed little to TRF diversity.
+**Spatiotemporal range dynamics in birds**
 
 <div class = "containerfig">
-<!-- <a href = ""> -->
-  <img src="Bisse_average_model.png" width="300">
-      <!-- <div class="title"-->
-<!-- </a> -->
+  <img src="pics/PACE.png" width="250">
 </div>
 
-This ongoing work in progress and on the "to-publish"-pile.
-
-<br>
-
-
-## Global phylogenetic diversity hotspots
-
-Global hotspots of plant PD and how PD scales with area compared to species richness. 
-
+Changes in species ranges happen via four processes: Persistence, Absence,
+Colonization and Extinction. We use occupancy probability maps in a PCA
+framework to identify common patterns in these four processes and compare those
+patterns to species characteristics.
 
 <div class = "containerfig">
-<a href = "https://doi.org/10.1111/nph.19151">
-  <img src="PD_map.png" width="360">
-</a>
+  <img src="pics/PCA.png" width="290">
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+-----------
+
+# PAST PROJECTS
+## Global patterns of plant diversity and diversification 
+
+During my time in Aarhus, I worked on global patterns of plant diversity and diversifcation. Tropical rainforests harbour about half of the world's terrestrial species on less than 10% of the world's land surface. Why? [Read more on the lab webpage](https://bio.au.dk/en/research/research-areas/genetics-and-evolution/plant-evolution-and-biodiversity).
+
+Among other things, I worked on evolutionary assembly of tropical rainforests.When and how frequently have extant tropical plant lineages colonised the tropics? We identify temporal changes of rates of TRF immigration and emigration.
+
+<div class = "containerfig">
+  <img src="pics/Bisse_average_model.png" width="300">
 </div>
 <center>
- [Tietje et al. 2023, New Phytologist](https://doi.org/10.1111/nph.19151)
+ A simple Binary State Specific Speciation and Extinction (BiSSE) model
 </center>
+
 <br>
 
+<div class="row">
+  <div class="column column-left">
 
-## The drivers of global plant diversity
 
-What drives global plant biodiversity? We show the interaction of plant diversity with diversification rates and environmental variables in a structural equation model framework combining data for 330.000 seed plant species.
-
+**Drivers of global plant diversity**
 <div class = "containerfig">
 <a href = "https://doi.org/10.1073/pnas.2120662119">
-  <img src="GlobalDrivers.png" width="420">
-      <!-- <div class="title"-->
-          
+  <img src="pics/GlobalDrivers.png" width="420">
 </a>
 </div>
 <center>
 [Tietje et al. 2022, PNAS](https://www.pnas.org/doi/full/10.1073/pnas.2120662119)
 </center>
 
-<!-- <div style="width:100%"> -->
-<!-- ![](global_maps_178.png)  -->
-<!-- </div> -->
 
-<!-- <p><font size="2"> -->
-<!-- Global maps for species richness (A) and diversification rates (mean root distance, B) [Tietje et al. (2022), Fig 1](https://www.pnas.org/doi/full/10.1073/pnas.2120662119). -->
-<!-- </font></p> -->
+We show the (lack of) interaction of plant diversity with diversification rates
+and environmental variables in a structural equation model framework combining
+data for 330.000 seed plant species.
 
+</div>
+<div class="column column-right">
 
-<br>
-
----------------------------------------------------
-
-# The amphibian fossil record and modern extinction risk
+**Global phylogenetic diversity hotspots**
 <div class = "containerfig">
-<a href = "https://doi.org/10.18452/19728">
-  <img src="frog_threats.png" width="400">
-      <!-- <div class="title"-->
-          
+<a href = "https://doi.org/10.1111/nph.19151">
+  <img src="pics/PD_map.png" width="360">
 </a>
 </div>
 <center>
-[Link to dissertation (2018)](https://doi.org/10.18452/19728)
+ [Tietje et al. 2023, New Phytologist](https://doi.org/10.1111/nph.19151)
+</center>
+Global hotspots of plant PD and how PD scales with area compared to species
+richness. We show the centers of phylogenetic diversity and differences in
+scaling compared to species richness, and potential implications for
+conservation questions.
+
+
+</div>
+</div>
+
+
+
+-----------
+
+## The amphibian fossil record and extinction risk questions
+This is selected output from my [doctoral thesis (2018)](https://doi.org/10.18452/19728) at the Natural History Museum Berlin.
+
+<div class = "containerfig">
+<a href = "https://doi.org/10.18452/19728">
+  <img src="pics/frog_threats.png" width="400">
+</a>
+</div>
+<center>
 </center>
 
-My PhD thesis bridged paleobiology and conservation-motivated questions. Using the amphibian fossil record, I explored the influences of habitat types on extinction risk, the evaluation of modern day amphibians IUCN assessed extinction risk using the fossil record, and temporal variations in the influence of geographic range size on extinction risk.
-
 <br>
 
-## Temporal patterns in extinction risk factors and climate in the amphibian fossil record
-The correlation of geographic range and duration of amphibian species changes over time, and is strongly connected to the global latitudinal temperature gradient. Our results suggest that climatic conditions influence the importance of geographic range on extinction risk for amphibians.
-
-The results are published in [Paleo3](https://doi.org/10.1016/j.palaeo.2019.109414).
-
-
-<!-- ### Literature -->
-
-<!-- 1. Warren, R., et al. "Quantifying the benefit of early climate change mitigation in avoiding biodiversity loss."  -->
-<!-- Nature Climate Change 3.7 (2013): 678‐682.  -->
-<!-- 2. Stuart, S. N., et al. "Status and trends of amphibian declines and extinctions worldwide." Science 306.5702  -->
-<!-- (2004): 1783‐1786.  -->
-<!-- 3. Tietje, M., Rödel, M. O., & Schobben, M. (2020). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology, 537, 109414. -->
-<!-- 3. Tietje, M., Rödel, M.-O., Schobben, M. (2020). The effect of geographic range and climate on extinction risk in the deep-time amphibian fossil record. [Palaeogeography, Palaeoclimatology, Palaeoecology.](https://doi.org/10.1016/j.palaeo.2019.109414) -->
-
-<br>
-
-## Predicting extinction risk of living amphibians with the fossil record
-
-We were able to show in a unique combination of fossil and neontological data and machine learning based models how the fossil record can predict the IUCN assessed extinction risk of living species. The results are published in Ecology Letters [Tietje, M. and Rödel, M. O. (2018), figure 1](https://doi.org/10.1111/ele.13080).
-
-
-<!-- <div class="row"> -->
-<!--   <div class="column left" style="background-color:#FFFFFF;"> -->
-<!--     <img src="model_framework.jpg" width=380px> -->
-<!--   </div> -->
-
-<!--   <div class="column right" style="background-color:#FFFFFF;"> -->
-<!--     <img src="figure3ELE.png" width=380px> -->
-<!--     </div> -->
-<!-- </div> -->
+<div class="row">
+  <div class="column column-left">
   
-<!--  <img src="model_framework.jpg" alt="Model framework" class="center" width=200px>
-<!-- <div style="width:200px; height=100px; class=center"> -->
-<!-- ![](model_framework.jpg)  -->
-<!-- </div> 
+**Predicting extinction risk of living amphibians with the fossil record**
 
-<p><font size="2">
-Model framework for the study. [Tietje, M. and Rödel, M. O. (2018), figure 1](https://doi.org/10.1111/ele.13080).
-</font></p> -->
+We show in a unique combination of fossil and neontological data and machine learning based models how the fossil record can predict the IUCN assessed extinction risk of living species. [Tietje & Rödel, Ecology Letters (2018)](https://doi.org/10.1111/ele.13080).
 
 
-<!-- <div style="width:300px; height=100px"> -->
-<!-- ![](figure3ELE.png)  -->
-<!-- </div> -->
-
-<p><font size="2">
-Predicted durations in million years for living amphibian species, based on the model fitted with paleontological data. [Tietje, M. and Rödel, M. O. (2018), figure 3](https://doi.org/10.1111/ele.13080).
+<div class = "containerfig">
+<a href = "https://doi.org/10.18452/19728">
+  <img src="pics/figure3ELE.png" width="250">
+</a>
+</div>
+<center>
+[Tietje &  Rödel 2018, Ecology Letters](https://doi.org/10.1111/ele.13080)
+</center>
 </font></p>
 
 
+</div>
+<div class="column column-right">
 
+
+**Climate modulates impact of range size on extinction risk in deep time**
+
+<div class = "containerfig">
+<a href = "https://doi.org/10.18452/19728">
+  <img src="pics/paleo3.png" width="300">
+</a>
+</div>
+<center>
+[Tietje, Rödel, Schobben 2020, Paleo3](https://doi.org/10.1016/j.palaeo.2019.109414).
+</center>
+</font></p>
+
+
+The correlation of geographic range and duration of amphibian species changes over time, and is strongly connected to the global latitudinal temperature gradient. Our results suggest that climatic conditions modulate the importance of geographic range on extinction risk for amphibians in deep time.
+
+
+</div>
+</div>
+
+
+
+-----------
+
+
+# A new system to assess extinction risk
+In a brief stay at Temple University in Philadelphia I worked intensely on species distribution model-based quantitative measures of extinction dates.
+
+<div class = "containerfig">
+  <img src="pics/SDM.png" width="300">
+</div>
+<center>
+</center>
+</font></p>
+
+The manuscript is currently in review at PNAS Nexus.
 

@@ -1,31 +1,44 @@
 ---
 title: ""
-output:
-  html_document:
-    toc: no
-    toc_float: true
-    toc_depth: 2
+# output:
+#   html_document:
+#     toc: no
+#     toc_float: true
+#     toc_depth: 2
 
 ---  
 
-# Publications
+<!-- # Publications -->
+
+#### In Review
+Tietje M, Grattarola F, Ortega-Solis G, Soria C, Tschernosterová K, Leroy F, Bejček V, Šťastný K, Herrando S, Keller V, Keil P. Bird co-occurrences remain largely stable in a changing world. Manuscript resubmitted to **Nature** following peer review.
+
+Ortega-Solís G, Šťastný K, Bejček V, Telenský T, Mellado-Mansilla D, Zárybnicky J, Grattarola F, Zárybnická M, Vermouzek Z, Voříšek P, Leroy F, Tietje M, Soria C, Padulosi E, Trávníčková E, Wölke FJR, Keil P. Opening a standardized, spatially contiguous biodiversity database collected over 40 years: Czech breeding bird atlases 1973—77, 1985—89, 2001—03, and 2014—17. **Journal of Biogeography**, preprint; [https://doi.org/10.64898/2026.05.29.728651](https://doi.org/10.64898/2026.05.29.728651)
+
+------------
+
+#### 2026
+
+Grattarola F, Ortega-Solís G, Soria C, Tietje M, Wölke FJR, Fox R, Hordley L, Herrando S, Keil P. Probabilistic species distributions from nine large-scale gridded atlases over five decades. preprint on bioRxiv: [https://doi.org/10.64898/2026.09.24.754027](https://doi.org/10.64898/2026.09.24.754027)
+
+Hedges S, Hong F, Su JW, Tietje M, Guillory W, Yang Z, Brooks T, Zhu Z. A System for Global Forecasting of Species Extinction Risk and Protected Area Effectiveness. Available at SSRN: [http://dx.doi.org/10.2139/ssrn.6690553](http://dx.doi.org/10.2139/ssrn.6690553)
 
 #### 2024
-Bergman J, Pedersen RØ, Lundgren EJ, Trepel J, Pearce EA, Czyżewski S, Tietje M, Lemoine RT, Macià MC, Schierup MH, Svenning J-C (**in prep**) Trade-offs beget trade-offs: Causal analysis of mammalian population dynamics. 
+Bergman J, Pedersen RØ, Lundgren EJ, Trepel J, Pearce EA, Czyżewski S, Tietje M, Lemoine RT, Macià MC, Schierup MH, Svenning J-C. Trade-offs beget trade-offs: Causal analysis of mammalian population dynamics. **bioRxiv** 2024.08.16.608243; doi: [https://doi.org/10.1101/2024.08.16.608243](https://doi.org/10.1101/2024.08.16.608243) 
 
 Wrisberg O, Petoe P, Bacon CD, Bellot S, Baker WJ, Cano A, Couvreur TLP, Dransfield J, Ferreira P, Henderson A, Stauffer F, Tietje M, Weigelt P, Eiserhardt WL (**in prep**) Effects of Area, Isolation and Elevation on Island Plant speciation. 
 
 Trepel J, Abraham AJ, Lundgren EJ, Ferraro KM, Fløjgaard C, Haugaard L., Sunde P, Pedersen RØ, Tietje M, Kamp J, & le Roux E (2024). Zoogeochemistry of a protected area: Driven by anthropogenic impacts and animal behavior. **Conservation Science and Practice**, 6(5). [https://doi.org/10.1111/csp2.13107](https://doi.org/10.1111/csp2.13107)
 
-Trepel J, le Roux E, Abraham AJ, Buitenwerf R, Kamp J, Kristensen JA, Tietje M, Lundgren EJ, Svenning J-C (2024). Meta-analysis shows that wild large herbivores shape ecosystem properties and promote spatial heterogeneity. **Nature ecology & evolution**. [https://doi.org/10.1038/s41559-024-02327-6](https://doi.org/10.1038/s41559-024-02327-6)
+Trepel J, le Roux E, Abraham AJ, Buitenwerf R, Kamp J, Kristensen JA, Tietje M, Lundgren EJ, Svenning J-C (2024). Meta-analysis shows that wild large herbivores shape ecosystem properties and promote spatial heterogeneity. **Nature Ecology & Evolution**. [https://doi.org/10.1038/s41559-024-02327-6](https://doi.org/10.1038/s41559-024-02327-6)
 
 Lundgren EJ, Bergman J, Trepel J, le Roux E, Monsarrat S, Kristensen JA, Pedersen RØ, Pereyra P, Tietje M, Svenning J-C. (2024). Functional traits-not nativeness-shape the effects of large mammalian herbivores on plant communities. **Science** 383: 531–537. [https://doi.org/10.1126/science.adh2616](https://doi.org/10.1126/science.adh2616)
 
 
 #### 2023
-Tietje, M., Antonelli, A., Forest, F., Govaerts, R., Smith, S.A., Sun, M., Baker, W.J. and Eiserhardt, W.L. (2023), Global hotspots of plant phylogenetic diversity. **New Phytol.** [https://doi.org/10.1111/nph.19151](https://doi.org/10.1111/nph.19151)
+Tietje, M., Antonelli, A., Forest, F., Govaerts, R., Smith, S.A., Sun, M., Baker, W.J. and Eiserhardt, W.L. (2023), Global hotspots of plant phylogenetic diversity. **New Phytologist** [https://doi.org/10.1111/nph.19151](https://doi.org/10.1111/nph.19151)
 
-Maitner, B., Gallagher, R., Svenning, J.-C., Tietje, M., Wenk, E.H. and Eiserhardt, W.L. (2023), A global assessment of the Raunkiæran shortfall in plants: geographic biases in our knowledge of plant traits. **New Phytol.** [https://doi.org/10.1111/nph.18999](https://doi.org/10.1111/nph.18999)
+Maitner, B., Gallagher, R., Svenning, J.-C., Tietje, M., Wenk, E.H. and Eiserhardt, W.L. (2023), A global assessment of the Raunkiæran shortfall in plants: geographic biases in our knowledge of plant traits. **New Phytologist** [https://doi.org/10.1111/nph.18999](https://doi.org/10.1111/nph.18999)
 
 Antonelli A, Fry C, Smith RJ, Eden J, Govaerts RHA, Kersey P, Nic Lughadha E, Onstein RE, Simmonds MSJ, Zizka A, Ackerman JD, Adams VM, Ainsworth AM, Albouy C, Allen AP, Allen SP, Allio R, Auld TD, Bachman SP, ... Zuntini AR (2023). **State of the World's Plants and Fungi, 2023**: Tackling the Nature Emergency: Evidence, Gaps and Priorities. Royal Botanic Gardens, Kew. [https://doi.org/10.34885/WNWN-6S63](https://doi.org/10.34885/WNWN-6S63)
 
@@ -62,66 +75,21 @@ Melanie Tietje, Mark-Oliver Rödel, Contradicting habitat type-extinction risk r
 Tietje, M. and Kiessling, W. (2013). Predicting extinction from fossil trajectories of geographical ranges in benthic marine molluscs. **Journal of Biogeography**, 40: 790–799. [doi:10.1111/jbi.12030](http://onlinelibrary.wiley.com/doi/10.1111/jbi.12030/abstract)
 
 <br>
+
 ---------
 
 
+# I have been reviewing for:
 
-# Reviewing activity
-
-* Palaeontology
-* Palaeontologia Electronica
+* Applications in Plant Sciences
+* Biology Letters
 * Current Zoology 
+* Diversity and Distributions
 * Ecography
+* Ecology Letters
 * Global Ecology and Biogegraphy
 * New Phytologist
+* Palaeontologia Electronica
+* Palaeontology
 * PeerJ
-* Diversity and Distributions
-* Biology Letters
-* Applications in Plant Sciences
 * Science
-
-
-<br>
----------
-# Conferences
-
-### 2025
-* ESA, Baltimore. *Large-scale co-occurrence dynamics in bird assemblages*
-
-### 2024
-* IBS, Prague. *The evolutionary assembly of tropical rainforest*
-
-
-### 2023
-* Evolution, Albuquerque. *Rise of tropical rainforests*
-
-
-### 2022
-* IBS Meeting, Vancouver. *The drivers of global plant diversity*
-* ESEB Meeting, Prague. *Global plant diversity*
-
-
-### 2020
-* EGU General Assembly. [*Global patterns of plant diversity and their evolutionary drivers*](https://doi.org/10.5194/egusphere-egu2020-9733)
-* EGU General Assembly. [*Primary productivity, deoxygenation, and the Gulliver-absence effect determine bivalve body size following the end-Permian mass extinction*](https://doi.org/10.5194/egusphere-egu2020-10213)
-* EGU General Assembly. Co-convener [*Earth System Paleobiology: closing the geological and biological gap*](https://meetingorganizer.copernicus.org/EGU2020/session/36479)
-
-
-### 2019
-* EGU General Assembly. *Climate influences the impact of geographic range size on extinction risk of amphibians*
-
-### 2018
-* CPEG - Crossing the Palaeontological Ecological Gap. *Fossils for conservation*
-* ESA Annual Meeting. *Predicting extinction risk of living amphibian species with the fossil record*
-
-### 2017
-* Geobiodiversity - An Integrative Approach Expanding Humboldt's Vision. *Predicting the extinction risk of living amphibians using the fossil record* (poster)
-* 26. Internationalen Naturschutztagung „Zoologischer und botanischer Artenschutz in Mitteleuropa“ *Amphibian extinction risk and habitat over time*
-
-### 2016
-* Progressive Palaeontology. *From fossil record to amphibian conservation*
-
-### 2015
-* 3rd Leibniz PhD Symposium of Section C. *The fossil record and conservation*
-
-

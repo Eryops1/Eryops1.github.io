@@ -1,76 +1,46 @@
----
-output:
-  html_document:
-    toc: no
-    toc_depth: 2
-    toc_float: yes
----
+<div class="row">
 
+  <div class="column column-left">
 
 <div style="width:250px; height=1500px">
-![](P1340707_2_smaller.jpg) 
+![](pics/P1340707_2_smaller.jpg) 
 </div>
 
+
+</div>
+
+
+<div class="column column-right">
+
+<h1>Affiliation</h1>
+
+Postdoctoral Researcher<br>
+MOBI lab<br>
+Faculty of Environmental Sciences<br>
+Czech University of Life Sciences Prague<br>
+Prague, Czech Republic
+
+<h1>Academic qualifications</h1>
+
+2018 — Dr.rer. nat., Humboldt University of Berlin<br>
+2011 — MSc in Organismic Biology and Evolution, Humboldt University of Berlin
+
+<h1>Contact</h1>
 <a href="https://github.com/Eryops1">
-    <img id="logo" src="github.png" alt="BrandLog" height="50" width="50" />
-</a>
-<a href="https://www.researchgate.net/profile/Melanie_Tietje">
-    <img id="logo" src="rg.jpeg" alt="BrandLog"  height="50" width="50" />
-</a>
-<a href="https://publons.com/author/1629562/melanie-tietje#profile">
-    <img id="logo" src="publons.png" alt="BrandLog"  height="50" width="50" />
+    <img id="logo" src="pics/github.png" alt="BrandLog" height="30" width="30" />
 </a>
 <a href="https://orcid.org/0000-0003-1157-2963">
-    <img id="logo" src="orcid.jpeg" alt="BrandLog" width=50 />
-</a>
-<!-- <a href="https://pure.au.dk/portal/en/persons/melanie-tietje(6abaa223-a82b-4577-acce-f2ead58ba86b).html"> -->
-<!--     <img id="logo" src="aulogo_uk_var1_blue.png" alt="BrandLog"  height="50" width="120" /> -->
-<!-- </a> -->
+    <img id="logo" src="pics/orcid.jpeg" alt="BrandLog" width=30 />
+</a> &nbsp; &nbsp;
+<b>tietje[AT]fzp.czu.cz</b>
 
-
-\\
-The safest bet to reach me is still by E-mail: \
-tietje[AT]fzp.czu.cz
-
------
-
-<!-- # Former labs -->
-
-<!-- * **The Plant Evolution and Biodiversity Group**\ -->
-<!-- My former lab at [Aarhus University](https://bio.au.dk/en/research/research-areas/genetics-and-evolution/plant-evolution-and-biodiversity) in Aarhus, Denmark. During my postdoc there I worked on questions about the diversity and evolution of plants, criss-crossing several fields including phylogenetics, macroevolution, comparative biology, biogeography, macroecology, and taxonomy. -->
-
-<!-- * **The herpetology lab at Natural History Museum Berlin**\ -->
-<!-- My former [lab](https://www.researchgate.net/lab/Mark-Oliver-Roedel-Lab)  at the Museum for Natural History in Berlin. I did my PhD here. -->
-<!-- Frog experts, snake enthusiasts and allround ecologists. \ -->
-<!-- <a href="https://www.naturkundemuseum.berlin/en/einblicke/mitarbeiter/melanie.tietje"> -->
-<!--     <img id="logo" src="mfn.jpeg" alt="BrandLog"  height="50" width="100" /> -->
-<!-- </a> -->
-
-
-<!-- ### Erick Lundgren -->
-<!-- https://ejlundgren.github.io/ -->
-
-<!-- ### Martin Schobben -->
-
-<!-- [Geobiologist](https://martinschobben.github.io/webpage/index.html). He works on the interaction of organisms with their environment, the large biogeochemical cycles and climate, during pivotal periods in the Earths’ history. Developing methodological strategies to reliably read geochemical proxies in terms of the recorded physical and chemical parameters. Has his own R-package: [POINT](https://martinschobben.github.io/point/) -->
-
-<!-- <!-- ### Richard Hofmann -->
-
-<!-- <!-- [Palaeontologist at Museum für Naturkunde Berlin](http://www.fossilrich.com/), Germany. He is interested in fundamental transformations (i.e. mass extinctions, recovery episodes, radiations, and ecological innovation). -->
-
-<!-- ### Johan Renaudie -->
-
-<!-- [Micropaleontologist at Museum für Naturkunde Berlin](https://plannapus.github.io/), Germany. Studies Cenozoic siliceous plankton and their relationship with past climatic and oceanographic changes, and my R-hero. -->
+</div>
 
 
 
-<!-- # Comments  -->
-<!-- Leave a comment on this page! -->
-<!-- ```{r, echo=FALSE} -->
-<!-- # this html includes disqus -->
-<!-- #htmltools::includeHTML("_layouts/disqus.html") -->
 
-<!-- # this includes the html comment box -->
-<!-- htmltools::includeHTML("_layouts/post.html") -->
 
-<!-- ``` -->
+
+
+</div>
+
